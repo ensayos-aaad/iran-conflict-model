@@ -1,0 +1,8 @@
+fecha,hora_utc,evento,tipo,actor_iniciador,actor_receptor,escala,fuentes,certeza,impacto_mercado,notas
+2025-06-13,00:15,Israel lanza Operación Rising Lion contra instalaciones nucleares y militares de Irán,Militar,Israel,Irán,Regional,"Reuters,AP,BBC",Alta,TRUE,Inicio Guerra de los 12 Días — 200 cazas sobre ~100 objetivos
+2025-06-22,NULL,EEUU ataca Natanz Fordow e Isfahan con bombas de máxima penetración,Militar,EEUU,Irán,Global,"Reuters,AP,NYT",Alta,TRUE,Primera participación directa de EEUU — uso de MOP Massive Ordnance Penetrator
+2025-06-24,NULL,Ceasefire de la Guerra de los 12 Días — anunciado por Trump,Diplomático,EEUU,NULL,Global,"Reuters,AP,BBC",Alta,TRUE,Bajas: ~610 iraníes / 29 israelíes
+2026-02-28,06:10,Israel lanza Operación Roaring Lion — ataques en 24 provincias iraníes,Militar,Israel,Irán,Global,"Al Jazeera,NBC,Fox News",Alta,TRUE,Inicio Guerra de 2026 — operación conjunta con EEUU (Epic Fury)
+2026-02-28,09:40,Ali Jamenei asesinado en su oficina en Teherán en ataque israelí con inteligencia CIA,Político,Israel,Irán,Global,"IRIB,Reuters,AP,NPR",Alta,TRUE,Líder supremo de Irán desde 1989 — 86 años
+2026-03-01,05:00,Medios iraníes confirman oficialmente la muerte de Jamenei,Político,Irán,NULL,Global,"IRIB,Tasnim,Mehr",Alta,FALSE,40 días de luto nacional declarados
+2026-03-08,NULL,Mojtaba Jamenei designado nuevo líder supremo por Asamblea de Expertos,Político,Irán,NULL,Regional,"Fars News,Reuters",Alta,FALSE,Hijo del líder asesinado — segunda transición desde Revolución de 1979
