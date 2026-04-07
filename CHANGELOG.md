@@ -98,6 +98,31 @@ Arquitectura conceptual completa.
 ### [v1.0.0] — pendiente
 - Sistema completo con 90+ sesiones y Brier Score calculado
 
+## [v0.1.5] — 2026-04-06
+
+### Sesión 02 completada — Primera sesión operativa
+
+**17 vectores procesados:**
+E3 inyecciones: Artemis 2, patrón Trump, Stargate, 
+Kushner, Dimon, OTAN/Japón, bolsillo americano, 
+divisas EUR/USD/CNY, FMI/BM/BRICS, ONU-grupos de 
+estados, cadena de mando, logística/municiones, 
+reservas de crudo, factor Epstein
+
+**Señal de convergencia:** 0.47 → 0.75 
+(INESTABLE → CONVERGIENDO)
+
+**S4 horizonte 30 días:**
+A: 0.50→0.64 | B: 0.44→0.12 | C: 0.22→0.14
+
+**Nodos próxima sesión:**
+Ultimátum 7 abril, Rutte-Trump 8 abril,
+Bilderberg 10-12, FMI/BM 13-18, Bondi 14 abril
+
+### Estado
+Sesión 02 completa. Sistema en CONVERGIENDO.
+Sesión 03 programada 8 abril 8PM Colombia.
+
 ---
 
 *Formato basado en [Keep a Changelog](https://keepachangelog.com/)*
