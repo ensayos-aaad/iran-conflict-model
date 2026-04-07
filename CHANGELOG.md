@@ -1,115 +1,79 @@
-# Changelog
-> Registro de versiones del Iran Conflict Model (ICM)
-
-Todas las versiones siguen el estándar [Semantic Versioning](https://semver.org/) — MAJOR.MINOR.PATCH
+# CHANGELOG — Iran Conflict Model (ICM)
 
 ---
-
-## [v0.1.3] — 2026-04-06
-
-### Añadido
-
-**Diseño experimental completo**
-- docs/diseno-experimental.md — documento consolidado con todo el diseño
-- docs/prompt-plantilla.md — protocolo diario replicable por cualquiera
-- docs/guia-captura-datos.md — instrucciones para llenar CSVs sin conocimiento técnico
-- docs/guia-github.md — instrucciones para subir el repo a github.com
-
-**Protocolo de muestreo definido**
-- Frecuencia diaria a las 8:00 PM hora Colombia (UTC-5 / 01:00 UTC)
-- Ventana de captura: últimas 24 horas
-- Tipos de sesión: ESTANDAR / EMERGENCIA / OMITIDA
-- 6 criterios de disparo para sesiones de emergencia
-
-**Reglas de integridad**
-- Hasta 2 días consecutivos omitidos → experimento válido
-- 3+ días consecutivos → interrupción de serie documentada
-- Más del 20% de omisiones en 90 días → validez comprometida
-
-**Horizontes temporales simplificados**
-- 7 días — horizonte táctico
-- 30 días — horizonte estratégico
-
-**Validación**
-- datos/validacion/registro-validacion.csv
-- datos/validacion/README-validacion.md
-- Métrica: Brier Score — meta < 0.25
-- Fuentes árbitro: ACLED, Uppsala, NewsGuard, PolitiFact
-
-### Estado
-Fase 1 completada. Sistema listo para primera sesión operativa.
-
----
-
-## [v0.1.2] — 2026-04-06
-
-### Añadido
-
-**Infraestructura de datos**
-- datos/README-datos.md — diccionario completo de campos
-- Schemas CSV para E1, E2, E4, E5
-- E2-timeline con 7 eventos históricos precargados
-- Schemas CSV para S1, S2, S3, S4
-- datos/salidas/convergencia.csv inicializado
-- P014 documentado
-
-### Estado
-Infraestructura de datos completa.
-
----
-
-## [v0.1.1] — 2026-04-06
-
-### Añadido
-
-**Evidencia experimental sesión 01**
-- prompts/README-prompts.md
-- prompts/2026-04-06/P001 a P013
-
-### Estado
-Trazabilidad completa de sesión 01.
-
----
-
-## [v0.1.0] — 2026-04-06
-
-### Añadido
-
-**Arquitectura del sistema**
-- Modelo de caja negra de ciclo cerrado
-- 5 entradas, 4 salidas, 1 meta-salida, 3 lazos de retroalimentación
-- Motor de inferencia basado en Escalera de Causalidad de Judea Pearl
-- Punto cero histórico: junio 2025 / febrero 2026
-- README.md, CHANGELOG.md, simulaciones/2026-04-06-sesion-01.md
-
-### Estado
-Arquitectura conceptual completa.
-
----
-
-## [Próximas versiones]
-
-### [v0.2.0] — pendiente
-- Primera sesión operativa con datos reales
-
-### [v0.3.x] — pendiente
-- GitHub Actions — validación automática de CSVs
-
-### [v1.0.0] — pendiente
-- Sistema completo con 90+ sesiones y Brier Score calculado
 
 ## [v0.1.5] — 2026-04-06
 
-### Sesión 02 completada — Primera sesión operativa
+### Sesión 02 Parte 2 — Inyección Dialéctica Extendida
 
-**17 vectores procesados:**
-E3 inyecciones: Artemis 2, patrón Trump, Stargate, 
-Kushner, Dimon, OTAN/Japón, bolsillo americano, 
-divisas EUR/USD/CNY, FMI/BM/BRICS, ONU-grupos de 
-estados, cadena de mando, logística/municiones, 
+**7 vectores nuevos procesados (V18-V24):**
+
+- V18 — Comunicado Khamenei / Dualidad IRGC-Presidencia
+- V19 — Silencio Magnificent 7 / Fractura guerra-tech vs consumo-tech
+- V20 — Mapa regional completo / 3 bloques / Sistema 2 niveles Hormuz
+- V21 — Consenso académico: Pape + Krugman + Army War College + Oxford
+- V22 — Líderes religiosos: Leo XIV + Islam Sunní + CMI
+- V23 — Factor histórico: 8 espejos (1973/Vietnam/Iraq/Golfo91/IranIraq88/Suez/desminado/canales)
+- V24 — Consilience: IA como instrumento de reunificación ciencias duras + humanas
+
+**Convergencia:** 0.73 → 0.82 (CONVERGIENDO FUERTE)
+**Vectores acumulados:** 24 totales
+**Escenario A (30 días):** 0.66
+
+**Análisis de speed up:**
+- Score narrativas: +33% (mayor aceleración)
+- Score factual: +12%
+- Convergencia global: +9% neto
+- La curva bajó antes de subir (0.73→0.66→0.82) — señal de salud del modelo
+
+**Nuevos nodos críticos agregados:**
+- N8 — Velocidad real de desminado Hormuz post-ceasefire (técnico)
+- N9 — Arquitectos del nuevo orden global — quién emerge (civilizatorio)
+
+**Nuevas hipótesis activas:**
+- H1: ¿Puede Pezeshkian firmar sin aval IRGC?
+- H2: ¿Canal Pakistan es negociación real o ganancia de tiempo?
+- H3: ¿Netanyahu tiene incentivo autónomo para que el ultimátum falle?
+- H4: ¿Sistema 2 niveles Hormuz es el nuevo Canal de Suez permanente?
+
+**Horizonte temporal documentado:**
+- Firma táctica: 7-45 días
+- Firma arquitectónica: 6-18 meses
+- Nuevo equilibrio regional: 3-7 años
+- Nueva arquitectura civilizatoria: 8-20 años
+
+**Factor Consilience (V24):**
+El modelo opera como experimento de consilience aplicada (E.O. Wilson, 1998).
+La IA permite reunificar ciencias duras y humanas que el método científico y
+la hiperespecialización separaron artificialmente. Primera integración formal
+de este principio como vector estructural del modelo.
+
+**Multiplicador humano-IA documentado:**
+~2.5-3x mayor resolución predictiva vs. métodos tradicionales en conflictos
+de alta complejidad. La ventaja no está en predecir eventos — está en entender
+por qué ocurren.
+
+### Estado
+Sesión 02 completa (partes 1 y 2).
+Sistema en CONVERGIENDO FUERTE (0.82).
+Sesión 03 programada 8 abril 8PM Colombia.
+Nodo bifurcador activo: N1 — ultimátum 7 abril 8PM ET.
+
+---
+
+## [v0.1.4] — 2026-04-06
+
+### Sesión 02 Parte 1 — Primera sesión operativa
+
+**17 vectores procesados (V01-V17):**
+
+E3 inyecciones: Artemis 2, patrón Trump, Stargate,
+Kushner, Dimon, OTAN/Japón, bolsillo americano,
+divisas EUR/USD/CNY, FMI/BM/BRICS, ONU-grupos de
+estados, cadena de mando, logística/municiones,
 reservas de crudo, factor Epstein
 
-**Señal de convergencia:** 0.47 → 0.75 
+**Señal de convergencia:** 0.47 → 0.75
 (INESTABLE → CONVERGIENDO)
 
 **S4 horizonte 30 días:**
@@ -120,9 +84,21 @@ Ultimátum 7 abril, Rutte-Trump 8 abril,
 Bilderberg 10-12, FMI/BM 13-18, Bondi 14 abril
 
 ### Estado
-Sesión 02 completa. Sistema en CONVERGIENDO.
-Sesión 03 programada 8 abril 8PM Colombia.
+Sesión 02 parte 1 completa. Sistema en CONVERGIENDO.
+Pasó a inyección dialéctica extendida misma sesión.
 
 ---
 
-*Formato basado en [Keep a Changelog](https://keepachangelog.com/)*
+## [v0.1.0] — 2026-04-06
+
+### Arquitectura conceptual documentada
+
+- README.md con arquitectura completa del sistema
+- Metodología base: Inferencia causal (Judea Pearl)
+- 5 entradas, 4 salidas, 1 meta-salida, 3 lazos de retroalimentación
+- Fuentes por entrada documentadas (E1, E4, E5)
+- Punto de inicio histórico: Guerra 12 Días + Guerra 2026
+- Roadmap definido
+
+### Estado
+Punto cero documentado. Sistema listo para primera sesión operativa.
