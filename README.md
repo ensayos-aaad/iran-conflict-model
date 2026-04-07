@@ -1,11 +1,11 @@
 # Iran Conflict Model (ICM)
 > Sistema de análisis de conflictos mediante inferencia causal y fuentes abiertas
 
-**Versión:** v0.1.4  
+**Versión:** v0.1.5  
 **Fecha de inicio:** 2026-04-06  
-**Última sesión:** Sesión 02 — 2026-04-06  
+**Última sesión:** Sesión 02 completa (partes 1 y 2) — 2026-04-06  
 **Próxima sesión:** Sesión 03 — 2026-04-08 — 8:00 PM Colombia (UTC-5)  
-**Estado:** OPERATIVO — CONVERGIENDO (señal 0.73)  
+**Estado:** OPERATIVO — CONVERGIENDO FUERTE (señal 0.82)  
 **Metodología base:** Inferencia causal (Judea Pearl, *The Book of Why*, 2018)
 
 ---
@@ -14,11 +14,11 @@
 
 | Campo | Valor |
 |-------|-------|
-| Sesiones completadas | 2 |
-| Última sesión | Sesión 02 — 2026-04-06 |
-| Vectores procesados (acumulado) | 17 |
-| Señal de convergencia | 0.73 — CONVERGIENDO |
-| Escenario dominante | A — Alto al fuego 45 días |
+| Sesiones completadas | 2 (partes 1 y 2) |
+| Última sesión | Sesión 02 Parte 2 — 2026-04-06 |
+| Vectores procesados (acumulado) | 24 |
+| Señal de convergencia | 0.82 — CONVERGIENDO FUERTE |
+| Escenario dominante | A — Alto al fuego + Hormuz parcialmente abierto |
 | Probabilidad Escenario A (30 días) | 0.66 |
 | Día del conflicto | 38 |
 | Nodo crítico activo | N1 — Ultimátum 7 abril 8PM ET |
@@ -35,13 +35,13 @@
 
 ### Scores de convergencia
 
-| Score | S02 | S03-pre | Δ |
-|-------|-----|---------|---|
-| Narrativas | 0.55 | 0.62 | ↑ |
-| Factual | 0.78 | 0.82 | ↑ |
-| Ruido | 0.44 | 0.38 | ↓ |
-| Escenarios | 0.74 | 0.72 | ↓ |
-| **Convergencia global** | **0.75** | **0.73** | ↓ leve |
+| Score | S02 | S02-p2 | Δ |
+|-------|-----|--------|---|
+| Narrativas | 0.55 | 0.73 | ↑↑ |
+| Factual | 0.78 | 0.87 | ↑↑ |
+| Ruido | 0.44 | 0.46 | ↑ |
+| Escenarios | 0.74 | 0.82 | ↑↑ |
+| **Convergencia global** | **0.75** | **0.82** | ↑↑ |
 
 ---
 
@@ -228,7 +228,8 @@ EEUU e Israel lanzaron operación conjunta (Epic Fury / Roaring Lion) contra Ir�
 | Sesión | Fecha | Vectores | Convergencia | Escenario A | Estado |
 |--------|-------|----------|--------------|-------------|--------|
 | 01 | 2026-04-06 | 3 | 0.47 — INESTABLE | 0.50 | ✅ Completa |
-| 02 | 2026-04-06 | 17 | 0.75 — CONVERGIENDO | 0.64 | ✅ Completa |
+| 02 parte 1 | 2026-04-06 | 17 | 0.75 — CONVERGIENDO | 0.64 | ✅ Completa |
+| 02 parte 2 | 2026-04-06 | 24 (acum.) | 0.82 — CONV. FUERTE | 0.66 | ✅ Completa |
 | 03 | 2026-04-08 | — | — | — | 🔜 Programada |
 
 ---
@@ -236,7 +237,8 @@ EEUU e Israel lanzaron operación conjunta (Epic Fury / Roaring Lion) contra Ir�
 ## Roadmap
 
 - [x] v0.1.0 — Arquitectura conceptual documentada
-- [x] v0.1.4 — Sesiones 01 y 02 completadas — sistema CONVERGIENDO
+- [x] v0.1.4 — Sesiones 01 y 02 parte 1 completadas — sistema CONVERGIENDO (0.75)
+- [x] v0.1.5 — Sesión 02 parte 2 — inyección dialéctica V18-V24 — sistema CONVERGIENDO FUERTE (0.82) — Consilience como arquitectura epistemológica
 - [ ] v0.2.0 — Pipeline de scraping automatizado
 - [ ] v0.3.0 — Motor bayesiano implementado en código
 - [ ] v1.0.0 — Sistema operativo completo
