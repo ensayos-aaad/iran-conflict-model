@@ -2,6 +2,55 @@
 
 ---
 
+## [v0.1.6] — 2026-04-08
+
+### Sesión 03 — 14 vectores nuevos (V23-V36)
+
+**Vectores nuevos procesados (V23-V36):**
+
+- V25 — N1 Resultado: TACO + Kharg + ONU + aislamiento Israel
+- V26 — N2 Resultado: OTAN no mordió el anzuelo — Rutte con Rubio no Trump
+- V27 — Israel bombardea Beirut durante ceasefire — H3 confirmada en tiempo real
+- V28 — Reconfiguración orden regional post-TACO (4 sub-componentes — círculo causal)
+- V29 — Aceleración transición energética — ironía Trump-China
+- V30 — Margen maniobra Netanyahu — paradoja aprobación sin mayoría
+- V31 — Palestina en el mapa mundial post-TACO — 157 estados, veto solitario EEUU
+- V32 — Paralelo Trump-Netanyahu: líderes y sociedades
+- V33 — Factor Chomsky — detector de mecanismos de poder estructural
+- V34 — Latinoamérica post-TACO — Cuba, Venezuela, China, bisagras
+- V35 — Fractura narrativa invencibilidad americana — China como laboratorio
+- V36 — Taiwan, Europa, colapso narrativa de fuerza — arco Truth Social 12 horas
+
+**Hipótesis confirmadas esta sesión:**
+- H2 — Canal Pakistan es negociación real ✅
+- H3 — Netanyahu tiene incentivo para sabotear el ceasefire ✅
+
+**Hipótesis nuevas registradas:**
+- H5 — Proyecto Abraham vaciándose de contenido estratégico
+- H6 — ¿Puede vulnerabilidad compartida reemplazar valores compartidos como base del nuevo orden regional?
+
+**Nodos nuevos:**
+- N10 — Nuevo ultimátum ~21 abril
+- N11 — Respuesta Hezbollah (activo urgente al cierre)
+- N12 — Cumbre Trump-Xi mayo 2026
+
+**Notas estructurales E5:**
+- Bitcoin/Satoshi: Irán propuso peajes Hormuz en cripto — tensión visión original vs uso estatal
+- Monedas vs dólar: sistema multipolar gradual — dólar pierde monopolio no dominancia
+
+**Nota reflexiva registrada:** fuera del modelo — sin score
+
+**Convergencia:** 0.82 → 0.85 (pico intrasesión 0.90, corregido a 0.85 al cierre por fragilidad verificada del ceasefire)
+
+**Corrección honesta al cierre:**
+- Hormuz cerrado de nuevo por ataques israelíes en Líbano
+- Irán acusa violación de 3 cláusulas antes de que empezaran las negociaciones
+- Escenario A corregido de 0.73 → 0.65
+- Escenario B subió de 0.10 → 0.16
+- La corrección es parte del valor del modelo — no una falla
+
+---
+
 ## [v0.1.5] — 2026-04-06
 
 ### Sesión 02 Parte 2 — Inyección Dialéctica Extendida
@@ -20,72 +69,15 @@
 **Vectores acumulados:** 24 totales
 **Escenario A (30 días):** 0.66
 
-**Análisis de speed up:**
-- Score narrativas: +33% (mayor aceleración)
-- Score factual: +12%
-- Convergencia global: +9% neto
-- La curva bajó antes de subir (0.73→0.66→0.82) — señal de salud del modelo
-
-**Nuevos nodos críticos agregados:**
-- N8 — Velocidad real de desminado Hormuz post-ceasefire (técnico)
-- N9 — Arquitectos del nuevo orden global — quién emerge (civilizatorio)
-
-**Nuevas hipótesis activas:**
-- H1: ¿Puede Pezeshkian firmar sin aval IRGC?
-- H2: ¿Canal Pakistan es negociación real o ganancia de tiempo?
-- H3: ¿Netanyahu tiene incentivo autónomo para que el ultimátum falle?
-- H4: ¿Sistema 2 niveles Hormuz es el nuevo Canal de Suez permanente?
-
-**Horizonte temporal documentado:**
-- Firma táctica: 7-45 días
-- Firma arquitectónica: 6-18 meses
-- Nuevo equilibrio regional: 3-7 años
-- Nueva arquitectura civilizatoria: 8-20 años
-
-**Factor Consilience (V24):**
-El modelo opera como experimento de consilience aplicada (E.O. Wilson, 1998).
-La IA permite reunificar ciencias duras y humanas que el método científico y
-la hiperespecialización separaron artificialmente. Primera integración formal
-de este principio como vector estructural del modelo.
-
-**Multiplicador humano-IA documentado:**
-~2.5-3x mayor resolución predictiva vs. métodos tradicionales en conflictos
-de alta complejidad. La ventaja no está en predecir eventos — está en entender
-por qué ocurren.
-
-### Estado
-Sesión 02 completa (partes 1 y 2).
-Sistema en CONVERGIENDO FUERTE (0.82).
-Sesión 03 programada 8 abril 8PM Colombia.
-Nodo bifurcador activo: N1 — ultimátum 7 abril 8PM ET.
-
 ---
 
 ## [v0.1.4] — 2026-04-06
 
 ### Sesión 02 Parte 1 — Primera sesión operativa
 
-**17 vectores procesados (V01-V17):**
+**17 vectores procesados (V01-V17)**
 
-E3 inyecciones: Artemis 2, patrón Trump, Stargate,
-Kushner, Dimon, OTAN/Japón, bolsillo americano,
-divisas EUR/USD/CNY, FMI/BM/BRICS, ONU-grupos de
-estados, cadena de mando, logística/municiones,
-reservas de crudo, factor Epstein
-
-**Señal de convergencia:** 0.47 → 0.75
-(INESTABLE → CONVERGIENDO)
-
-**S4 horizonte 30 días:**
-A: 0.50→0.64 | B: 0.44→0.12 | C: 0.22→0.14
-
-**Nodos próxima sesión:**
-Ultimátum 7 abril, Rutte-Trump 8 abril,
-Bilderberg 10-12, FMI/BM 13-18, Bondi 14 abril
-
-### Estado
-Sesión 02 parte 1 completa. Sistema en CONVERGIENDO.
-Pasó a inyección dialéctica extendida misma sesión.
+**Señal de convergencia:** 0.47 → 0.75 (INESTABLE → CONVERGIENDO)
 
 ---
 
@@ -96,9 +88,3 @@ Pasó a inyección dialéctica extendida misma sesión.
 - README.md con arquitectura completa del sistema
 - Metodología base: Inferencia causal (Judea Pearl)
 - 5 entradas, 4 salidas, 1 meta-salida, 3 lazos de retroalimentación
-- Fuentes por entrada documentadas (E1, E4, E5)
-- Punto de inicio histórico: Guerra 12 Días + Guerra 2026
-- Roadmap definido
-
-### Estado
-Punto cero documentado. Sistema listo para primera sesión operativa.

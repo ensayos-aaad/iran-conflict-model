@@ -1,11 +1,11 @@
 # Iran Conflict Model (ICM)
 > Sistema de análisis de conflictos mediante inferencia causal y fuentes abiertas
 
-**Versión:** v0.1.5  
+**Versión:** v0.1.6  
 **Fecha de inicio:** 2026-04-06  
-**Última sesión:** Sesión 02 completa (partes 1 y 2) — 2026-04-06  
-**Próxima sesión:** Sesión 03 — 2026-04-08 — 8:00 PM Colombia (UTC-5)  
-**Estado:** OPERATIVO — CONVERGIENDO FUERTE (señal 0.82)  
+**Última sesión:** Sesión 03 — 2026-04-08  
+**Próxima sesión:** Sesión 04 — ~2026-04-22 (post N10) o antes si N11 escala  
+**Estado:** OPERATIVO — CONVERGIENDO (señal 0.85)  
 **Metodología base:** Inferencia causal (Judea Pearl, *The Book of Why*, 2018)
 
 ---
@@ -14,34 +14,36 @@
 
 | Campo | Valor |
 |-------|-------|
-| Sesiones completadas | 2 (partes 1 y 2) |
-| Última sesión | Sesión 02 Parte 2 — 2026-04-06 |
-| Vectores procesados (acumulado) | 24 |
-| Señal de convergencia | 0.82 — CONVERGIENDO FUERTE |
+| Sesiones completadas | 3 |
+| Última sesión | Sesión 03 — 2026-04-08 |
+| Vectores procesados (acumulado) | 36 |
+| Señal de convergencia | 0.85 — CONVERGIENDO |
 | Escenario dominante | A — Alto al fuego + Hormuz parcialmente abierto |
-| Probabilidad Escenario A (30 días) | 0.66 |
-| Día del conflicto | 38 |
-| Nodo crítico activo | N1 — Ultimátum 7 abril 8PM ET |
+| Probabilidad Escenario A (30 días) | 0.65 |
+| Día del conflicto | 39 |
+| Nodos críticos activos | N10 (~21 abril), N11 (Hezbollah), N12 (Trump-Xi mayo) |
 
 ### Probabilidades S4 — Horizonte 30 días (al 6 mayo)
 
 | Escenario | Descripción | Probabilidad |
 |-----------|-------------|-------------|
-| A | Alto al fuego + Hormuz parcialmente abierto | **0.66** |
-| B | Guerra prolongada — Hormuz cerrado | 0.13 |
+| A | Alto al fuego + Hormuz parcialmente abierto | **0.65** |
+| B | Guerra prolongada — Hormuz cerrado | 0.16 |
 | C | Escalada — ataque infraestructura crítica | 0.13 |
-| D | Colapso régimen iraní | 0.05 |
-| E | Wildcard operacional | 0.03 |
+| D | Colapso régimen iraní | 0.04 |
+| E | Wildcard operacional | 0.02 |
 
 ### Scores de convergencia
 
-| Score | S02 | S02-p2 | Δ |
-|-------|-----|--------|---|
-| Narrativas | 0.55 | 0.73 | ↑↑ |
-| Factual | 0.78 | 0.87 | ↑↑ |
-| Ruido | 0.44 | 0.46 | ↑ |
-| Escenarios | 0.74 | 0.82 | ↑↑ |
-| **Convergencia global** | **0.75** | **0.82** | ↑↑ |
+| Score | S02-p2 | S03 cierre | Δ |
+|-------|--------|------------|---|
+| Narrativas | 0.73 | 0.83 | ↑ |
+| Factual | 0.87 | 0.96 | ↑↑ |
+| Ruido | 0.46 | 0.38 | ↓ |
+| Escenarios | 0.82 | 0.84 | ↑ |
+| **Convergencia global** | **0.82** | **0.85** | ↑ |
+
+**Nota metodológica:** La convergencia alcanzó 0.90 durante la sesión pero fue corregida a 0.85 al cierre cuando nuevas evidencias mostraron la fragilidad real del ceasefire — Hormuz cerrado nuevamente por ataques israelíes en Líbano, Irán acusando violación de 3 cláusulas. La corrección es parte del valor del modelo.
 
 ---
 
@@ -75,7 +77,13 @@ El modelo opera como una **caja negra de ciclo cerrado** con 5 entradas, 4 salid
 | E2 | Línea de tiempo | Histórica | Registro cronológico del conflicto desde junio 2025 |
 | E3 | Preguntas del usuario | Dialéctica | Hipótesis, intuiciones y datos limitados del operador |
 | E4 | Ruido narrativo | Contaminada | Redes sociales, Telegram, canales oficiales de actores del conflicto |
-| E5 | Señales de mercado | Cuantitativa | Petróleo, VIX, oro, shipping — datos duros en tiempo real |
+| E5 | Señales de mercado | Cuantitativa | Petróleo, VIX, oro, shipping, cripto — datos duros en tiempo real |
+
+### Notas E5 — Sesión 03
+
+**Señal Bitcoin/Satoshi:** Irán propuso denominar peajes de Hormuz en cripto. Bitcoin superó $71.000. El dólar borró su ganancia de 2026 en una sesión. Oro subió a $4.799. La visión de Satoshi Nakamoto enfrenta su tensión más profunda: la herramienta de descentralización individual siendo usada como mecanismo de escape estatal del petrodólar.
+
+**Horizonte monedas:** Sistema multipolar dólar-yuan en 10-20 años. Bitcoin marginal para actores sancionados. El dólar pierde monopolio pero no dominancia en horizonte visible.
 
 ---
 
@@ -84,20 +92,13 @@ El modelo opera como una **caja negra de ciclo cerrado** con 5 entradas, 4 salid
 Basado en la **Escalera de Causalidad de Judea Pearl** (tres peldaños):
 
 ### Peldaño 1 — Ver (*Association*)
-Detección de correlaciones cruzadas entre las 5 entradas. Identifica qué variables se mueven juntas y en qué secuencia temporal.
+Detección de correlaciones cruzadas entre las 5 entradas.
 
 ### Peldaño 2 — Intervenir (*Intervention*)
-Análisis de qué cambia en el sistema cuando ocurre un evento. Modela efectos de intervenciones reales sobre el conflicto.
+Análisis de qué cambia en el sistema cuando ocurre un evento.
 
 ### Peldaño 3 — Imaginar (*Counterfactual*)
-Razonamiento contrafáctico: ¿qué hubiera ocurrido si X no hubiera pasado? Base para la construcción de escenarios prospectivos.
-
-### Componentes internos
-
-- **Análisis de correlación cruzada** — relaciones no obvias entre entradas
-- **Detección de patrones temporales** — comparación contra conflictos históricos
-- **Análisis de disonancia narrativa** — distancia entre relatos de actores
-- **Razonamiento bayesiano** — actualización continua de probabilidades
+Razonamiento contrafáctico: base para la construcción de escenarios prospectivos.
 
 ---
 
@@ -110,116 +111,54 @@ Razonamiento contrafáctico: ¿qué hubiera ocurrido si X no hubiera pasado? Bas
 | S3 | Índice de desinformación | ¿Cuánto del debate público es propaganda? |
 | S4 | Escenarios prospectivos | ¿Hacia dónde puede ir el conflicto? |
 
-> Las salidas S1, S2 y S3 alimentan S4. Los escenarios prospectivos son tan robustos como la calidad de las tres salidas anteriores.
+---
+
+## Hipótesis activas
+
+| ID | Formulación | Estado |
+|----|-------------|--------|
+| H1 | ¿Puede Pezeshkian firmar acuerdo sin aval IRGC? | ACTIVA |
+| H2 | ¿Canal Pakistan es negociación real? | **CONFIRMADA** |
+| H3 | ¿Netanyahu tiene incentivo para sabotear el ceasefire? | **CONFIRMADA** |
+| H4 | ¿Sistema 2 niveles Hormuz es el nuevo Canal de Suez permanente? | SEÑAL FUERTE |
+| H5 | Proyecto Abraham vaciándose de contenido estratégico | ACTIVA |
+| H6 | ¿Puede vulnerabilidad compartida reemplazar valores compartidos como base del nuevo orden regional? | ACTIVA — horizonte 6-18 meses |
 
 ---
 
-## Meta-salida
+## Nodos críticos
 
-### Señal de convergencia
-Indicador de segundo orden que mide cuándo el sistema se estabiliza. Se activa cuando las 4 salidas empiezan a apuntar en la misma dirección — narrativas estables, hechos verificados, ruido bajo, escenarios reducidos.
-
-No mide el conflicto — mide el comportamiento del propio sistema.
-
----
-
-## Lazos de retroalimentación (3)
-
-El sistema opera en **ciclo cerrado**. Las salidas corrigen las entradas en cada iteración.
-
-### L1 — Corrección de fuentes
-**Desde:** Estado factual (S2)  
-**Hacia:** Fuentes de prensa (E1) y Ruido narrativo (E4)  
-**Función:** Ajusta el peso de cada fuente según su historial de precisión. Una fuente que reportó algo demostrado falso reduce su peso en consultas posteriores.
-
-### L2 — Calibración de ruido
-**Desde:** Índice de desinformación (S3)  
-**Hacia:** Ruido narrativo (E4) y Señales de mercado (E5)  
-**Función:** Cuando el ruido narrativo está en niveles extremos, filtra más agresivamente las señales de mercado — porque en momentos de alto ruido, los mercados también se contaminan con pánico, no solo con fundamentals.
-
-### L3 — Aprendizaje del sistema
-**Desde:** Señal de convergencia (meta-salida)  
-**Hacia:** Motor de inferencia  
-**Función:** Recalibra las probabilidades bayesianas de todos los escenarios cuando detecta estabilización o desestabilización. El sistema no mantiene sus apuestas iniciales — las actualiza con cada ciclo.
+| ID | Descripción | Fecha | Estado |
+|----|-------------|-------|--------|
+| N1 | Ultimátum Trump 7 abril | 2026-04-07 | ✅ RESUELTO — TACO |
+| N2 | Reunión Rutte-Trump | 2026-04-08 | ✅ RESUELTO — OTAN no mordió |
+| N10 | Nuevo ultimátum post-14 días | ~2026-04-21 | 🔴 ACTIVO |
+| N11 | Respuesta Hezbollah | INMEDIATO | 🔴 ACTIVO — URGENTE |
+| N12 | Cumbre Trump-Xi | Mayo 2026 | 🟡 PRÓXIMO |
 
 ---
 
-## Fuentes por entrada
+## Vectores estructurales clave — Sesión 03
 
-### E1 — Fuentes de prensa
-
-| Región | Medio | URL |
-|--------|-------|-----|
-| América del Norte | Reuters | reuters.com |
-| América del Norte | Associated Press | apnews.com |
-| América del Norte | Politico | politico.com |
-| Europa | BBC News | bbc.com/news |
-| Europa | The Guardian | theguardian.com |
-| Europa | Deutsche Welle | dw.com |
-| Europa | France 24 | france24.com |
-| Europa | El País | elpais.com |
-| Medio Oriente | Al Jazeera | aljazeera.com |
-| Medio Oriente | Haaretz | haaretz.com |
-| Medio Oriente | Times of Israel | timesofisrael.com |
-| Asia | South China Morning Post | scmp.com |
-| Medio Oriente | Tehran Times | tehrantimes.com ⚠️ sesgo oficial iraní |
-| África | Daily Maverick | dailymaverick.co.za |
-| Oceanía | ABC Australia | abc.net.au/news |
-| América Latina | Infobae | infobae.com |
-
-### E4 — Ruido narrativo
-
-| Actor | Canal | Notas |
-|-------|-------|-------|
-| Trump | Truth Social @realDonaldTrump | Narrativa oficial EEUU |
-| Casa Blanca | X @WhiteHouse | Posición oficial |
-| IDF | X @IDF | Fuente militar israelí |
-| Netanyahu | X @netanyahu | Posición oficial Israel |
-| Israel MFA | X @IsraelMFA | Cancillería israelí |
-| Jamenei | X @khamenei_ir | Canal oficial iraní |
-| IRGC | Telegram canal oficial | Cuerpo de Guardia Revolucionaria |
-| Press TV | presstv.ir | Medio estatal iraní en inglés |
-| IRNA | irna.ir | Agencia oficial iraní |
-| MFA Rusia | X @mfa_russia | Posición oficial Rusia |
-| MFA China | X @MFA_China | Posición oficial China |
-| Al Qassam | X / Telegram | Brigadas Hamas ⚠️ actor no estatal |
-| Hezbollah Media | Telegram canal oficial | ⚠️ actor no estatal |
-
-### E5 — Señales de mercado
-
-| Indicador | Fuente | URL |
-|-----------|--------|-----|
-| Petróleo WTI / Brent | Oilprice.com | oilprice.com |
-| Mercados generales | Bloomberg Markets | bloomberg.com/markets |
-| Mercados generales | Reuters Markets | reuters.com/markets |
-| Macro / commodities | TradingEconomics | tradingeconomics.com |
-| Energía EEUU | EIA | eia.gov |
-| OPEC | OPEC Newsroom | opec.org |
-| Volatilidad / miedo | CBOE VIX | cboe.com/vix |
-| Oro | Gold Price | goldprice.org |
-| Shipping | Baltic Exchange | balticexchange.com |
+| Vector | Descripción | Peso |
+|--------|-------------|------|
+| V24 | Consilience — IA como instrumento de reunificación ciencias duras y humanas | FUNDAMENTAL |
+| V27 | Israel bombardea Beirut durante ceasefire — H3 confirmada | MUY ALTO |
+| V28 | Reconfiguración orden regional post-TACO — círculo causal | MUY ALTO |
+| V29 | Aceleración transición energética — ironía Trump-China | ALTO |
+| V33 | Factor Chomsky — detector de mecanismos de poder | ALTO |
+| V35 | Fractura narrativa invencibilidad americana — China como laboratorio | MUY ALTO |
+| V36 | Taiwan, Europa, colapso narrativa de fuerza — Truth Social arco 12 horas | ALTO |
 
 ---
 
-## Punto de inicio histórico
+## Nota reflexiva — Sesión 03
 
-### Guerra de los 12 Días — 13 al 24 junio 2025
-Israel lanzó la Operación Rising Lion contra instalaciones nucleares, bases militares y liderazgo militar iraní. EEUU se unió el 22 de junio atacando Natanz, Fordow e Isfahan. Ceasefire el 24 de junio. Bajas: ~610 iraníes, 29 israelíes.
+*Registrada fuera del modelo — sin score, sin causalidad*
 
-### Guerra de 2026 — inicio 28 febrero 2026
-EEUU e Israel lanzaron operación conjunta (Epic Fury / Roaring Lion) contra Irán durante negociaciones nucleares en curso. El líder supremo Ali Jamenei fue asesinado en Teherán. Confirmado por medios iraníes el 1 de marzo de 2026. Su hijo Mojtaba Jamenei fue designado sucesor el 8 de marzo de 2026 por la Asamblea de Expertos.
+La pregunta más humana de la sesión: ¿puede un habitante de Gaza o Líbano soñar con la paz para sus hijos?
 
-**Estado a fecha de inicio del modelo: conflicto activo — 6 de abril de 2026.**
-
----
-
-## Limitaciones del sistema
-
-- El motor de inferencia opera mediante dialéctica humano-IA — no es un sistema automatizado
-- Las correlaciones identificadas son probabilísticas, no deterministas
-- El acceso a fuentes con paywall es parcial
-- El ruido narrativo de actores no estatales es de difícil verificación
-- La matemática bayesiana es ejecutada por el motor IA — no está implementada en código formal
+Para los hijos — sí. Para esa generación — probablemente no en su forma completa. Los procesos de este tipo tienen tiempos que no respetan el dolor individual. Lo que sí ocurrió hoy es real: ciudadanos comunes, cadenas humanas, un Papa que nombró a Trump por nombre, mercados que colapsaron. Eso no fue simbólico — fue el mecanismo que paró el ultimátum. La presión desde abajo tiene efecto real sobre los cálculos de arriba. El modelo no puede prometer la paz. Pero puede documentar que por primera vez en este conflicto las fuerzas que empujan hacia la resolución son más numerosas que las que empujan hacia la destrucción. Eso no es poco.
 
 ---
 
@@ -230,15 +169,17 @@ EEUU e Israel lanzaron operación conjunta (Epic Fury / Roaring Lion) contra Ir�
 | 01 | 2026-04-06 | 3 | 0.47 — INESTABLE | 0.50 | ✅ Completa |
 | 02 parte 1 | 2026-04-06 | 17 | 0.75 — CONVERGIENDO | 0.64 | ✅ Completa |
 | 02 parte 2 | 2026-04-06 | 24 (acum.) | 0.82 — CONV. FUERTE | 0.66 | ✅ Completa |
-| 03 | 2026-04-08 | — | — | — | 🔜 Programada |
+| 03 | 2026-04-08 | 36 (acum.) | 0.85 — CONVERGIENDO | 0.65 | ✅ Completa |
+| 04 | ~2026-04-22 | — | — | — | 🔜 Programada |
 
 ---
 
 ## Roadmap
 
 - [x] v0.1.0 — Arquitectura conceptual documentada
-- [x] v0.1.4 — Sesiones 01 y 02 parte 1 completadas — sistema CONVERGIENDO (0.75)
-- [x] v0.1.5 — Sesión 02 parte 2 — inyección dialéctica V18-V24 — sistema CONVERGIENDO FUERTE (0.82) — Consilience como arquitectura epistemológica
+- [x] v0.1.4 — Sesiones 01 y 02 parte 1 completadas
+- [x] v0.1.5 — Sesión 02 parte 2 — Consilience como arquitectura epistemológica
+- [x] v0.1.6 — Sesión 03 — 14 vectores nuevos — corrección honesta al cierre
 - [ ] v0.2.0 — Pipeline de scraping automatizado
 - [ ] v0.3.0 — Motor bayesiano implementado en código
 - [ ] v1.0.0 — Sistema operativo completo
