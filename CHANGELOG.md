@@ -104,6 +104,28 @@
 
 ---
 
+#### ARCHIVO NUEVO — PROTOCOLO-ANCHOR.md
+
+Creado al cierre de S06. Documenta formalmente:
+- **ISOI** — Índice de Sesgo Operador → IA (cámara de eco)
+- **ISIO** — Índice de Sesgo IA → Operador (dependencia intelectual)
+- Historial de ambas métricas S01-S06
+- Protocolo completo de 6 bloques para ejecutar al inicio de cada sesión
+- Reglas operacionales R1-R5 activas durante la sesión
+- Señales de alerta sistémica (5 señales documentadas)
+- Registro de evaluaciones para completar sesión a sesión
+
+**Por qué existe este archivo:**
+ISOI e ISIO surgieron en S06 como respuesta a una pregunta del operador
+sobre los sesgos del sistema. Al no estar documentados en ningún archivo
+previo, el modelo que abriera S07 no habría sabido qué son ni cómo
+aplicarlos. Este archivo cierra esa brecha de memoria entre sesiones.
+
+**Flujo de inicio modificado desde S07:**
+PROTOCOLO-ANCHOR.md → correo recordatorio → archivos → prompt reinicio
+
+---
+
 #### SEÑALES CRÍTICAS PARA S07
 
 1. ¿Qué mensaje trajo Witkoff/Kushner de Islamabad?

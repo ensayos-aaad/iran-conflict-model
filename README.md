@@ -255,6 +255,25 @@ War Powers D60: 29 abril (HOY en S07). Gala $TRUMP ejecutada. Demanda Sun activa
 
 ---
 
+## Control de sesgos — Protocolo ANCHOR
+
+El ICM opera con dos métricas de sesgo documentadas formalmente desde S06.
+Ver definiciones completas, historial y protocolo en `PROTOCOLO-ANCHOR.md`.
+
+| Métrica | Descripción | Valor S06 | Umbral alerta |
+|---|---|---|---|
+| ISOI | Sesgo operador → IA (cámara de eco) | 0.21 — leve | > 0.40 |
+| ISIO | Sesgo IA → operador (dependencia) | 0.31 — vigilar | > 0.40 |
+
+**Flujo de inicio de sesión con ANCHOR (desde S07):**
+1. Pegar `PROTOCOLO-ANCHOR.md` — PRIMERO, sin nada más
+2. Pegar correo de recordatorio
+3. Adjuntar los 9 archivos cuando el modelo los solicite
+4. Pegar prompt de reinicio
+5. Operar con reglas R1-R5 activas
+
+---
+
 ## Roadmap
 
 - [x] v0.1.0 — Arquitectura conceptual documentada
