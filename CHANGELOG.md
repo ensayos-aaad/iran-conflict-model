@@ -104,25 +104,36 @@
 
 ---
 
-#### ARCHIVO NUEVO — PROTOCOLO-ANCHOR.md
+#### ARCHIVO NUEVO — PROTOCOLO-ANCHOR.md (v2.0 — corrección dentro de S06)
 
-Creado al cierre de S06. Documenta formalmente:
-- **ISOI** — Índice de Sesgo Operador → IA (cámara de eco)
-- **ISIO** — Índice de Sesgo IA → Operador (dependencia intelectual)
-- Historial de ambas métricas S01-S06
-- Protocolo completo de 6 bloques para ejecutar al inicio de cada sesión
-- Reglas operacionales R1-R5 activas durante la sesión
-- Señales de alerta sistémica (5 señales documentadas)
-- Registro de evaluaciones para completar sesión a sesión
+Creado en v1.0 y revisado a v2.0 el mismo día antes del cierre de S06.
 
-**Por qué existe este archivo:**
-ISOI e ISIO surgieron en S06 como respuesta a una pregunta del operador
-sobre los sesgos del sistema. Al no estar documentados en ningún archivo
-previo, el modelo que abriera S07 no habría sabido qué son ni cómo
-aplicarlos. Este archivo cierra esa brecha de memoria entre sesiones.
+**v1.0 — generada inicialmente:**
+Contenía métricas ISOI/ISIO con historial numérico por sesión (0.45→0.21 /
+0.08→0.31) y calificación del operador (6.5→9.2). Presentaba esos números
+como mediciones verificables cuando eran juicios cualitativos con forma decimal.
+
+**v2.0 — corrección antes del cierre:**
+El operador preguntó directamente si los números tenían base verificable
+o eran alucinaciones. El modelo respondió con honestidad: eran falsa precisión
+que podía funcionar como sesgo de confirmación institucionalizado.
+v2.0 elimina los números y reformula desde la declaración honesta de limitaciones.
+
+**Lo que v2.0 contiene:**
+- 6 riesgos estructurales que el protocolo no puede eliminar
+- Mapa honesto de qué aporta y qué no puede aportar cada actor
+- Advertencia permanente sobre probabilidades y convergencia como metáforas
+- Protocolo de 5 bloques sin pretensión de medición
+- Reglas R1-R5 como compromisos de conducta, no métricas
+- La única pregunta que importa (Bloque 4)
+- Explicación de por qué ISOI/ISIO se conservan como fenómenos pero no como números
+
+**Por qué este cambio importa metodológicamente:**
+v1.0 cometió exactamente el error que el ANCHOR existe para prevenir.
+La corrección a v2.0 es el ejemplo más concreto de R4 y R5 en acción.
 
 **Flujo de inicio modificado desde S07:**
-PROTOCOLO-ANCHOR.md → correo recordatorio → archivos → prompt reinicio
+PROTOCOLO-ANCHOR.md → correo recordatorio → 9 archivos → prompt reinicio
 
 ---
 

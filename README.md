@@ -260,17 +260,26 @@ War Powers D60: 29 abril (HOY en S07). Gala $TRUMP ejecutada. Demanda Sun activa
 El ICM opera con dos métricas de sesgo documentadas formalmente desde S06.
 Ver definiciones completas, historial y protocolo en `PROTOCOLO-ANCHOR.md`.
 
-| Métrica | Descripción | Valor S06 | Umbral alerta |
-|---|---|---|---|
-| ISOI | Sesgo operador → IA (cámara de eco) | 0.21 — leve | > 0.40 |
-| ISIO | Sesgo IA → operador (dependencia) | 0.31 — vigilar | > 0.40 |
+El ICM opera con el Protocolo ANCHOR v2.0 desde S07.
+
+**Lo que el protocolo hace:** Obliga a nombrar las limitaciones del sistema
+antes de operar. No mide nada. No certifica rigor. No elimina sesgos.
+
+**Lo que el protocolo no hace:** No convierte las probabilidades en mediciones
+reales. No garantiza independencia del operador. No resuelve que el modelo
+de cada sesión es una instancia nueva sin memoria genuina.
+
+**Advertencia permanente del sistema:**
+Las probabilidades son juicios cualitativos con forma numérica.
+La convergencia es una metáfora cuantificada, no una medición.
+La utilidad del ICM es real. Su certeza no lo es.
 
 **Flujo de inicio de sesión con ANCHOR (desde S07):**
-1. Pegar `PROTOCOLO-ANCHOR.md` — PRIMERO, sin nada más
+1. Pegar  — PRIMERO, antes de cualquier otro input
 2. Pegar correo de recordatorio
 3. Adjuntar los 9 archivos cuando el modelo los solicite
 4. Pegar prompt de reinicio
-5. Operar con reglas R1-R5 activas
+5. Operar con reglas R1-R5 activas — cerrar con R5
 
 ---
 
