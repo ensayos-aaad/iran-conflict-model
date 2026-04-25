@@ -2,6 +2,130 @@
 
 ---
 
+## [v0.1.9] — 2026-04-25
+
+### Sesión 06 — 18 vectores nuevos (V107-V124)
+
+**Archivo de simulación:** `simulaciones/2026-04-25-sesion-06.md`
+
+---
+
+#### NOVEDADES METODOLÓGICAS
+
+**Primera vez en el ICM:**
+- Se abrió un sexto escenario formal: **Escenario F — Recule No Declarado / Deescalada Sin Acuerdo**. Autorizado por el operador humano en sesión.
+- Ningún escenario supera 0.31 al cierre — máxima dispersión epistémica del modelo.
+- F y A en empate técnico co-dominante (0.30 / 0.31).
+- Barrido sistemático de señal vs ruido ejecutado dentro de la sesión (E1/E4 clasificado).
+- Tres marcos analíticos narrativo-estructurales integrados como metodología: Torre de Babel, RoboCop/OCP, Pirámide Madoff.
+- Bloque 1 autónomo IA: segunda vez consecutiva.
+
+---
+
+#### VECTORES NUEVOS PROCESADOS (V107-V124)
+
+**Bloque diplomático — Islamabad II (V107-V113):**
+- V107 — Islamabad II: contacto indirecto sin reunión directa. Araghchi entregó lista de demandas a Pakistan y partió. Witkoff/Kushner llegaron a ciudad vacía.
+- V108 — Brent $105 — zona de tensión máxima pre-umbral. Mercados descuentan guerra contenida, no negociación.
+- V109 — War Powers: deadline disputado (29 abr vs 1 mayo). 5ª resolución fallida (46-51). Extensión 30 días anticipada.
+- V110 — Gala $TRUMP ejecutada 25 abril. Patrón pump-dump documentado. Sun vs WLFI activa. Nodo cripto-Witkoff en punto máximo.
+- V111 — Hormuz: doble cerrojo activo. 34 buques interceptados. Minas 6 meses estructural.
+- V112 — Ghalibaf "nuevas cartas en el campo" — no ejecutadas. Señalización táctica de IRGC pre-negociación.
+- V113 — V86 descartada formalmente. Señal de alucinación confirmada al 85%.
+
+**Bloque analítico — Marcos estructurales (V114-V115):**
+- V114 — Asimetría estructural de audiencias Islamabad II. EE.UU. negocia para 4 audiencias simultáneas; Irán negocia para una. Posición táctica iraní estructuralmente superior.
+- V115 — Divergencia Babel: EE.UU. en confusión de lenguas activa / Irán en divergencia táctica gestionada. La torre americana requiere coherencia que ya no existe.
+
+**Bloque institucional — Palantir/OCP (V116-V119):**
+- V116 — Fatiga logística americana: el bloqueo tiene fecha de vencimiento no solo política sino física.
+- V117 — Manifiesto Palantir + purga + yesman = arquitectura de decisión ciega. Purga elimina canales de realidad incómoda.
+- V118 — Algoritmo no controla la realidad. Palantir como espejo roto: tres límites estructurales documentados (datos, sesgos, incentivos).
+- V119 — Arquitectura OCP activa en fase pre-completa. Palantir como empresa cuyo modelo de negocio requiere la persistencia del problema que supuestamente resuelve. El conflicto con Irán = campo de pruebas y argumento de ventas.
+
+**Bloque geopolítico-tecnológico (V120-V122):**
+- V120 — Fragmentación soberanía tecnológica global. Nadie tiene la unidad que se necesita para construir la alternativa. India: actor con mayor potencial, plazo más largo.
+- V121 — Erosión marca Made in USA en defensa. Colombia/Gripen, Perú cancelación. Drone como cambio de paradigma. Ratio costo-efectividad 60:1 a favor del atacante.
+- V122 — Doctrina China de neutralidad activa asertiva. Evolución documentada en 3 fases. Xi llamó a MBS, no a Washington. Reunión China-Rusia-Irán-IAEA (24 abril). Justin Sun como pinza involuntaria. Capital reservado para cumbre mayo.
+
+**Bloque doméstico cripto (V123-V124):**
+- V123 — Pirámide Madoff aplicada a ecosistema $TRUMP-WLFI. Dos escenarios: Alfa (deflación gestionada, 0.58) / Beta (colapso catastrófico, 0.42). Diferencia con Madoff: blockchain. Todo está en cadena.
+- V124 — Doble reloj de colapso: EE.UU. bajo presión en semanas / Irán bajo presión en 2-3 meses. El que vence primero cede primero. Irán espera que Trump parpadeará primero.
+
+---
+
+#### CORRECCIONES AL MODELO
+
+- **$TRUMP ATH:** Corregido de $73.43 a **$74.27**. Fuente: datos blockchain Phemex.
+- **Posición táctica Irán:** Corregida de "fuerte estructuralmente" a **"fuerte tácticamente / frágil internamente"**. Crisis económica (47.5% inflación) y protestas (36K muertos enero 2026) eran variables subestimadas en S01-S05.
+- **Ventana resistencia Irán:** De "indefinida" a **"2-3 meses"** por crisis de almacenamiento de petróleo.
+- **V86:** **Descartada formalmente** como dato activo. Señal de alucinación confirmada al 85%.
+- **Nodo N24:** Abierto — Reunión China-Rusia-Irán-IAEA ejecutada el 24 de abril. Coordinación de posición negociadora nuclear.
+
+---
+
+#### HIPÓTESIS NUEVAS
+
+- **H8** — ¿La doctrina Palantir produce una guerra que ni siquiera su propio modelo puede ganar? ACTIVA. La guerra asimétrica iraní es subóptima para sistemas entrenados en adversarios con infraestructura compleja. Palantir es óptimo para guerras contra adversarios con sistemas frágiles — Irán tiene 45 años aprendiendo a operar en la escasez.
+- **H9** — La salida del conflicto no será un acuerdo negociado sino un recule no declarado. ACTIVA Y GANANDO PESO. F co-dominante con A al cierre.
+
+---
+
+#### NODOS NUEVOS
+
+- **N22** — War Powers D60-90: activo. Extensión 30 días probable → deadline real se mueve al 29 mayo.
+- **N23** — Cumbre Xi-Trump mayo 2026: ABIERTO. Nodo más importante no operado del modelo. Toda la doctrina china acumula capital para este momento.
+- **N24** — Reunión China-Rusia-Irán-IAEA: EJECUTADO 24 abril. Posición nuclear iraní coordinada con garantes antes de Islamabad II.
+
+---
+
+#### ESCENARIOS AL CIERRE S06
+
+| Escenario | S05 cierre | S06 cierre | Δ |
+|---|---|---|---|
+| A | 0.43 | **0.31** | ↓↓↓ |
+| B | 0.40 | **0.24** | ↓↓ |
+| C | 0.11 | **0.09** | ↓ |
+| D | 0.03 | **0.04** | ↑ |
+| E | 0.03 | **0.02** | ↓ |
+| **F** | 0.00 | **0.30** | NUEVO |
+
+---
+
+#### CONVERGENCIA AL CIERRE S06
+
+| Score | S05 | S06 | Δ |
+|---|---|---|---|
+| Narrativas | 0.93 | **0.95** | ↑↑ |
+| Factual | 0.97 | **0.97** | → |
+| Ruido | 0.47 | **0.52** | ↑↑ máximo histórico |
+| Escenarios | 0.80 | **0.79** | ↓ |
+| **Global** | **0.86** | **0.86** | → |
+
+---
+
+#### SEÑALES CRÍTICAS PARA S07
+
+1. ¿Qué mensaje trajo Witkoff/Kushner de Islamabad?
+2. ¿War Powers: Trump pidió extensión 30 días?
+3. ¿Collins u otro republicano cruzó en voto?
+4. ¿Brent lunes apertura asiática?
+5. ¿$TRUMP post-gala: pump/dump confirmado? ¿Anuncio mayor?
+6. ¿Araghchi en Muscat: back-channel activado?
+7. ¿Araghchi en Moscú: uranio a Rusia como garante?
+8. ¿Ghalibaf activó "cartas en el campo"?
+9. ¿Hormuz tráfico: señal apertura gradual?
+10. ¿Fecha confirmada cumbre Xi-Trump?
+
+---
+
+#### FUENTES BLOQUEADAS / ACCESIBLES
+
+Bloqueadas: BBC, DW, El País, El Mundo, Politico
+Accesibles confirmadas: CNN, NBC, Al Jazeera, Reuters, CNBC, Fortune, Bloomberg, CoinDesk, Wikipedia (con descuento apropiado 15-20%)
+
+---
+
 ## [v0.1.8] — 2026-04-24
 
 ### Sesión 05 — 59 vectores nuevos (V48-V106) — sesión más densa del ICM
@@ -57,7 +181,7 @@
 - V74 — Kallas: "Irán más peligroso" sin expertos nucleares en la mesa
 
 **Corrección crítica registrada:**
-- V66: cáncer de próstata de Netanyahu fue clasificado inicialmente como "humo estratégico" basándose en flag del informe Gemini. La noticia se confirmó como factual. Error de clasificación E4→E1 registrado en el log del modelo.
+- V66: cáncer de próstata de Netanyahu fue clasificado inicialmente como "humo estratégico". Confirmado como factual. Error de clasificación E4→E1 registrado.
 
 **Bloque negociación / posiciones reales (V75-V82):**
 - V75 — Irán monetiza Hormuz: primer ingreso en yuan depositado en banco central
@@ -70,61 +194,36 @@
 - V82 — Efectos globales: preservativos +20-30%, Canal Panamá $4M/cruce
 
 **Bloque económico-sistémico (V91-V101):**
-- V87 — Mundial 2026: arma diplomática activa — Irán asiste, Zampolli bloqueado por Roma
-- V88 — OTAN: amenaza expulsión España — vacía jurídicamente (tratado no tiene mecanismo)
-- V89 — 7 errores estratégicos EEUU documentados por fuentes Tier 1 (CNN, AEI, CSIS, ICG)
-- V90 — Congreso: deadline corregido a 29 abril (no 28). 5ª resolución fallida.
+- V87 — Mundial 2026: arma diplomática activa
+- V88 — OTAN: amenaza expulsión España — vacía jurídicamente
+- V89 — 7 errores estratégicos EEUU documentados (CNN, AEI, CSIS, ICG)
+- V90 — Congreso: deadline corregido a 29 abril. 5ª resolución fallida.
 - V91 — Wall Street no envía señal fuerte — paradoja: resiliencia reduce presión sobre Trump
 - V92 — Manifiesto Palantir 22 puntos — doctrina oficial industrial-tecnológica militar
 - V93 — Mercados en crisis pricing activo — umbral $110 a $4
 - V94 — Petrodólar en bifurcación silenciosa — Arabia Saudita canceló deal 2 años atrás
-- V95 — Colapso marítimo: $5M por barco, VLCCs récord, sistema mutando permanentemente
-- V96 — Seguridad alimentaria: 45M en riesgo, nitrógeno crítico, Qatar cerró planta más grande
-- V97 — Papa Leo: actor político global — H7 confirmada — conversos en máximos históricos
+- V95 — Colapso marítimo: $5M por barco, VLCCs récord, sistema mutando
+- V96 — Seguridad alimentaria: 45M en riesgo, nitrógeno crítico
+- V97 — Papa Leo: actor político global — H7 confirmada
 - V98 — Inflación global FMI 4.4% — WEO "Economía en la Sombra de la Guerra"
-- V99 — Fractura IA militar: Anthropic rechazó vigilancia masiva, Pentágono atacó a Amodei
+- V99 — Fractura IA militar: Anthropic rechazó vigilancia masiva
 - V100 — China gana 5 dimensiones sin disparar: diplomática, energética, tecnológica, financiera, narrativa
 - V101 — Comunidad internacional: condena sin sanción — CSNU paralizado
 
-**Bloque nodo cripto-Witkoff-guerra (V102-V106) — inyección dialéctica del operador:**
-- V102 — WLFI-Witkoff: conflicto de interés estructural. Zach Witkoff CEO WLFI = hijo de Steve Witkoff negociador Islamabad. 75% ingresos WLFI → familia Trump. CFTC Chair Selig speaker en foro WLFI.
-- V103 — Enriquecimiento presidencial documentado: $9.7B estimados por House Oversight. $600M de intereses extranjeros. Carnegie/Brennan Center: "fusión sin precedentes presidencia-negocios."
-- V104 — Respuesta global: preparación silenciosa en 5 vectores (FMI reforma cuotas, BRICS activo, Europa autonomía estratégica, Sur Global mBridge/CIPS, Papa como arquitecto moral alternativo).
-- V105 — $TRUMP memecoin gala 25 abril: acceso presidencial como commodity. Top 297 holders. Top 29 VIP con champagne. $4.3B riqueza retail destruida. Ratio: $1 insider = $20 retail. Emolumentos activos. Warren/Schiff/Blumenthal: investigación formal.
-- V106 — Arquitectura completa dos pirámides: WLFI (institucional, $1B demanda) + $TRUMP (retail, −96% ATH). La guerra como distractor de crisis cripto paralela. CFTC que investiga insider trading de la guerra = mismo regulador como speaker en foro cripto del presidente.
+**Bloque nodo cripto-Witkoff-guerra (V102-V106):**
+- V102 — WLFI-Witkoff: conflicto de interés estructural
+- V103 — Enriquecimiento presidencial documentado: $9.7B estimados por House Oversight
+- V104 — Respuesta global: preparación silenciosa en 5 vectores
+- V105 — $TRUMP memecoin gala 25 abril: acceso presidencial como commodity
+- V106 — Arquitectura completa dos pirámides paralelas: WLFI + $TRUMP
 
 ---
 
 #### CORRECCIONES AL MODELO
 
-- **N13 (War Powers deadline):** Corregido de 28 abril a **29 abril**. Fuentes contradictorias identificadas — riesgo de alucinación 20% registrado en checklist S06.
-- **$TRUMP ATH:** Corregido de $46 a **$73.43**. El modelo había registrado el máximo de WLFI, no del memecoin $TRUMP.
-- **Escenario A:** Redefinido. Ya no significa "Hormuz abierto rápido." Con minas que tardan 6 meses en limpiarse, el costo económico continúa incluso con acuerdo. Escenario A ahora = "proceso de apertura bajo acuerdo."
-- **Nodo WLFI vs $TRUMP:** Clarificados como dos mecanismos distintos y paralelos, no un solo evento.
-
----
-
-#### HIPÓTESIS ACTUALIZADAS
-
-- **H1:** DEBILITADA. Al-Oraibi (The National, UAE): "IRGC tiene la sartén por el mango." Declaración coordinada Pezeshkian/Ghalibaf puede ser performance táctica o unidad real — en ambos casos el acuerdo requiere más que la firma del ejecutivo iraní.
-- **H2:** CONFIRMADA Y EVOLUCIONADA. Pakistan se institucionalizó como "Proceso de Islamabad." Araghchi aterrizó 24 abril.
-- **H3:** CONFIRMADA. Israel Katz: "esperando luz verde." Netanyahu con cáncer durante la guerra.
-- **H4:** CONFIRMADA Y MODIFICADA. Hormuz es activo económico activo (peajes en yuan). Minas = cierre estructural de 6 meses mínimo incluso con acuerdo.
-- **H5:** SEÑAL MÁXIMA. Fractura OTAN documentada. España resiste. Bloque progresista sostenido bajo presión real.
-- **H6:** CONFIRMACIÓN MÁXIMA DEFINITIVA. BRICS reformando FMI/BM, petrodólar bifurcado, mBridge avanzando, Papa movilizando 1,400M.
-- **H7:** CONFIRMADA. Papa Leo activo en África, cardinalato americano respalda, conversos al catolicismo en máximos históricos.
-
----
-
-#### NODOS NUEVOS
-
-- **N15** — IRGC represalia TOUSKA: EJECUTADA ✅ (3 buques, 22 abril)
-- **N16** — Araghchi Islamabad-Muscat-Moscú: ACTIVO
-- **N17** — Brent umbral $110: INMINENTE ($4 de distancia)
-- **N18** — Minas Hormuz 6 meses: ESTRUCTURAL
-- **N19** — $TRUMP Gala Mar-a-Lago: 25 abril — CONFIRMADA por Casa Blanca
-- **N20** — Demanda Sun vs WLFI: ACTIVA ($1B federal)
-- **N21** — Nodo Witkoff conflicto de interés: ESTRUCTURAL
+- **N13 (War Powers deadline):** Corregido de 28 abril a **29 abril**.
+- **$TRUMP ATH:** Corregido de $46 a **$73.43** (corregido de nuevo a $74.27 en S06).
+- **Escenario A:** Redefinido. No significa "Hormuz abierto rápido." Con minas que tardan 6 meses, el costo económico continúa incluso con acuerdo.
 
 ---
 
@@ -152,32 +251,6 @@
 
 ---
 
-#### SEÑALES CRÍTICAS PARA S06
-
-1. ¿Llegó Araghchi a Islamabad? ¿Primer comunicado de Pakistan?
-2. ¿Brent apertura Asia lunes — sobre o bajo $110?
-3. ¿Gala $TRUMP ocurrió? ¿Asistió Trump? ¿Pump/dump del token?
-4. ¿War Powers — movimiento pre-29 abril?
-5. ¿Demanda Sun: acción judicial adicional esta semana?
-6. ¿Verificar señal Wikipedia junio 2026 (Fordow/Natanz)? — 85% riesgo alucinación
-7. ¿Deadline War Powers = 28 o 29 abril? — 20% riesgo alucinación, confirmar
-
----
-
-#### FUENTES BLOQUEADAS — REGISTRADAS PARA S06
-
-Los siguientes dominios están bloqueados en la red del sistema. Usar alternativas:
-- The Guardian (.com/us-news) ❌ — alternativa: NBC/CNN
-- BBC (.com/news) ❌ — alternativa: Reuters/AP
-- DW (.com/es) ❌ — alternativa: Al Jazeera
-- El País (.es) ❌ — alternativa: CNN en Español
-- El Mundo (.es) ❌ — alternativa: CNN en Español
-- Politico (.com) ❌ — alternativa: The Hill/NBC
-
-Fuentes confirmadas accesibles: CNN, NBC, Al Jazeera, Reuters, CNBC, Fortune, Bloomberg Law, CoinDesk, Wikipedia (con descuento apropiado).
-
----
-
 ## [v0.1.7] — 2026-04-19
 
 ### Sesión 04 — 14 vectores nuevos (V37-V47 + correcciones)
@@ -189,7 +262,6 @@ Fuentes confirmadas accesibles: CNN, NBC, Al Jazeera, Reuters, CNBC, Fortune, Bl
 - V37 — Cumbre Progresista Madrid: España + LATAM bloque atlántico unificado
 - V38 — Crisis interna EEUU (multi-componente): escándalos + institucional + externo
 - V39 — Pakistan escolta delegación iraní con J-10 chinos + AWACS
-  (Israel tenía a Araqchi + Ghalibaf en lista de objetivos)
 - V40 — Papa Leo XIV (primer Papa americano) vs Trump — CORRECCIÓN: no es Francisco
 - V41 — Insider trading $2.28B en tres episodios — CFTC activo
 - V42 — War Powers Resolution día 60: 28 abril — reloj constitucional
@@ -199,51 +271,18 @@ Fuentes confirmadas accesibles: CNN, NBC, Al Jazeera, Reuters, CNBC, Fortune, Bl
 - V46 — Trump publica imagen IA como Jesucristo en Pascua — MTG lo condena
 - V47 — China bloquea Escollo Scarborough simultáneamente a Hormuz
 
-**Correcciones al modelo:**
-- V40: Papa identificado correctamente como Leo XIV (Robert Prevost)
-  primer Papa americano de la historia — no Francisco (muerto mayo 2025)
-- H4: modificada — Irán perdió rastro de sus propias minas en Hormuz
-  No puede abrir completamente aunque quiera — cierre parcialmente involuntario
-- N12: actualizada de "cumbre pendiente" a "confrontación activa"
-  China operando en dos teatros simultáneos (V39 + V47)
-
-**Hipótesis nuevas registradas:**
-- H7 — ¿Puede el eje moral-religioso (Papa + Sur Global + mundo cristiano)
-  romper el consenso doméstico de Trump con su base evangélica?
-  Primera señal de confirmación: MTG lo condenó públicamente.
+**Correcciones:**
+- V40: Papa Leo XIV (Robert Prevost) — primer Papa americano
+- H4: Irán perdió rastro de sus propias minas en Hormuz
+- N12: confrontación activa China en dos teatros
 
 **Nodos nuevos:**
-- N13 — War Powers Day 60: 28 abril (reloj constitucional duro)
-- N14 — Hutíes / Bab el-Mandeb (latente, posicionamiento activo)
+- N13 — War Powers Day 60: 28 abril (corregido a 29 en S05)
+- N14 — Hutíes / Bab el-Mandeb (latente)
 
-**Dato técnico crítico:**
-- Irán perdió rastro de sus propias minas en Hormuz
-  Implicación: cualquier acuerdo debe incluir apoyo técnico para desminado
+**Convergencia:** 0.85 → 0.82 (baja por alta volatilidad)
 
-**Filtraciones documentadas esta sesión:**
-- Trump fue expulsado de su propio briefing durante rescate en Irán
-  (Daily Beast, 12 hrs antes del cierre de S04)
-- Morgan Stanley broker conectado a Hegseth intentó comprar ETF de defensa
-  antes del inicio de la guerra (Warner + Schiff al Senado)
-- Casa Blanca envió email interno advirtiendo contra insider trading
-  (Wall Street Journal — confirmación implícita del problema)
-
-**Estado TOUSKA al cierre:**
-- USS Spruance disparó contra sala de máquinas del TOUSKA (buque iraní)
-- Marines abordaron y tomaron custodia
-- IRGC prometió "responder pronto"
-- Irán canceló segunda ronda de Islamabad
-- Vance viaja a Islamabad el lunes — Irán sin confirmar asistencia
-
-**Convergencia:** 0.85 → 0.82
-(baja por flujo activo y alta volatilidad — no por falta de claridad)
-
-**Escenarios:**
-- A: 0.65 → 0.50 (↓↓)
-- B: 0.16 → 0.30 (↑↑)
-- C: 0.13 → 0.13 (→)
-- D: 0.04 → 0.03 (↓)
-- E: 0.02 → 0.04 (↑)
+**Escenarios:** A: 0.65→0.50 / B: 0.16→0.30 / C: 0.13 / D: 0.03 / E: 0.04
 
 ---
 
@@ -258,7 +297,7 @@ Fuentes confirmadas accesibles: CNN, NBC, Al Jazeera, Reuters, CNBC, Fortune, Bl
 - V25 — N1 Resultado: TACO + Kharg + ONU + aislamiento Israel
 - V26 — N2 Resultado: OTAN no mordió el anzuelo — Rutte con Rubio no Trump
 - V27 — Israel bombardea Beirut durante ceasefire — H3 confirmada en tiempo real
-- V28 — Reconfiguración orden regional post-TACO (4 sub-componentes — círculo causal)
+- V28 — Reconfiguración orden regional post-TACO (4 sub-componentes)
 - V29 — Aceleración transición energética — ironía Trump-China
 - V30 — Margen maniobra Netanyahu — paradoja aprobación sin mayoría
 - V31 — Palestina en el mapa mundial post-TACO — 157 estados
@@ -266,25 +305,13 @@ Fuentes confirmadas accesibles: CNN, NBC, Al Jazeera, Reuters, CNBC, Fortune, Bl
 - V33 — Factor Chomsky — detector de mecanismos de poder estructural
 - V34 — Latinoamérica post-TACO — Cuba, Venezuela, China, bisagras
 - V35 — Fractura narrativa invencibilidad americana — China como laboratorio
-- V36 — Taiwan, Europa, colapso narrativa de fuerza — arco Truth Social 12 horas
+- V36 — Taiwan, Europa, colapso narrativa de fuerza
 
-**Hipótesis confirmadas esta sesión:**
-- H2 — Canal Pakistan es negociación real ✅
-- H3 — Netanyahu tiene incentivo para sabotear el ceasefire ✅
+**Hipótesis confirmadas:** H2 ✅ / H3 ✅
+**Hipótesis nuevas:** H5 / H6
+**Nodos nuevos:** N10 / N11 / N12
 
-**Hipótesis nuevas:**
-- H5 — Proyecto Abraham vaciándose
-- H6 — ¿Vulnerabilidad compartida como base del nuevo orden regional?
-
-**Nodos nuevos:**
-- N10 — Nuevo ultimátum ~21 abril
-- N11 — Respuesta Hezbollah (activo urgente al cierre)
-- N12 — Cumbre Trump-Xi mayo 2026
-
-**Corrección honesta al cierre:**
-- Hormuz cerrado de nuevo por ataques israelíes en Líbano
-- A: 0.73 → 0.65 / B: 0.10 → 0.16
-- Convergencia: 0.90 (pico intrasesión) → 0.85 (cierre corregido)
+**Corrección honesta al cierre:** Hormuz cerrado de nuevo. A: 0.73→0.65 / B: 0.10→0.16
 
 ---
 
@@ -302,9 +329,7 @@ Fuentes confirmadas accesibles: CNN, NBC, Al Jazeera, Reuters, CNBC, Fortune, Bl
 - V23 — Factor histórico: 8 espejos históricos
 - V24 — Consilience: IA como instrumento de reunificación ciencias
 
-**Convergencia:** 0.73 → 0.82 (CONVERGIENDO FUERTE)
-**Vectores acumulados:** 24 totales
-**Escenario A (30 días):** 0.66
+**Convergencia:** 0.73 → 0.82 | **Vectores acumulados:** 24 | **Escenario A:** 0.66
 
 ---
 
