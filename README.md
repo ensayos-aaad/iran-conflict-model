@@ -3,10 +3,17 @@
 
 **Versión:** v0.2.0
 **Fecha de inicio:** 2026-04-06
-**Última sesión:** Sesión 07 — EMERGENCIA — 2026-04-25
-**Próxima sesión:** Sesión 08 — 29 abril / 1 mayo 2026 (War Powers D60 + May Day)
-**Estado:** OPERATIVO — CONVERGIENDO (señal 0.84)
+**Última sesión:** Sesión 08 — 2026-04-30
+**Próxima sesión:** Sesión 09 — 4-5 mayo 2026 (post-May Day / China CSONU activo)
+**Estado:** OPERATIVO — CONVERGIENDO (señal 0.87 ↑)
 **Metodología base:** Inferencia causal (Judea Pearl, *The Book of Why*, 2018)
+
+---
+
+## ⚠️ NOTA PRIORITARIA PARA S09
+
+> **Agregar factor Cuba al análisis.**
+> Cuba fue mencionada en las amenazas de la Doctrina Donroe (enero 2026) pero no ha sido operada como nodo independiente. Con el contexto de V141 (Doctrina Donroe + Ecuador + Colombia) y la dinámica hemisférica activa, Cuba requiere incorporación formal en S09.
 
 ---
 
@@ -14,41 +21,41 @@
 
 | Campo | Valor |
 |-------|-------|
-| Sesiones completadas | 7 (incluye S07 emergencia) |
-| Última sesión | Sesión 07 EMERGENCIA — 2026-04-25 |
-| Vectores procesados (acumulado) | 128 |
-| Señal de convergencia | 0.84 — CONVERGIENDO (↓ desde 0.86) |
+| Sesiones completadas | 8 (incluye S07 emergencia) |
+| Última sesión | Sesión 08 — 2026-04-30 (~13 horas) |
+| Vectores procesados (acumulado) | 142 |
+| Señal de convergencia | 0.87 — CONVERGIENDO (↑ desde 0.84) |
 | Escenario dominante | F y A — co-dominancia / F ligeramente superior |
-| Probabilidad Escenario F (30 días) | 0.33 ↑ |
-| Probabilidad Escenario A (30 días) | 0.27 ↓ |
-| Día del conflicto | ~57 |
+| Probabilidad Escenario F (30 días) | 0.34 ↑ |
+| Probabilidad Escenario A (30 días) | 0.30 ↑↑ |
+| Día del conflicto | D62 (30 abril 2026) |
 | Escenarios activos | 6 (A, B, C, D, E, F) |
-| Nodos críticos activos | N13, N17, N22, N23, N25 |
+| Nodos críticos activos | N13, N17, N22, N23, N25, N_China_CSONU, N_Colombia |
 
-### Probabilidades S07 — Horizonte 30 días
+### Probabilidades S08 — Horizonte 30 días
 
-| Escenario | Descripción | S06 | S07 | Δ |
+| Escenario | Descripción | S07 | S08 | Δ |
 |-----------|-------------|-----|-----|---|
-| A | Acuerdo + proceso apertura Hormuz (6 meses minas) | 0.31 | **0.27** | ↓↓ |
-| B | Limbo prolongado — guerra de resistencia | 0.24 | **0.26** | ↑ |
-| C | Escalada — ataque infraestructura crítica | 0.09 | **0.08** | ↓ |
+| A | Acuerdo + proceso apertura Hormuz (6 meses minas) | 0.27 | **0.30** | ↑↑ |
+| B | Limbo prolongado — guerra de resistencia | 0.26 | **0.21** | ↓↓ |
+| C | Escalada — ataque infraestructura crítica | 0.08 | **0.09** | ↑ |
 | D | Colapso régimen iraní | 0.04 | **0.04** | → |
 | E | Wildcard operacional (Hutíes) | 0.02 | **0.02** | → |
-| **F** | **Recule no declarado / deescalada sin acuerdo** | **0.30** | **0.33** | **↑↑** |
+| **F** | **Recule no declarado / deescalada sin acuerdo** | **0.33** | **0.34** | **↑** |
 
-**Nota S07:** El atentado WHCD sin atribución iraní fortalece F paradójicamente. Trump con capital político máximo post-atentado tiene más margen para concesiones sin aparentar debilidad.
+**Nota S08:** B baja significativamente por activación de China en CSONU y frente internacional coordinado. A sube por construcción de arquitectura diplomática disponible. C vigilado por Netanyahu en DC esta semana.
 
 ### Scores de convergencia
 
-| Score | S06 cierre | S07 cierre | Δ |
+| Score | S07 cierre | S08 cierre | Δ |
 |-------|------------|------------|---|
-| Narrativas | 0.95 | **0.93** | ↓ |
-| Factual | 0.97 | **0.95** | ↓ |
-| Ruido | 0.52 | **0.55** | ↑ |
-| Escenarios | 0.79 | **0.77** | ↓ |
-| **Convergencia global** | **0.86** | **0.84** | ↓ |
+| Narrativas | 0.93 | **0.94** | ↑ |
+| Factual | 0.95 | **0.96** | ↑ |
+| Ruido | 0.55 | **0.57** | ↑ |
+| Escenarios | 0.77 | **0.80** | ↑ |
+| **Convergencia global** | **0.84** | **0.87** | ↑ |
 
-**Nota:** Baja leve por sesión de emergencia sin Bloque 2 del operador completado y apertura de 3 hipótesis provisionales.
+**Nota:** Sube por deuda metodológica S07 saldada (Bloque 2 ANCHOR completado) + 14 vectores nuevos verificados en Tier 1/2.
 
 ---
 
@@ -84,13 +91,15 @@ El modelo opera como una **caja negra de ciclo cerrado** con 5 entradas, 4 salid
 | E4 | Ruido narrativo | Contaminada | Redes sociales, Telegram, canales oficiales |
 | E5 | Señales de mercado | Cuantitativa | Petróleo, VIX, oro, shipping, cripto |
 
-### Notas E5 — Sesión 07
+### Notas E5 — Sesión 08
 
-**Brent al cierre S07:** $105.33 — a $5 del umbral $110. Proyección apertura Asia lunes: $108-112. Quinto trade (V126) como señal crítica a verificar.
+**Brent al cierre S08 (17:42 COT):** $120+ — N17 ACTIVADO. Umbral recesión Goldman: $140 — a $20 de distancia.
 
-**Insider trading sistémico (V126):** $2.72B en 4 trades verificados, 15-20 minutos antes de cada anuncio presidencial. CFTC investigando. Van Dyke (V127) prueba el mecanismo.
+**Insider trading sistémico (V126):** $2.72B en 4 trades verificados, 15-20 minutos antes de cada anuncio presidencial. CFTC investigando. Quinto trade no verificado.
 
-**No Kings / May Day:** 8 millones el 28 marzo. Huelga general 1° mayo — coincide con War Powers deadline.
+**Implosión cripto Trump (V140):** $TRUMP -95%, WLFI -74%, colateral $75M en riesgo de liquidación. WLF "al borde del colapso" (Sun demanda). Binance: $1.7B hacia proxies iraníes investigado.
+
+**May Day 1° mayo:** Mercados europeos/asiáticos cerrados. Liquidez reducida = volatilidad amplificada. Brent único termómetro disponible del día.
 
 ---
 
@@ -125,17 +134,17 @@ Razonamiento contrafáctico: base para la construcción de escenarios prospectiv
 | ID | Formulación | Estado |
 |----|-------------|--------|
 | H1 | ¿Puede Pezeshkian firmar acuerdo sin aval IRGC? | **DEBILITADA** |
-| H2 | ¿Canal Pakistan es negociación real? | **CONFIRMADA MÁXIMA** — colapsó en práctica S07 |
-| H3 | ¿Netanyahu tiene incentivo para sabotear el ceasefire? | **CONFIRMADA** |
-| H4 | ¿Hormuz como activo económico permanente? | **CONFIRMADA MÁXIMA** |
+| H2 | ¿Canal Pakistan es negociación real? | **CERRADA NEGATIVAMENTE** — Islamabad II colapsó |
+| H3 | ¿Netanyahu tiene incentivo para sabotear el ceasefire? | **CONFIRMADA +** — viaje DC esta semana |
+| H4 | ¿Hormuz como activo económico permanente? | **CONFIRMADA MÁXIMA** — Brent $120+ |
 | H5 | Proyecto Abraham vaciándose de contenido estratégico | **SEÑAL MÁXIMA** |
 | H6 | ¿Vulnerabilidad compartida reemplaza valores como base del nuevo orden? | **CONFIRMACIÓN MÁXIMA** |
-| H7 | ¿Eje moral-religioso rompe base evangélica de Trump? | **CONFIRMADA** — Papa Leo en WHCD |
-| H8 | ¿Doctrina Palantir produce guerra que no puede ganar? | **ACTIVA** — OCP avanza sin audiencias |
-| H9 | La salida del conflicto no será un acuerdo sino un recule no declarado | **ACTIVA — GANANDO PESO** |
-| H10 | ¿WHCD = cortina de humo sistémica funcional? | **PROVISIONAL S07** |
-| H11 | ¿Arquitectura monetización info presidencial clasificada? | **PROVISIONAL S07** |
-| H12 | ¿Patrón ataque simbólico sistémico por élite educada? | **PROVISIONAL S07** |
+| H7 | ¿Eje moral-religioso rompe base evangélica de Trump? | **CONFIRMADA** — Papa Leo "off-ramp" |
+| H8 | ¿Doctrina Palantir produce guerra que no puede ganar? | **ACTIVA** — F-15E derribado, Ford fatigado |
+| H9 | La salida del conflicto no será un acuerdo sino un recule no declarado | **CO-DOMINANTE** |
+| H10 | ¿WHCD = cortina de humo sistémica funcional? | **PROVISIONAL +** — instrumentalizado por Casa Blanca |
+| H11 | ¿Arquitectura monetización info presidencial clasificada? | **GANANDO PESO** — WLF-Binance-Irán documentado |
+| H12 | ¿Patrón ataque simbólico sistémico por élite educada? | **PROVISIONAL +** — manifiesto Allen confirmado |
 
 ---
 
@@ -145,83 +154,102 @@ Razonamiento contrafáctico: base para la construcción de escenarios prospectiv
 |----|-------------|-------|--------|
 | N1 | Ultimátum Trump 7 abril | 2026-04-07 | ✅ RESUELTO |
 | N2 | Reunión Rutte-Trump | 2026-04-08 | ✅ RESUELTO |
-| N10 | Ceasefire mutado | INDEFINIDO | 🟡 Vigente técnicamente |
-| N11 | Líbano / Hezbollah | 24 abr | 🟡 EXTENSIÓN 3 SEMANAS |
-| N12 | China / Escollo Scarborough | ACTIVO | 🔴 CONFRONTACIÓN ACTIVA |
-| N13 | War Powers Day 60 | **2026-04-29** | 🔴 ESTA SEMANA |
+| N10 | Ceasefire mutado | INDEFINIDO | 🟡 Vigente nominalmente |
+| N11 | Líbano / Hezbollah | ACTIVO | 🔴 TREGUA ROTA — 28-32 muertos hoy |
+| N12 | China / Escollo Scarborough | ACTIVO | 🔴 CONFRONTACIÓN ACTIVA (validado S08) |
+| N13 | War Powers Day 60-61 | **VENCIDO** | 🔴 EN ZONA GRIS LEGAL |
 | N14 | Hutíes / Bab el-Mandeb | LATENTE | 🟠 PAUSA ESTRATÉGICA |
 | N15 | IRGC represalia TOUSKA | EJECUTADA | ✅ CERRADO |
-| N16 | Islamabad II | 25-27 ABR | 🔴 COLAPSADO — Araghchi salió. Sin acuerdo. |
-| N17 | Brent umbral $110 | INMINENTE | 🔴 A $5 DEL UMBRAL |
+| N16 | Islamabad II | COLAPSADO | 🔴 CERRADO NEGATIVAMENTE |
+| N17 | Brent umbral $110/$120 | **ACTIVADO** | 🔴 $120+ — 17:42 COT 30 abr |
 | N18 | Minas Hormuz — 6 meses limpieza | ESTRUCTURAL | 🔴 REDEFINE ESCENARIO A |
-| N19 | $TRUMP Gala Mar-a-Lago | 2026-04-25 | ✅ EJECUTADA — Sin incidentes |
-| N20 | Demanda Sun vs WLFI | ACTIVA | 🔴 Litigio federal en curso |
+| N19 | $TRUMP Gala Mar-a-Lago | 2026-04-25 | ✅ EJECUTADA |
+| N20 | Demanda Sun vs WLFI | ACTIVA | 🔴 Litigio federal activo |
 | N21 | Nodo Witkoff — conflicto de interés | ESTRUCTURAL | 🔴 PUNTO MÁXIMO |
-| N22 | War Powers D60-90 | 29 ABR → 29 MAY | 🔴 ACTIVO |
-| N23 | Cumbre Xi-Trump | MAYO 2026 | 🔴 ABIERTO — nodo más importante no operado |
+| N22 | War Powers D60-90 | ACTIVO | 🔴 EN ZONA GRIS — D61 mañana |
+| N23 | Cumbre Xi-Trump | MAYO 2026 | 🔴 ABIERTO — China construye capital |
 | N24 | Reunión China-Rusia-Irán-IAEA | 2026-04-24 | ✅ EJECUTADO |
-| **N25** | **WHCD Shooting** | **2026-04-25** | **🟡 PARCIALMENTE RESUELTO** |
+| N25 | WHCD Shooting | 2026-04-25 | 🟡 INSTRUMENTALIZADO por Casa Blanca |
+| **N_NUEVO** | **China CSONU** | **1° MAYO** | 🔴 **ACTIVO DESDE MAÑANA** |
+| **N_NUEVO** | **Colombia elecciones** | **31 MAYO** | 🔴 **ACTIVO — Cepeda 44.3%** |
+| **N_NUEVO** | **Brent $120+** | **30 ABR 17:42** | 🔴 **ACTIVADO — $20 del umbral Goldman** |
 
 ---
 
-## ESCENARIO F — DEFINICIÓN FORMAL
+## ESCENARIO F — DEFINICIÓN FORMAL (vigente)
 
 **Escenario F — Recule No Declarado / Deescalada Sin Acuerdo**
 
-Secuencia de pasos atrás graduales, no coordinados, donde ningún actor declara victoria ni derrota. El conflicto se congela en un limbo gestionado. Todos los actores lo sostienen porque el costo de nombrarlo supera el costo de administrarlo.
+Secuencia de pasos atrás graduales, no coordinados, donde ningún actor declara victoria ni derrota. El conflicto se congela en un limbo gestionado.
 
 **Señal de verificación clave:** Cuando el tráfico de Hormuz supere 8 barcos diarios sin anuncio formal iraní de apertura.
+
+**Andamiaje disponible para F en S08:**
+- China CSONU construye marco jurídico en mayo
+- Victory Day 9 mayo = cobertura narrativa para Trump
+- Papa Leo XIV ofreció "off-ramp" nominando a Trump directamente
+- Europa dispuesta a desplegar en post-guerra (no en guerra)
+- 3 barcos iraníes en custodia = palanca concreta disponible
 
 **Quién gana en F:**
 - 🟢 Irán — sobrevive, conserva IRGC, Hormuz como activo, yuan activo
 - 🟢 China — consolida de-dolarización, capital para cumbre mayo
 - 🟢 Palantir/OCP — contratos renovados, más integrado
 - 🟡 EE.UU. Estado — evita escalada, narrativa de "victoria" parcial
-- 🔴 EE.UU. ciudadanos — $100B+, gasolina cara, dólar débil
+- 🔴 EE.UU. ciudadanos — $50B+ real, gasolina $8 en LA, dólar débil
 - 🔴 OTAN — fractura consolidada
 
 ---
 
-## Vectores estructurales clave — S07
+## CUATRO RELOJES EN TENSIÓN — S08
+
+**Reloj DIPLOMÁTICO** → 12:17 — CRUZÓ MEDIANOCHE
+Trump tiene 3-4 semanas antes de que recular sea inevitable.
+Victory Day 9 mayo + cumbre Xi = ventana para F.
+
+**Reloj FINANCIERO** → PUNTO CRÍTICO
+Brent $120 — a $20 del umbral recesión Goldman ($140).
+$1B/día de costo real. Ford fatigado. Gasolina $8/galón en LA.
+
+**Reloj DOMÉSTICO** → ZONA CRÍTICA MÁXIMA
+War Powers vencido. Hegseth mintió bajo juramento. Cripto colapsa.
+May Day mañana. GOP con fisuras documentadas con nombre propio.
+
+**Reloj IRANÍ INTERNO** → ACELERADO
+47.5% inflación. Protestas. Economía en colapso.
+Ventana resistencia <2 meses. Ghalibaf desafía públicamente.
+Paradoja: más frágil = más rígido en negociación.
+
+---
+
+## VECTORES ESTRUCTURALES CLAVE — S08
 
 | Vector | Descripción | Peso |
 |--------|-------------|------|
-| V125 | WHCD Shooting — tirador doméstico, Trump ileso, no atribución iraní | CRÍTICO |
-| V126 | Insider trading $2.72B / 4 trades / 4/4 — CFTC activo | ESTRUCTURAL |
-| V127 | Arquitectura Signalgate→VanDyke→Futuros — canal sistémico verificado | HISTÓRICO |
-| V128 | Erosión marca EEUU desde adentro — cuatro pilares simultáneamente degradados | HISTÓRICO |
+| V129 | Trump-Putin "timetable similar" + Putin advierte no reanudar ataques | CRÍTICO |
+| V130 | Hegseth 6h Congreso — mentira bajo juramento — fisuras GOP | ESTRUCTURAL |
+| V134 | China CSONU desde 1° mayo — Fu Cong presidente | CRÍTICO |
+| V138 | Costo real guerra $50B — Hegseth mintió al Congreso | ESTRUCTURAL |
+| V139 | Frente internacional coordinado no declarado | ESTRUCTURAL |
+| V140 | Implosión cripto Trump — Eric Trump borrado Alt5 HOY | ESTRUCTURAL |
+| V141 | Doctrina Donroe + Ecuador operaciones + Colombia presión | REGIONAL |
+| V142 | Colombia elecciones: Cepeda 44.3% — CSONU junio | ESTRATÉGICO |
 
+*(Vectores V125-V128 documentados en CHANGELOG v0.2.0)*
 *(Vectores anteriores V107-V124 documentados en CHANGELOG v0.1.9)*
+*(Vectores V48-V106 documentados en CHANGELOG v0.1.8)*
 
 ---
 
-## CUATRO RELOJES EN TENSIÓN — S07
+## FRASES DEL MODELO — REGISTRO HISTÓRICO
 
-**Reloj MILITAR** → apunta a B/F
-Sin cambio estructural. Hormuz cerrado. Fatiga logística activa. Ghalibaf "cartas" sin activar. China: sus barcos siguen pasando.
+**S05:** *"En el intento de evitar que Irán desarrollara un arma de destrucción masiva, EE.UU. le entregó un arma de disrupción masiva, mientras China observaba, y el presidente del país agresor vendía acceso a su persona por $539,000 el cubierto — el mismo día en que su negociador de paz intentaba salvar el mundo en Islamabad."*
 
-**Reloj FINANCIERO** → apunta a F
-Brent $105.33 — a $5 del umbral crítico. Proyección lunes $108-112. Goldman: si Hormuz sigue cerrado un mes más → $120 Q3. Insider trading $2.72B patrón activo.
+**S06:** *"Islamabad II terminó como empezó: con Araghchi en un avión y los americanos llegando a una ciudad vacía. El rey juega al showman en Mar-a-Lago vendiendo tokens que valen 4 centavos por dólar invertido, mientras su negociador aterriza en Pakistan sin audiencia y China observa en silencio calculando cuánto capital político acumula antes de la cumbre de mayo."*
 
-**Reloj DOMÉSTICO** → PUNTO CRÍTICO MÁXIMO
-War Powers D60 martes 29 / legal 1° mayo. No Kings viernes — huelga general. WHCD shooting congela debate legislativo pero no desaparece la presión. La pinza del 1° mayo es la variable más cargada de la semana.
+**S07:** *"El rey sobrevivió. El tirador era un maestro de Caltech con una maestría en ciencias de la computación — exactamente el perfil que el manifiesto de Palantir llama a 'obligación afirmativa' con el aparato de defensa. Cuando un sistema produce las contradicciones que lo atacan, cuando sus propios mecanismos de control se convierten en canales de monetización, cuando sus mejores instituciones forman a quienes luego lo cuestionan con armas — ese sistema no está siendo atacado desde afuera. Está colapsando desde adentro."*
 
-**Reloj IRANÍ INTERNO** → el más silencioso / el más decisivo
-47.5% inflación. 36,000 muertos protestas enero. Economía en colapso. Ventana de resistencia 2-3 meses. Araghchi regresa a Teherán sin acuerdo. El reloj sigue.
-
----
-
-## Cuadro maestro de posiciones negociadoras
-
-| Tema | Posición EE.UU. | Posición Irán | Gap | Δ S07 |
-|---|---|---|---|---|
-| Uranio enriquecido | Eliminar / sacar del país | Mover a tercero (Turquía) | ESTRECHO | → |
-| Enriquecimiento futuro | Cero | Máx. 5 años pausa | MEDIO | → |
-| Misiles balísticos | Limitar | **LÍNEA ROJA ABSOLUTA** | TOTAL | → |
-| Hormuz tolls | Eliminar | Levantar si sanciones off | CONDICIONAL | → |
-| Sanciones | Alivio gradual | Levantamiento total previo | AMPLIO | → |
-| Bloqueo naval | Continuará hasta acuerdo | Levantar antes de negociar | BLOQUEANTE | → |
-| Posición nuclear | Bilateral EE.UU.-Irán | Con China+Rusia como garantes | NUEVO S06 | → |
+**S08:** *"China no necesita ganar la guerra de Irán. Solo necesita ser el actor que la termina. Eso vale más que cualquier victoria militar — y cuesta menos que un portaaviones. Trump tiene dos relojes: el diplomático marca 3-4 semanas para recular, el político marca 4-6 meses de margen. Si los sincroniza bien, sobrevive. Si no, los dos cruzan medianoche juntos. La Torre de Babel no colapsa porque la ataquen desde afuera. Colapsa porque los constructores ya no hablan el mismo idioma. Y Colombia — la provincia que tiene un asiento en el Consejo de Seguridad en junio — no es espectadora de nada de esto. Nunca lo fue."*
 
 ---
 
@@ -236,18 +264,9 @@ War Powers D60 martes 29 / legal 1° mayo. No Kings viernes — huelga general. 
 | 04 | 2026-04-19 | Regular | 50 | 0.82 | A: 0.50 | ✅ |
 | 05 | 2026-04-24 | Regular | 106 | 0.86 | A: 0.43 | ✅ |
 | 06 | 2026-04-25 | Regular | 124 | 0.86 | F/A: 0.30/0.31 | ✅ |
-| **07** | **2026-04-25** | **EMERGENCIA** | **128** | **0.84** | **F: 0.33** | **✅** |
-| 08 | 2026-04-29/30 | — | — | — | — | 🔜 |
-
----
-
-## Frases del modelo — registro histórico
-
-**S05:** *"En el intento de evitar que Irán desarrollara un arma de destrucción masiva, EE.UU. le entregó un arma de disrupción masiva, mientras China observaba, y el presidente del país agresor vendía acceso a su persona por $539,000 el cubierto — el mismo día en que su negociador de paz intentaba salvar el mundo en Islamabad."*
-
-**S06:** *"Islamabad II terminó como empezó: con Araghchi en un avión y los americanos llegando a una ciudad vacía. El rey juega al showman en Mar-a-Lago vendiendo tokens que valen 4 centavos por dólar invertido, mientras su negociador aterriza en Pakistan sin audiencia y China observa en silencio calculando cuánto capital político acumula antes de la cumbre de mayo. El Escenario F no es el escenario del ganador. Es el escenario de los dos exhaustos — uno que no puede sostener el bloqueo, y otro que no puede sostener la economía — negociando a través de un intermediario que es el único que gana en cualquier resultado."*
-
-**S07:** *"El rey sobrevivió. El tirador era un maestro de Caltech con una maestría en ciencias de la computación — exactamente el perfil que el manifiesto de Palantir llama a 'obligación afirmativa' con el aparato de defensa. El movimiento que se llama 'No Kings' tiene 8 millones de personas y llega al mismo día que la ley constitucional que debería limitar al rey. Alguien apostó $2.72 billion cuatro veces en 15 minutos antes de que el rey hablara, y acertó las cuatro. Cuando un sistema produce las contradicciones que lo atacan, cuando sus propios mecanismos de control se convierten en canales de monetización, cuando sus mejores instituciones forman a quienes luego lo cuestionan con armas — ese sistema no está siendo atacado desde afuera. Está colapsando desde adentro."*
+| 07 | 2026-04-25 | EMERGENCIA | 128 | 0.84 | F: 0.33 | ✅ |
+| **08** | **2026-04-30** | **Regular** | **142** | **0.87** | **F/A: 0.34/0.30** | **✅** |
+| 09 | 2026-05-04/05 | — | — | — | — | 🔜 |
 
 ---
 
@@ -255,16 +274,14 @@ War Powers D60 martes 29 / legal 1° mayo. No Kings viernes — huelga general. 
 
 El ICM opera con el Protocolo ANCHOR v2.0 desde S07.
 
-**Lo que el protocolo hace:** Obliga a nombrar las limitaciones del sistema antes de operar. No mide nada. No certifica rigor. No elimina sesgos.
-
-**Lo que el protocolo no hace:** No convierte las probabilidades en mediciones reales. No garantiza independencia del operador. No resuelve que el modelo de cada sesión es una instancia nueva sin memoria genuina.
-
 **Advertencia permanente del sistema:**
 Las probabilidades son juicios cualitativos con forma numérica.
 La convergencia es una metáfora cuantificada, no una medición.
 La utilidad del ICM es real. Su certeza no lo es.
 
-**Anomalía S07:** Bloque 2 del operador no completado. ISIO implícito elevado. La sesión operó sin contrapeso humano verificado durante ~5 horas. S08 debe saldar esta deuda metodológica.
+**Estado S08:** Bloque 2 completado. Deuda metodológica S07 saldada.
+Sesgo operador declarado: (a) quiere resolución del conflicto.
+Contrapeso activo: desafiar señales de desescalada antes de integrarlas.
 
 ---
 
@@ -273,12 +290,15 @@ La utilidad del ICM es real. Su certeza no lo es.
 - [x] v0.1.0 — Arquitectura conceptual documentada
 - [x] v0.1.4 — Sesiones 01 y 02 parte 1 completadas
 - [x] v0.1.5 — Sesión 02 parte 2 — Consilience como arquitectura epistemológica
-- [x] v0.1.6 — Sesión 03 — 14 vectores nuevos — corrección honesta al cierre
+- [x] v0.1.6 — Sesión 03 — 14 vectores nuevos
 - [x] v0.1.7 — Sesión 04 — 14 vectores nuevos — dos relojes en tensión
 - [x] v0.1.8 — Sesión 05 — 56 vectores nuevos — tres relojes + nodo cripto
-- [x] v0.1.9 — Sesión 06 — 18 vectores nuevos — seis escenarios + Escenario F + cuatro relojes
-- [x] **v0.2.0 — Sesión 07 EMERGENCIA — 4 vectores sistémicos + 3 hipótesis provisionales + WHCD shooting**
+- [x] v0.1.9 — Sesión 06 — 18 vectores nuevos — seis escenarios + Escenario F
+- [x] **v0.2.0 — Sesión 07 EMERGENCIA — 4 vectores + 3 hipótesis provisionales + WHCD**
+- [x] **v0.2.0 — Sesión 08 — 14 vectores + Colombia nodo activo + Brent $120 + China CSONU**
 - [ ] v0.3.0 — Motor bayesiano implementado en código
+- [ ] v0.3.0 — Factor Cuba incorporado como nodo independiente
+- [ ] v0.3.0 — Múltiples operadores para reducción de sesgo
 - [ ] v1.0.0 — Sistema operativo completo
 
 ---
@@ -290,4 +310,5 @@ Pearl, J. & Mackenzie, D. (2018). *The Book of Why: The New Science of Cause and
 ---
 
 *Proyecto iniciado el 6 de abril de 2026. Operado mediante dialéctica humano-IA.*
-*Operador: docente colombiano.*
+*Operador: docente colombiano, Medellín.*
+*S08: sesión más larga del ICM — ~13 horas | 142 vectores | 60 fuentes | Convergencia 0.87*
