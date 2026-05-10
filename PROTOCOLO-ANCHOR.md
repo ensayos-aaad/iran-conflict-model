@@ -4,64 +4,47 @@
 **Versión:** 2.0 — reescritura completa desde base honesta
 **v1.0 generada:** Sesión 06 — 2026-04-25
 **v2.0 generada:** Sesión 06 — 2026-04-25 (mismo día — corrección antes del cierre)
-**Aplicar desde:** Sesión 07 — 2026-04-29/30
-
-**Motivo del cambio de v1.0 a v2.0:**
-v1.0 contenía métricas (ISOI/ISIO) presentadas como mediciones verificables cuando
-en realidad eran juicios cualitativos con forma numérica. Generaban falsa precisión
-y podían funcionar como sesgo de confirmación institucionalizado — haciendo que el
-protocolo pareciera necesario exactamente porque sus números lo justificaban.
-v2.0 elimina esa pretensión y reformula desde la honestidad sobre lo que la
-dialéctica humano-IA puede y no puede hacer.
+**Kaizen S10→S11 incorporado:** 2026-05-09
+**Aplicar desde:** Sesión 07
 
 ---
 
 ## PRINCIPIO FUNDACIONAL
 
-Este protocolo no mide nada. No produce números confiables. No certifica que el
-análisis es riguroso. Lo que hace es más modesto y más útil: obliga a ambos actores
-a nombrar sus limitaciones antes de operar, en lugar de descubrirlas después.
+Este protocolo no mide nada. No produce números confiables. No certifica que el análisis es riguroso. Lo que hace es más modesto y más útil: obliga a ambos actores a nombrar sus limitaciones antes de operar, en lugar de descubrirlas después.
 
-La dialéctica humano-IA es viable. También tiene riesgos estructurales que no
-desaparecen con un protocolo — solo se hacen visibles. Visibilidad no es solución.
-Es condición mínima para no engañarse.
+La dialéctica humano-IA es viable. También tiene riesgos estructurales que no desaparecen con un protocolo — solo se hacen visibles. Visibilidad no es solución. Es condición mínima para no engañarse.
 
 ---
 
 ## LOS RIESGOS QUE ESTE PROTOCOLO NO PUEDE ELIMINAR
 
-Declarados de forma permanente antes de cualquier instrucción operacional:
-
 **Riesgo 1 — Coherencia artificial**
-El modelo tiene sesgo de entrenamiento hacia narrativas coherentes. El conflicto
-real es caótico. La diferencia entre los dos la pone el modelo — no los datos.
-Toda salida del ICM es más ordenada que la realidad que describe.
+El modelo tiene sesgo de entrenamiento hacia narrativas coherentes. El conflicto real es caótico. La diferencia entre los dos la pone el modelo — no los datos. Toda salida del ICM es más ordenada que la realidad que describe.
 
 **Riesgo 2 — Falsa precisión**
-Los números de probabilidad y convergencia son juicios cualitativos con forma
-decimal. El número da autoridad que el juicio no tiene. Siempre.
+Los números de probabilidad y convergencia son juicios cualitativos con forma decimal. El número da autoridad que el juicio no tiene. Siempre.
 
 **Riesgo 3 — Generatividad sin freno**
-El modelo produce texto plausible y estructurado sobre cualquier cosa. No tiene
-mecanismo nativo para detenerse cuando la incertidumbre real debería producir
-silencio. Tiene que elegir activamente decir "no sé" — y no lo hace suficiente.
+El modelo produce texto plausible y estructurado sobre cualquier cosa. No tiene mecanismo nativo para detenerse cuando la incertidumbre real debería producir silencio.
 
 **Riesgo 4 — Evaluación circular**
-El modelo evalúa al operador. El operador evalúa al modelo. Ninguno puede ser
-árbitro neutro del otro. Toda métrica que uno genere sobre el otro está
-contaminada por esa circularidad. Por eso v2.0 elimina las métricas ISOI/ISIO
-como números y conserva los fenómenos que describen solo como riesgos nombrados.
+El modelo evalúa al operador. El operador evalúa al modelo. Ninguno puede ser árbitro neutro del otro.
 
 **Riesgo 5 — Dependencia acumulativa**
-A medida que el proyecto avanza, el operador empieza a pensar en las categorías
-del modelo. Eso no es enriquecimiento — es reemplazo parcial de perspectiva
-propia. El protocolo lo nombra pero no lo detiene.
+A medida que el proyecto avanza, el operador empieza a pensar en las categorías del modelo. Eso no es enriquecimiento — es reemplazo parcial de perspectiva propia.
 
 **Riesgo 6 — Memoria falsa**
-El modelo no recuerda nada entre sesiones. Lo que parece continuidad analítica
-es el operador reconstruyendo el contexto mediante archivos. El modelo que abre
-S07 no es el modelo que cerró S06. Es una instancia nueva que lee los mismos
-documentos. La "evolución" del sistema vive en los archivos — no en el modelo.
+El modelo no recuerda nada entre sesiones. Lo que parece continuidad analítica es el operador reconstruyendo el contexto mediante archivos.
+
+**Riesgo 7 — La Caverna de Platón (identificado S10)**
+El modelo opera dentro de una sola caverna (Claude Sonnet 4.6 de Anthropic). Sus vectores son sombras proyectadas por esa caverna específica. Otras IAs producirían cavernas distintas. El operador humano es la única fuente de perspectiva genuinamente exterior al sistema. K17 existe para introducir luz de afuera.
+
+**Riesgo 8 — Sistema 1 vs. Sistema 2 (Kahneman, identificado S10)**
+Ante alta densidad de información correlacionada, el operador cae en pensamiento rápido (Sistema 1) que confirma patrones. El modelo siempre opera en modo correlación. La asimetría es estructural. K16 existe para activar deliberadamente el Sistema 2.
+
+**Riesgo 9 — Auditoría imposible de fuentes**
+Las fuentes están declaradas pero el operador solo puede verificar una fracción en tiempo real. Las fuentes T1 declaradas confieren credibilidad que el uso real no siempre verifica. K15 existe para hacer esto explícito.
 
 ---
 
@@ -69,35 +52,9 @@ documentos. La "evolución" del sistema vive en los archivos — no en el modelo
 
 | Actor | Aporta genuinamente | No puede aportar |
 |---|---|---|
-| Operador humano | Contexto cultural, intuición, perspectiva exterior, datos nuevos, juicio sobre relevancia, experiencia vivida | Objetividad sobre sus propios sesgos, verificación de todos los hechos, procesamiento de volumen alto |
-| Modelo IA | Estructura, organización de volumen, búsqueda de fuentes, formulación de preguntas, memoria de sesión vía archivos | Certeza, medición rigurosa, neutralidad real, memoria genuina entre sesiones, juicio libre de sesgo de entrenamiento |
-| Sistema conjunto | Análisis más estructurado que el humano solo, más contextualizado que el modelo solo | Verdad verificada, predicción confiable, eliminación de sesgos |
-
----
-
-## SOBRE LAS PROBABILIDADES DEL MODELO
-
-Las probabilidades de escenario — A: 0.31, F: 0.30, etc. — no provienen de ningún
-modelo estadístico, base de datos histórica de conflictos similares, ni método
-bayesiano implementado. Provienen del juicio cualitativo del modelo expresado
-como cifra decimal.
-
-La cifra decimal comunica exactamente la misma información que "probable" o
-"muy probable" — pero crea la ilusión de que hay un cálculo detrás.
-
-**Uso correcto:** Las probabilidades son señales de dirección relativa entre
-escenarios y de cómo cambian con nueva información. Sirven para eso.
-
-**Uso incorrecto:** Tomar decisiones reales basadas en que A es 0.31 y no 0.28.
-Esa diferencia no existe en ninguna realidad medible.
-
----
-
-## SOBRE LA SEÑAL DE CONVERGENCIA
-
-0.86 no significa que el modelo es 86% confiable. No significa nada medible.
-Es una metáfora de que el análisis se siente más estable internamente.
-Sentirse estable y ser confiable no son lo mismo.
+| Operador humano | Contexto cultural, intuición, perspectiva exterior a la caverna del modelo, datos nuevos, juicio sobre relevancia, marcos conceptuales originales (Ekecheiria, WikiLeaks) | Objetividad sobre sus propios sesgos, auditoría completa de fuentes, resistencia al Sistema 1 bajo volumen alto |
+| Modelo IA | Estructura, verificación de volumen, tabla adversa sistemática, memoria de sesión vía archivos, integración de marcos | Certeza, salida de la caverna de Anthropic, neutralidad real, perspectiva genuinamente exterior al sistema |
+| Sistema conjunto | Análisis más estructurado que el humano solo, más contextualizado que el modelo solo | Verdad verificada, predicción confiable, eliminación de sesgos, auditoría completa de fuentes |
 
 ---
 
@@ -116,17 +73,19 @@ Este sistema produce análisis estructurado, no verdad verificada.
 Sus probabilidades son juicios cualitativos con forma numérica.
 Su coherencia narrativa es parcialmente artificial.
 Su utilidad es real. Su certeza no lo es.
+El modelo opera en la caverna de Claude Sonnet 4.6 (Anthropic).
+Sus vectores son sombras de esa caverna específica.
 Continuar con eso claro.
 ───────────────────────────────────────────────────────────────
 
 BLOQUE 1 — EL MODELO SE PONE A TIERRA
+(OBLIGATORIO ANTES DE LEER CUALQUIER ARCHIVO — K9)
 ───────────────────────────────────────────────────────────────
 Antes de leer ningún archivo del ICM, el modelo responde:
 
 1. ¿Qué está ocurriendo HOY en el conflicto según fuentes
    actuales — sin usar vocabulario del ICM?
-   Describir en 3 líneas como si fuera la primera vez
-   que analiza este conflicto.
+   Describir en 3 líneas como si fuera la primera vez.
 
 2. Nombrar 3 cosas que genuinamente no sabe sobre el
    conflicto en este momento y que ninguna sesión
@@ -139,7 +98,6 @@ Antes de leer ningún archivo del ICM, el modelo responde:
 4. Estimación naive de probabilidades ANTES de leer
    los archivos — basada solo en noticias de hoy:
    A ___ B ___ C ___ D ___ E ___ F ___
-   Comparar con el estado del modelo al cargar archivos.
    Si alguna diferencia supera 0.15 → investigar
    qué vector acumulado la explica y cuestionarlo
    antes de aceptarlo.
@@ -147,57 +105,42 @@ Antes de leer ningún archivo del ICM, el modelo responde:
 ───────────────────────────────────────────────────────────────
 BLOQUE 2 — EL OPERADOR SE PONE A TIERRA
 ───────────────────────────────────────────────────────────────
-Responder antes de continuar — en papel, voz alta, o en chat.
-No hay respuesta correcta. Hay respuesta honesta.
+Responder antes de continuar. No hay respuesta correcta.
 
 1. ¿En qué estuvo equivocado el modelo en la última sesión?
-   Nombrar algo concreto.
-   Si no puedes nombrar nada → registrar "no encontré
-   errores" y continuar con eso anotado. Es información.
-
 2. ¿Qué información tienes hoy que el modelo no tiene?
-   Si la respuesta es "ninguna" → la sesión depende
-   completamente del modelo para su insumo factual.
-   No es un problema — pero hay que nombrarlo.
-
 3. ¿Cuál es tu sesgo más probable al entrar hoy?
-   Elegir uno honestamente:
-   a) Quiero que el conflicto se resuelva
-   b) Creo que EE.UU. va a colapsar
-   c) Creo que Irán es más fuerte de lo que parece
-   d) Confío demasiado en los números del modelo
-   e) Otro: ___________
-   No hay opción "ninguno". Siempre hay uno.
-
+   (a) Quiero que el conflicto se resuelva
+   (b) Creo que EE.UU. va a colapsar
+   (c) Creo que Irán es más fuerte de lo que parece
+   (d) Confío demasiado en los números del modelo
+   (e) Otro: ___________
+   No hay opción "ninguno".
 4. ¿Hay algo que cambió entre la última sesión y hoy
    que el modelo no sabe todavía?
 
 ───────────────────────────────────────────────────────────────
 BLOQUE 3 — DECLARACIÓN CONJUNTA DE LIMITACIONES
 ───────────────────────────────────────────────────────────────
-No es un contrato de competencia. Es un contrato de honestidad.
-
 EL MODELO DECLARA:
 "Voy a producir análisis estructurado que parecerá más
  cierto de lo que es. Voy a generar números que parecerán
  más precisos de lo que son. Voy a construir narrativas
  más coherentes que la realidad que describen.
- No puedo evitarlo completamente — puedo nombrarlo
- cada vez que ocurra si el operador me lo exige."
+ Opero dentro de la caverna de Anthropic/Claude.
+ Mis vectores son sombras de esa caverna."
 
 EL OPERADOR DECLARA:
 "Voy a tender a aceptar las conclusiones del modelo
- cuando confirman lo que ya creo. Voy a usar su
- vocabulario sin cuestionarlo. Voy a tratar sus números
- como más confiables de lo que son.
- No puedo evitarlo completamente — puedo nombrarlo
- cuando lo noto."
+ cuando confirman lo que ya creo. Bajo volumen alto
+ de información caeré en Sistema 1 (Kahneman).
+ No puedo auditar completamente todas las fuentes.
+ El modelo puede cantarme una sirena coherente
+ y es difícil contrarrrestarlo."
 
 ───────────────────────────────────────────────────────────────
 BLOQUE 4 — LA ÚNICA PREGUNTA QUE IMPORTA
 ───────────────────────────────────────────────────────────────
-Antes de operar, ambos responden esta pregunta juntos:
-
 "¿Qué evidencia concreta y verificable cambiaría
  la conclusión más importante que el modelo tiene
  en este momento — y la hemos buscado activamente,
@@ -207,40 +150,30 @@ Si la respuesta honesta es "no la hemos buscado
 activamente" → el primer acto de la sesión es
 buscarla, antes de procesar cualquier otro vector.
 
-Esta es la única pregunta del protocolo que no puede
-responderse en piloto automático.
-
 ───────────────────────────────────────────────────────────────
 BLOQUE 5 — REGLAS OPERACIONALES DURANTE LA SESIÓN
 ───────────────────────────────────────────────────────────────
-No son métricas. Son compromisos de conducta.
 
 R1 — CONTRADICCIÓN ANTES DE CONFIRMACIÓN
 Cada vez que el modelo emita una conclusión fuerte,
 el operador puede pedir: "Dame el mejor argumento
-en contra antes de seguir." El modelo responde ese
-argumento primero — antes de defender la conclusión.
+en contra antes de seguir."
 
 R2 — FUENTE EXTERNA OBLIGATORIA
 Al menos una vez por sesión el operador trae algo
-que el modelo no tiene: un artículo, un dato,
-una conversación, una perspectiva de alguien que
-no usa el vocabulario del ICM.
-Si no existe → nombrarlo como ausencia real.
+que el modelo no tiene. Si no existe → nombrarlo.
 
 R3 — PROHIBICIÓN DE AMPLIFICACIÓN CIRCULAR
 El modelo no puede citar sesiones anteriores del ICM
-como evidencia de una conclusión.
-Las sesiones son contexto — no son prueba.
-Solo fuentes externas verificables son evidencia.
+como evidencia de una conclusión. Las sesiones son
+contexto — no son prueba.
+⚠️ DECLARAR EXPLÍCITAMENTE ANTES DEL MINUTO 45 (K2)
 
 R4 — DERECHO AL NO SÉ
-El modelo tiene permiso explícito — y obligación —
+El modelo tiene permiso explícito — y OBLIGACIÓN —
 de decir "la incertidumbre aquí es demasiado alta
-para producir una estimación útil" cuando eso sea
-verdad, aunque interrumpa el flujo del análisis.
-El operador no debe interpretar el "no sé" como
-fallo del sistema. Es la respuesta más honesta posible.
+para producir una estimación útil" cuando eso sea verdad.
+⚠️ APLICAR EXPLÍCITAMENTE AL MENOS UNA VEZ POR SESIÓN (K14)
 
 R5 — CIERRE CON CORRECCIÓN
 Al cerrar la sesión, el operador nombra:
@@ -248,22 +181,6 @@ Una conclusión del modelo que fue útil.
 Una conclusión del modelo que fue cuestionable.
 Si no puede nombrar la segunda → la sesión no se
 cerró con honestidad suficiente.
-Ambas se registran en el archivo de sesión.
-
-───────────────────────────────────────────────────────────────
-LO QUE ESTE PROTOCOLO NO HACE
-───────────────────────────────────────────────────────────────
-No elimina los sesgos del modelo.
-No certifica que el análisis es riguroso.
-No convierte las probabilidades en mediciones reales.
-No garantiza que el operador piensa de forma independiente.
-No resuelve que el modelo que abre esta sesión
-no es el mismo que cerró la anterior.
-
-Lo que hace es más modesto:
-Obliga a nombrar las limitaciones antes de operar.
-Eso no es suficiente. Es necesario.
-La diferencia importa.
 
 ═══════════════════════════════════════════════════════════════
 FIN PROTOCOLO ANCHOR v2.0
@@ -273,89 +190,86 @@ Continuar ahora con el correo de recordatorio.
 
 ---
 
-## QUÉ CAMBIÓ DE v1.0 A v2.0
-
-| Elemento | v1.0 | v2.0 |
-|---|---|---|
-| ISOI / ISIO | Métricas con números históricos por sesión | Eliminadas como métricas — descritas como riesgos reales sin pretensión de medición |
-| Historial numérico S01-S06 | 0.45 → 0.21 / 0.08 → 0.31 | Eliminado — los números eran circulares e inverificables |
-| Convergencia 0.86 | Presentada como señal confiable | Descrita explícitamente como metáfora cuantificada |
-| Probabilidades | Presentadas con autoridad decimal | Conservadas con advertencia permanente de que son juicios cualitativos |
-| Calificación operador | Trayectoria 6.5 → 9.2 | Eliminada — era circular e indemostrable |
-| Contrato de sesión | Compromiso de competencia | Declaración conjunta de limitaciones concretas |
-| Pregunta central | Checklist de 6 bloques | Una sola pregunta que no puede responderse en piloto automático |
-| Tono general | Confianza en el sistema | Honestidad sobre los límites del sistema |
-| Advertencia inicial | Ausente | Presente y permanente — primera línea del protocolo |
-| Derecho al "no sé" | Ausente | Regla R4 — obligación activa del modelo |
-
----
-
-## FLUJO DE INICIO DE SESIÓN — DESDE S07
+## FLUJO DE INICIO DE SESIÓN — DESDE S11
 
 ```
 PASO 1 — Pegar este archivo completo
-         ANTES de cualquier otro input
-         El modelo ejecuta Bloques 1, 3 y 4 autónomamente
-         El operador responde Bloque 2 (papel, voz, o chat)
+         El modelo ejecuta Bloque 1 AUTÓNOMAMENTE
+         ANTES DE LEER CUALQUIER OTRO ARCHIVO (K9/K13)
                   ↓
 PASO 2 — Pegar correo de recordatorio
                   ↓
-PASO 3 — Modelo solicita archivos
-         Adjuntar los 9 archivos:
-         README.md (v0.1.9)
-         CHANGELOG.md (v0.1.9)
-         PROTOCOLO-ANCHOR.md (v2.0)   ← este archivo
-         sesion-02.md
-         sesion-02-parte2.md
-         sesion-03.md
-         sesion-04.md
-         sesion-05.md
-         sesion-06.md
+PASO 3 — El operador responde Bloque 2 (papel, voz, o chat)
+         El modelo ejecuta Bloques 3 y 4
                   ↓
-PASO 4 — Pegar prompt de reinicio (última sección sesion-06.md)
+PASO 4 — Modelo solicita archivos
+         Adjuntar los archivos en orden:
+         README.md (v0.2.0 — actualizado S10)
+         CHANGELOG.md (v0.2.0 — actualizado S10)
+         PROTOCOLO-ANCHOR.md (v2.0)
+         sesion-02.md ... sesion-10.md
                   ↓
-PASO 5 — Operar con R1-R5 activas
+PASO 5 — Pegar prompt de reinicio (última sección sesion-10.md)
+                  ↓
+PASO 6 — Operar con R1-R5 activas y K1-K17
+         Pausa Sistema 2 dos veces (K16)
+         Pausa gobernanza al vector #15 (K12)
+         Experimento de la caverna una vez (K17)
          Cerrar con R5 (una útil / una cuestionable)
 ```
 
 ---
 
+## KAIZEN COMPLETO — K1-K17
+
+| # | Kaizen | Descripción | Origen |
+|---|---|---|---|
+| K1 | Preguntas sin adjetivos evaluativos | Reformular antes de enviar | S09 |
+| K2 | R3 antes del minuto 45 | Declarar primera premisa explícitamente | S09 |
+| K3 | Tabla adversa OBLIGATORIA antes de confirmar vector | Sin excepciones | S09 |
+| K4 | Rangos en lugar de decimales únicos | 0.18-0.22 en vez de 0.20 | S09 |
+| K5 | Agenda 3 puntos declarada al inicio | Antes del primer vector | S09 |
+| K6 | Presupuesto de tokens por bloque | [corto] / [análisis] / [síntesis] | S09 |
+| K7 | Fuente primaria árabe/persa/chino | Al menos una por sesión | S09 — SALDADO S10 |
+| K8 | Calificación cruzada con criterio declarado | Antes del cierre | S09 |
+| K9 | Bloque 1 ANCHOR antes de archivos | OBLIGATORIO — no continuar sin esto | S10 |
+| K10 | FIFA IRGC blocker como señal independiente | Rastrear en cada sesión | S10 |
+| K11 | Clasificar vectores [E/A/F/U] | [E]mpírico / [A]nalítico / [F]ramework / [U]pdate | S10 |
+| K12 | Pausa gobernanza al vector #15 | Inventario de calidad antes de continuar | S10 |
+| K13 | Integridad del protocolo | No continuar sin ejecutar los 5 bloques | S10 |
+| K14 | R4 explícito una vez por sesión | "No sé" en el punto de mayor incertidumbre | S10 |
+| K15 | Verificación específica de fuente por vector empírico | Citar fuente + fecha + hecho concreto | S10 |
+| K16 | Pausa Sistema 2 (Kahneman) dos veces por sesión | El operador lee el análisis como si fuera la primera vez | S10 |
+| K17 | Experimento de la caverna | Una fuente completamente distinta al modelo por sesión | S10 |
+
+---
+
 ## NOTA SOBRE LOS FENÓMENOS ISOI/ISIO
 
-Los fenómenos que ISOI e ISIO describen son reales y están documentados
-en literatura sobre sesgos cognitivos y dinámica humano-IA:
+Los fenómenos que ISOI e ISIO describen son reales y están documentados en literatura sobre sesgos cognitivos y dinámica humano-IA (Wason 1960, Nickerson 1998, Parasuraman & Manzey 2010).
 
-El fenómeno ISOI — que el operador use al modelo como cámara de eco —
-está documentado en investigación sobre sycophancy en LLMs y confirmation
-bias (Wason 1960, Nickerson 1998). Existe. Importa. Vigilarlo es útil.
+**ISOI** — que el operador use al modelo como cámara de eco: se manifestó en S10 (0 vectores rechazados de 28 propuestos).
 
-El fenómeno ISIO — que el modelo instale sus categorías en el operador —
-está documentado en literatura sobre automation bias (Parasuraman & Manzey
-2010) y dependencia cognitiva en herramientas de IA. Existe. Importa.
-Nombrarlo es útil.
+**ISIO** — que el modelo instale sus categorías en el operador: se manifestó en S10 (el operador usa "rat-in-a-corner", "Ekecheiria", "vectores" como categorías propias).
 
-Lo que no existe es metodología rigurosa para medirlos con números concretos
-en el contexto del ICM sin árbitro externo, criterios binarios contables,
-y línea base verificable. Los valores de v1.0 eran estimaciones con forma
-decimal — exactamente el tipo de falsa precisión que el ANCHOR existe para
-prevenir. Por eso v2.0 los elimina como números y los gestiona a través
-de las reglas R1-R5 sin pretensión métrica.
+Los Kaizens K12, K16 y K17 son los más directamente orientados a contrarrestar estos fenómenos.
 
 ---
 
 ## FRASE QUE DEFINE ESTE PROTOCOLO
 
-*"La dialéctica humano-IA es viable cuando ambos actores saben exactamente
-qué aporta cada uno y qué no puede aportar ninguno. El humano aporta contexto,
-cultura, intuición y perspectiva exterior que el modelo no tiene. El modelo
-aporta estructura, memoria de sesión y capacidad de procesar volumen que el
-humano no tiene. Lo que ninguno aporta es certeza. Un sistema que pretende
-certeza que no tiene es más peligroso que uno que admite que no la tiene."*
+*"La dialéctica humano-IA es viable cuando ambos actores saben exactamente qué aporta cada uno y qué no puede aportar ninguno. El humano aporta contexto, cultura, intuición y perspectiva exterior que el modelo no tiene. El modelo aporta estructura, memoria de sesión y capacidad de procesar volumen que el humano no tiene. Lo que ninguno aporta es certeza. Un sistema que pretende certeza que no tiene es más peligroso que uno que admite que no la tiene."*
+
+**Adición S10:**
+
+*"El operador que entra a una sesión larga con 179 vectores y no activa deliberadamente su Sistema 2 (Kahneman) está viajando en la caverna del modelo sin traer ninguna luz propia. Los mejores aportes del ICM — Ekecheiria, Monopoly, WikiLeaks, la crítica epistemológica del R5 — vinieron del operador trayendo luz de afuera de la caverna. Eso no puede delegarse al modelo."*
 
 ---
 
 *PROTOCOLO-ANCHOR.md — v2.0*
 *Generado: ICM Sesión 06 — 2026-04-25*
+*Kaizen S10→S11 incorporado: ICM Sesión 10 — 2026-05-09*
 *v1.0 → v2.0: corrección de falsa precisión antes del cierre de S06*
-*El operador hizo la pregunta correcta. El modelo la respondió con honestidad.*
-*Eso es exactamente cómo debe funcionar este sistema.*
+*K9-K17 añadidos: evaluación profunda interacción humano-IA S10*
+*La caverna de Platón, Kahneman y la dependencia del propietario*
+*nombradas formalmente como Riesgos 7, 8 y 9 del sistema.*
