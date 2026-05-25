@@ -2,196 +2,214 @@
 
 ---
 
+## [v0.2.0 — S11] — 2026-05-24
+
+### Sesión 11 — Regular con brecha de 6 días — 25 vectores nuevos (V180-V204)
+
+**Archivo de simulación:** `simulaciones/2026-05-24-sesion-11.md`
+**Duración:** Sesión única — 24 mayo 2026 COT
+**Convergencia:** 0.83 → **0.77** (↓ tensión A/F máxima)
+**Brecha S10→S11:** 15 días (9→24 mayo) — 6 días después de fecha planificada
+
+---
+
+#### TIPO DE SESIÓN
+
+Sesión regular ejecutada con protocolo ANCHOR v2.0 completo por primera vez — los 5 bloques ejecutados en orden correcto antes de cargar archivos. Primera sesión donde K9 fue cumplido sin deuda. Mayor número de inyecciones dialécticas del operador: 24 señales externas procesadas. S11 ejecutada en D84, a 18 días del pitazo inicial del Mundial (Criterio B de parada).
+
+---
+
+#### CAMBIO ESTRUCTURAL PRINCIPAL
+
+**F toma el primer lugar en la historia del ICM** — 0.18 (S10) → 0.43 (S11).
+Primera vez que F supera a B como escenario dominante.
+A+F = 0.70: el conflicto termina formalmente antes del 11 junio con 70% de probabilidad.
+La distinción entre A y F es estructuralmente invisible hasta que exista texto del MOU firmado.
+
+---
+
+#### NOVEDADES METODOLÓGICAS S11
+
+- **K9 SALDADO:** Bloque 1 ANCHOR ejecutado autónomamente antes de cargar cualquier archivo — deuda de múltiples sesiones resuelta.
+- **K11 ACTIVO:** 25/25 vectores clasificados [E/A/F/U] sin excepción.
+- **K12 ACTIVO:** Pausa de gobernanza ejecutada al vector #15.
+- **K14 ACTIVO:** R4 ("no sé") aplicado 3 veces en la sesión.
+- **K16 ACTIVO:** 2 pausas Sistema 2 (Kahneman) ejecutadas.
+- **K17 ACTIVO:** 15+ señales genuinamente externas a la caverna aportadas por el operador.
+- **Barrido de medios ejecutado:** Revisión completa de las 42 fuentes acordadas al cierre de sesión.
+- **K18, K19, K20 propuestos:** Nuevos principios Kaizen para S12.
+- **Calificación operador: 8.5/10** — Primera vez que se alcanza la meta establecida en S10.
+
+---
+
+#### SEÑALES CRÍTICAS VERIFICADAS EN LA BRECHA (9-24 mayo)
+
+| Señal | Resultado verificado |
+|---|---|
+| Beijing Trump-Xi 14-15 mayo | Ejecutado. "Irán no puede tener arma nuclear." Teatro + concesión táctica. Sin acuerdo vinculante |
+| Respuesta iraní al MOU | Sin firma. "En principio" acordado. Líder Supremo aprobó "plantilla" según EEUU |
+| Ataque Barakah (EAU) | VERIFICADO — 17 mayo. Drones proxy Iraq. Umbral nuclear civil cruzado por primera vez |
+| PGSA formalizada | VERIFICADO — 18 mayo. Sistema de peajes de facto operacional |
+| Gabbard renuncia | VERIFICADO — 22 mayo. Causa personal. Vacío DNI en momento crítico |
+| Netanyahu coalición fracturada | VERIFICADO — Knesset avanza disolución. Elecciones octubre posibles |
+| FIFA base camp Tijuana | VERIFICADO — Aprobada por FIFA según Iran FF. Partidos LA/Seattle sin cambio |
+| Murkowski AUMF | NO ENCONTRADO — Thune sigue bloqueando |
+| Cisne negro buque guerra | NO ACTIVADO — Marco vigente |
+
+---
+
+#### VECTORES NUEVOS PROCESADOS (V180-V204)
+
+**V180 — MOU arquitectura revelada [E]**
+Estructura de dos fases verificada: Fase 1 (Hormuz + activos + 30 días) → Fase 2 (nuclear 30-60 días). Pakistan como mediador activo. Asim Munir en Teherán 23 mayo. "Progreso alentador."
+
+**V181 — Netanyahu coalición fracturada [E]**
+Knesset avanza proyecto de ley de disolución. Elecciones octubre posibles. Coalición interna fracturada entre Ben Gvir (línea dura) y Sa'ar/Netanyahu. Cambio en el cálculo de sabotaje israelí.
+
+**V182 — Moreno-Colombia: intervencionismo pre-electoral [E]**
+Senador Moreno amenazó no reconocer resultado electoral colombiano. Viaje como observador a Colombia + Honduras + Ecuador + Bolivia. Arquitectura idéntica al ecosistema Hondurasgate. Nodo CSONU junio activado.
+
+**V183 — Vacío DNI: Gabbard fuera [U]**
+Renuncia efectiva 30 junio. Aaron Lukas actuante. Vacío en inteligencia durante negociación nuclear más crítica en décadas.
+
+**V184 — Hormuz toll system: PGSA formalizada [E]**
+Persian Gulf Strait Authority lanzada formalmente 18 mayo. Cuenta oficial en X. Proceso de autorización documentado. Peajes de $2M/barco de facto. Señal: F está ejecutándose operacionalmente.
+
+**V185 — Bifurcación A/F: estructura temporal del MOU [A]**
+Clarificación analítica clave: A y F son el mismo momento visto desde perspectivas temporales distintas. Corto plazo = F (MOU 60 días). Largo plazo potencial = A (si fase 2 nuclear se resuelve).
+
+**V186 — Reconstitución iraní: brecha CENTCOM vs. inteligencia [E]**
+Fuentes de inteligencia EEUU (CNN T1): Irán reconstituyó 30/33 sitios de misiles. Más rápido de lo esperado. CENTCOM dijo "destruimos el 90%." Las dos afirmaciones son contradictorias. La inteligencia contradice al Secretario de Defensa.
+
+**V187 — Ataque Barakah: escalada de umbral nuclear [E — VECTOR CRÍTICO]**
+17 mayo — D+2 post-Beijing. Drones iraníes (proxy Iraq) atacaron planta nuclear Barakah (EAU). Incendio en generador. Sin víctimas. Primera vez en el conflicto que se cruza el umbral de instalación nuclear civil. Bloomberg: "disparo de advertencia." Trump cambió tono 48 horas después. EEUU no reinició ataques.
+
+**V188 — FIFA Ekecheiria activada [E]**
+FIFA aprobó base camp Irán en Tijuana, México (vs. Tucson, AZ). Solución de workaround: México neutral. Partidos en LA/Seattle sin cambio. 240 barcos esperando autorización Irán. Ekecheiria mínima activada.
+
+**V189 — Ben Gvir / Flotilla / Sanciones europeas [E]**
+Video de Ben Gvir mostrando activistas arrodillados. Italia (giro histórico), España, Irlanda, Francia, Australia condenan. Italia bloquea sanciones UE → su giro abre la vía. Netanyahu condenó a Ben Gvir internamente.
+
+**V190 — Albanese / Relatoría ONU [E+U]**
+Sanciones EEUU a Albanese reinstauradas 23 mayo tras orden judicial. Apoyo funcional a la relatoría se amplía por países que actúan en la misma dirección. Colombia-CSONU junio: primera prueba política.
+
+**V191 — OTAN: fractura + tropas Polonia + Ucrania [E+A]**
+Trump retiró 5,000 tropas de Alemania → revirtió y mandó 5,000 a Polonia. Ley Rubio-Kaine bloquea retiro de OTAN. España bloqueó base Rota. Italia bloqueó Sicilia. Rusia: ataque más grande desde inicio de invasión (13-14 mayo: 1,567 drones + 56 misiles).
+
+**V192 — Doctrina Monroe 2026 [A+F]**
+Mapa hemisférico: capturados (Ecuador, Bolivia, Argentina), bajo presión máxima (Cuba EO 14404), tensión negociada (México, Colombia), transición incierta (Brasil, Bolivia). Sheinbaum: "cooperación sí, intervención no."
+
+**V193 — Trampa de Tucídides [A+F]**
+Xi la nombró explícitamente en Beijing el 14 mayo. Tres niveles: (1) EEUU-China clásica, (2) EEUU-Irán asimétrica, (3) Trampa anidada. China prefiere B. Paradoja: resolver A en Irán acelera la trampa con China.
+
+**V194 — Arquitectura de silencio: Vance/Rubio/Hegseth [A]**
+Hegseth en silencio desde 12 mayo (contradicho por inteligencia en Congreso) = opción militar cerrada. Vance reaparece 19 mayo llamando a Irán "gran civilización" = ensayando discurso para anuncio. Rubio activo en todos los frentes = único canal diplomático funcional.
+
+**V195 — UMBRAL A/F: "acuerdo en principio" sin firma [E BREAKING]**
+CBS News: Irán acordó "en principio" deshacerse del uranio. Líder Supremo aprobó "plantilla." No se firmará este fin de semana. Axios: estructura completa del MOU (60 días / Hormuz / nuclear postergado). Fars contradice a Trump sobre control de Hormuz.
+
+**V196 — Epstein/Trump: 3.5M páginas + instalación NY [E]**
+"The Donald J Trump and Jeffrey Epstein Memorial Reading Room" — Tribeca, NYC. 3,437 volúmenes. Trump mencionado 1,000+ veces. Paradoja: Trump firmó la ley que requirió publicar los documentos. Señal de la "trampa del propio instrumento."
+
+**V197 — Trump atrincherado: 11 señales de erosión [E+A]**
+$1.8B fondo anti-weaponización — rebelión senadores propios. Kevin Warsh Fed. Gasolina $4.55 Memorial Day. Epstein. Colbert. Midterms. Marca personal en mínimos. Aprobación económica 29% — récord histórico negativo. El MOU como única salida narrativa viable.
+
+**V198 — Colbert Late Show: reconfiguración cultural [E+F]**
+Récord de audiencia entre semana. CBS reemplaza con "Comics Unleashed" — apolítico. H12 en su expresión cultural más visible. Infraestructura de oposición cultural mainstream cerrando canales.
+
+**V199 — Cables submarinos + Big Tech + Mundial [E+A]**
+IRGC anunció peajes a cables de internet. Google, Meta, Amazon, Microsoft nombrados. 7 cables, 20% tráfico global. $15B en ingresos potenciales estimados por parlamentario iraní. Big Tech con acceso directo a Casa Blanca bajo Trump 2.0. El Mundial necesita los cables. Presión invisible pero estructural hacia el anuncio.
+
+**V200 — La coalición invisible: quién NECESITA la paz [E+A]**
+VECTOR MILESTONE 200. Hoteles: $600M/día en pérdidas regionales. Aerolíneas: 37,000+ vuelos cancelados. Coca-Cola/P&G: EMEA 22-31% de revenue. Medios: derechos del Mundial en riesgo. Mercados: Brent a $80 si hay acuerdo. Todos apuntan al mismo resultado antes del 11 junio.
+
+**V201 — Mapa geopolítico global: aislamiento Trump [A]**
+Barrido completo: Árabes (quieren acuerdo, no la guerra), India (neutralidad estratégica), Turquía (oposición declarada), Israel (riesgo de sabotaje), UE (Italia giro histórico), Japón+Corea (se alejan juntos de Trump), Sur Global (135 países en ONU). Trump llamó a líderes árabes → respaldaron el acuerdo pero silencio total sobre normalización con Israel.
+
+**V202 — Reino Unido: crisis Starmer + HMS Lyme Bay [E]**
+95+ MPs laboristas piden renuncia de Starmer. Gilt yields en máximos de décadas. Inflación por choque energético iraní. HMS Lyme Bay esperando en Gibraltar para operación de desminado — SOLO si se firma el MOU. UK es el "notario de credibilidad" del acuerdo.
+
+**V203 — Triángulo Ucrania-OTAN-Irán [E+A]**
+OTAN: "necesitamos municiones y no las tenemos." Irán provee drones a Rusia = Ucrania sufre. El MOU con Irán cortaría el canal de drones. Europa apoya el MOU también para proteger a Ucrania. Rusia tiene incentivo estructural para que el acuerdo NO se firme.
+
+**V204 — Arte de la Guerra: quién favorece la situación [A]**
+Sun Tzu aplicado bilateralmente. El eje Irán-China-Rusia ganó estratégicamente el tiempo, la narrativa, la reconstitución y el desgaste del adversario. EEUU está en "terreno fatal" — su única salida correcta según Sun Tzu es el MOU como "puerta abierta." El eje acepta F porque es ganar sin combatir. EEUU acepta F porque es la única opción.
+
+---
+
+#### KAIZEN S11 → S12
+
+| Kaizen | Descripción |
+|---|---|
+| K18 NUEVO | Distinción A/F como pregunta central desde el inicio de la sesión |
+| K19 NUEVO | Máximo 3 frameworks analíticos por sesión (S11 usó 7+) |
+| K20 NUEVO | Sin texto MOU firmado y publicado = F, no A — criterio duro |
+
+---
+
+#### R5 — CIERRE S11
+
+**① Conclusión ÚTIL:** "La paz es necesaria cuanto antes" — verificada con 204 vectores. F+A=0.70. Todos los actores convergen.
+
+**② Conclusión CUESTIONABLE:** "Con Trump nunca se sabe" — el modelo construyó 204 vectores de racionalidad estructural sobre un actor cuya característica definitoria es la irracionalidad táctica. El modelo pudo sobreestimar la coherencia del proceso negociador.
+
+---
+
+#### CALIFICACIONES S11
+
+| Sujeto | Calificación | Criterio principal |
+|---|---|---|
+| Operador | **8.5 / 10** | META CUMPLIDA. Protocolo completo ejecutado. 24 inyecciones externas. R5 honesto. |
+| Modelo | **7.5 / 10** | Prolijo. 7+ frameworks simultáneos. Distinción A/F tardía. K4 parcial. |
+
+---
+
+#### ESTADO AL CIERRE S11
+
+```
+Convergencia: 0.77
+Vectores: 204 (V01-V204)
+Día del conflicto: D84
+F: 0.43 DOMINANTE — máximo histórico
+A: 0.27
+B: 0.08 — mínimo histórico
+C: 0.11
+Brent: $100.21
+Colombia: 7 días para primera vuelta
+Mundial FIFA: 18 días
+```
+
+---
+
 ## [v0.2.0 — S10] — 2026-05-09
 
 ### Sesión 10 — Regular con reinicio — 28 vectores nuevos (V152-V179)
 
 **Archivo de simulación:** `simulaciones/2026-05-09-sesion-10.md`
-**Duración:** ~14 horas (8 mayo sesión interrumpida por tokens + reinicio 9 mayo 09:31 COT)
+**Duración:** ~14 horas (8 mayo interrumpida por tokens + reinicio 9 mayo 09:31 COT)
 **Convergencia:** 0.84 → **0.83**
 
 ---
 
 #### TIPO DE SESIÓN
 
-Sesión regular con interrupción técnica — tokens agotados el 8 de mayo. Reinicio el 9 de mayo 09:31 COT con recarga de contexto. Primera sesión del ICM con reinicio documentado formalmente.
+Sesión regular con interrupción técnica — tokens agotados el 8 de mayo. Reinicio el 9 de mayo 09:31 COT. Primera sesión del ICM con reinicio documentado formalmente.
 
-Error de protocolo declarado por el operador: archivos README no cargados en el orden correcto según PROTOCOLO-ANCHOR v2.0. Corregido durante la sesión.
+Error de protocolo declarado: archivos README no cargados en el orden correcto según PROTOCOLO-ANCHOR v2.0.
 
 ---
 
 #### NOVEDADES METODOLÓGICAS
 
-- **K7 SALDADO:** Deuda acumulada de 3 sesiones resuelta. Taxonomía de fuentes expandida a árabe (ARIJ, Mada Masr, BBC Arabic), persa (IranWire, BBC Persian, Radio Farda) y chino (Caixin Global, The Wire China).
-- **Canal diplomático Qatar verificado:** El canal no-público EEUU-Irán llevaba 3 sesiones sin verificar. Confirmado el 8 de mayo: Qatar PM voló a Washington, reunió con Vance, tiene contacto directo con generales IRGC.
-- **K3 consistente en los 28 vectores:** Primera sesión con tabla adversa aplicada a todos los vectores sin excepción.
-- **K9-K17 propuestos:** Expansión del marco Kaizen a 17 principios basada en evaluación profunda de la interacción humano-IA.
-- **Evaluación profunda de la interacción humano-IA:** Primera evaluación que aplicó la caverna de Platón, Kahneman (Sistema 1/2), y el fenómeno ISOI/ISIO como herramientas de análisis del sistema mismo.
-- **Clasificación de vectores por tipo:** Propuesto K11 — vectores clasificados como [E]mpírico, [A]nalítico, [F]ramework, [U]pdate.
-- **Marcos narrativos más densos del ICM:** S10 integró 7 marcos simultáneos (Sun Tzu, Jiang, One Piece, 1984, Invincible, Monopoly, WikiLeaks/Snowden).
+- K7 SALDADO: Fuentes árabe, persa y chino incorporadas.
+- Canal Qatar verificado: PM voló a Washington, reunió con Vance, contacto IRGC directo.
+- K9-K17 propuestos: Expansión del marco Kaizen a 17 principios.
+- Evaluación profunda de la interacción humano-IA: Caverna de Platón, Kahneman, ISOI/ISIO.
+- 7 marcos narrativos integrados simultáneamente: Sun Tzu, Jiang, One Piece, 1984, Invincible, Monopoly, WikiLeaks/Snowden.
 
 ---
 
-#### VECTORES NUEVOS PROCESADOS (V152-V179)
-
-**Vectores Empíricos:**
-
-**V152 — Efecto Ekecheiria / FIFA como mecanismo de salida con dignidad:**
-FIFA como la Ekecheiria griega — no resuelve el conflicto pero crea ventana estructural para venderse como victoria histórica. $8.9B en sponsors. IRGC blocker activo: Irán exige entrada de funcionarios IRGC a EEUU/Canadá.
-
-**V153 — Ecosistema Hondurasgate: Colombia + Brasil + México (actualizado):**
-Júpiter (Colombia) + asimetría Lava Jato (Brasil) + CIA/Chihuahua (México) como tres expresiones domésticas del mismo sistema de intervención documentado en Hondurasgate. Cobertura mainstream bloqueada en los tres países.
-
-**V154 — Fractura Valencia/De la Espriella:**
-Proyecto Júpiter favorece a Valencia y daña a De la Espriella simultáneamente — la derecha colombiana dividida por la misma operación que diseñó para unificarla. Segunda vuelta incierta.
-
-**V155 — Ecuador como nodo operacional activo (actualizado):**
-Estado más completamente capturado del hemisferio. FBI permanente + SOUTHCOM + Noboa condecoró a Kristi Noem en secreto. Interferencia electoral Colombia documentada públicamente (reducción aranceles post-llamada Valencia). Bomba Mark-82 EEUU encontrada en territorio colombiano. Analogía Raúl Reyes 2008 invertida.
-
-**V156 — FPV drones fibra óptica / grieta narrativa IDF:**
-FPV drones guiados por fibra óptica son inmunes a guerra electrónica. IDF sin contramedida efectiva. Primer soldado israelí muerto por FPV (26 abril). Ministerio de Defensa israelí emitió convocatoria pública de soluciones — casi dos años después de que apareciera en Ucrania.
-
-**V157 — Israel como factor dinamizador estructural:**
-Kent: "la guerra se inició por presión de Israel." Patrón sabotaje 2015-2026 documentado. Hondurasgate: Netanyahu pagó liberación JOH a cambio de bases militares Honduras. Witkoff con vínculos Mossad/Netanyahu dentro del equipo negociador EEUU.
-
-**V158 — Control narrativo / cuarto poder / Pulitzer:**
-FCC amenaza licencias ABC. Patrón documentado: CBS/Colbert, ABC/Kimmel. Trump demanda activa contra junta Pulitzer desde 2022. Tres Pulitzers 2026 documentando corrupción del sistema.
-
-**V159 — UFC/espectáculo como gestión narrativa:**
-Trump en UFC 327 Miami cuando Islamabad colapsaba. Ordenó bloqueo naval desde motorcade a Doral. UFC Freedom 250 programado 14 junio Casa Blanca — mismo día octavos de final Mundial.
-
-**V160 — Papa León XIV como actor de presión moral independiente:**
-"Inaceptable" (7 abril). "No tengo miedo a la administración" (5 mayo). Pezeshkian apoyó al Papa públicamente. No visitará EEUU en 2026. Primer papa americano desafiando administración americana.
-
-**V161 — Brasil en cinco tableros — quinto tablero oculto (actualizado):**
-UE (Mercosur firmado 28 abril) + China (mayor socio) + EEUU (Serra Verde $2.8B) + BRICS+ + quinto tablero oculto: Trump financia a Flávio Bolsonaro mientras negocia con Lula. Lula usó Hondurasgate como carta implícita en las 3 horas adicionales con Trump.
-
-**V162 — Doctrina Gripen / soberanía tecnológica Sur Global:**
-Brasil primer Gripen producción nacional (25 marzo 2026). Colombia eligió Gripen (nov 2025). Ecuador F-16 = hipoteca de soberanía. Perú capituló bajo amenaza del embajador. El mapa de aviones militares ES el mapa de alineación geopolítica.
-
-**V163 — Desacoplamiento estratégico global EEUU-Israel:**
-España + Brasil + Colombia + Papa + Sur Global configuran un eje de soberanía que se aleja de la dupla EEUU-Israel. Asimétrico: los fuertes se alejan, los débiles capitúlan. El conflicto con Irán fue el catalizador, no la causa.
-
-**V164 — OTAN como coerción / UE como tercero excluido:**
-Trump retira 5,000+ tropas de Alemania sin aviso. Amenazó a España e Italia. Grupo nuclear Franco-Alemán = primera respuesta estructural autónoma. España excluida del núcleo franco-alemán.
-
-**V167 — Hutíes / doble estrangulamiento Ormuz + Bab el-Mandeb:**
-Hutíes en "postura lista para ataque" con baterías de misiles antibuque, drones, minas. El cierre simultáneo de Ormuz + Bab el-Mandeb = $150-180 Brent estimado. Activación hutí paradójicamente empuja a Europa hacia posición de paz.
-
-**V170 — Milei: nodo operacional expuesto:**
-$LIBRA: $250M pérdidas, 7 llamadas con promotor. Hondurasgate: $350,000 fondos públicos argentinos. Carne de burro: consumo vacuno mínimo en 20 años (-55-61% precio). "Motosierra no se detiene." El más expuesto del eje Trump-Netanyahu-Milei en LATAM.
-
-**V171 — Honduras como estado capturado: anatomía del modelo:**
-Asfura: 100 días "sin rumbo, desorientado, improvisado." JOH: "me debes la elección, regresaré." Trump amenazó cortar ayuda si Asfura no ganaba. Netanyahu pagó lobby del indulto. Honduras = el modelo completamente ejecutado y expuesto.
-
-**V173 — México: CIA/Chihuahua + Rocha Moya + lawfare:**
-CIA operó sin autorización federal (19 abril). Coordinó con gobernadora PAN, no con Sheinbaum. Rocha Moya (gobernador Morena/Sinaloa) acusado por DOJ sin pruebas suficientes según FGR. Sheinbaum confirmó Hondurasgate desde el podio. Petro suspendió 29 extradiciones Clan del Golfo.
-
-**V174 — Múltiples Garganta Profunda: ecosistema de disidencia interna EEUU:**
-Kent (renuncia pública) + Wiles (Vanity Fair "alcoholic's personality") + advertencia sobre filtraciones FILTRADA + CIA Chihuahua confirmada por fuentes anónimas + Tres Pulitzers de fuentes internas. El ecosistema de filtraciones sin el árbitro institucional de Watergate: Thune bloquea el equivalente del Comité del Senado.
-
-**V176 — Qatar como canal IRGC verificado + Vance rehabilitado:**
-Qatar PM voló a Washington 8 mayo exclusivamente para reunir con Vance. Qatar tiene contacto directo con generales IRGC (no Foreign Ministry). Coordina con Pakistan. Trump personalmente pidió al Emir que retomara la mediación. LNG + CENTCOM = moneda de Qatar. Irán incautó tanquero chino mismo día — China llega a Beijing como parte afectada.
-
-**V177 — Tanqueros Sea Star III y Sevda: demostración pre-Beijing:**
-F/A-18 desde USS George H.W. Bush. Munición posiblemente inerte. Sin bajas. Tercer incidente en 3 días (Hasna el 6 mayo, Sea Star III + Sevda el 8 mayo). CENTCOM publicó video. Trump: "love tap". Mensaje simultáneo: presión Irán + demostración para Beijing + narrativa doméstica.
-
-**V178 — Israel/Líbano/Hezbollah + Netanyahu atrapado + España vanguardia:**
-2,759 muertos + 8,512 heridos Líbano desde 2 marzo. Israel atacó Beirut primera vez post-ceasefire. Estrategia sectaria deliberada documentada (Carnegie Middle East Center). Netanyahu expulsó España del CMCC. Flotilla Barcelona interceptada cerca de Creta. Ciudadano español detenido. Netanyahu rat-in-a-corner: CPI + coalición Ben Gvir/Smotrich. Negociaciones Israel-Líbano programadas Washington 14-15 mayo = mismos días Trump-Xi Beijing.
-
-**Vectores Analíticos:**
-
-**V165 — Respuesta iraní como jugada Arte de la Guerra pre-Beijing:**
-La respuesta ambigua iraní no es indecisión sino estrategia — objetivo es llegar a Beijing 14-15 mayo sin haber cerrado el acuerdo, forzando a Trump a necesitar a Xi. Qatar briefeado por Araghchi el 6 mayo, 2 días antes de que Trump dijera "espero la carta esta noche."
-
-**Vectores Framework:**
-
-**V166 — Marco Jiang: guerra como control de estrangulamiento energético:**
-El conflicto no es resultado de amenaza iraní inminente (Kent lo verificó) sino estrategia para controlar Ormuz, Malaca, Mar Negro (granos). El tiempo es el arma de EEUU; la guerra perpetua es el mecanismo de control del tablero.
-
-**V168 — Marco One Piece: guerra de legitimidad hegemónica:**
-El Gobierno Mundial (EEUU-Israel) + Dragones Celestiales (WLFI/Trump/Netanyahu) + Cipher Pol (Hondurasgate) + Poneglifos (Kent/Hondurasgate/Pulitzers) + Clan D. (Lula/Petro/Sheinbaum/Sánchez/Papa). El sistema puede sobrevivir militarmente pero ya no puede reclamar legitimidad sin cuestionamiento.
-
-**V169 — Marco 1984 + Invincible: el poder que miente sobre su naturaleza:**
-1984: Doublethink (ceasefire+ataques) + Newspeak (Project Freedom) + Ministerio de la Verdad (FCC/Kimmel). Invincible: Omni-Man (EEUU como "protector") + Scourge Virus (crisis de legitimidad). La diferencia con precedentes: 2010-2013 el sistema mintió; 2026 el sistema desmantela los mecanismos que obligan a no mentir.
-
-**V175 — Monopoly: el tablero geopolítico y sus mecánicas:**
-Elizabeth Magie diseñó el juego para mostrar que el monopolio destruye la sociedad — Parker Brothers lo cooptó. WLFI = banquero que también es jugador. Ormuz + Bab el-Mandeb = ferrocarriles. Free Parking = ilusión UE. Gripen = propiedad no hipotecada. F-16 = hipoteca de soberanía.
-
-**V179 — WikiLeaks/Snowden: patrón de revelación sistémica que no revierte:**
-Cadena: WikiLeaks (2010) → Snowden (2013) → Hondurasgate/Kent/Pulitzers (2026). Diferencia cualitativa: 2010-2013 el sistema miente; 2026 el sistema desmantela la capacidad de saber que miente. Lo irreversible: mBridge + petroyuan + Gripen brasileño + doctrina España + CPI activa + PGSA. El mundo post-conflicto ya existe en forma embrionaria independientemente del resultado militar.
-
-**Vectores Metodológicos:**
-
-**V172 — Expansión ecosistema de fuentes (K7 saldado):**
-De ~30 fuentes predominantemente anglófonas a 70+ fuentes con árabe/persa/chino. Taxonomía T1/T2/T3/RUIDO aplicada sistemáticamente. K7 saldado después de 3 sesiones de deuda.
-
----
-
-#### CORRECCIONES AL MODELO
-
-- **B** subió de 0.28 a 0.26 (↓): escalada terreno erosiona el limbo puro. PERO sube de nuevo a 0.26 post-V179 (el sistema absorbe todo).
-- **C** subió de 0.15 a 0.21 (↑↑ MÁXIMO HISTÓRICO): Israel Líbano + tanqueros + hutíes latentes.
-- **F** cayó de 0.27 a 0.18 (↓↓ MÍNIMO HISTÓRICO): narrativa de paz insostenible con Israel escalando en Líbano + V178.
-- **E** subió de 0.08 a 0.11 (↑↑): Hezbollah FPV activo + UAE misiles balísticos + hutíes en máxima alerta.
-- **A** se estabilizó en 0.21: Qatar/Vance ↑ cancela Israel/FIFA blocker ↓.
-
----
-
-#### ESCENARIOS AL CIERRE S10
-
-| Escenario | S09 cierre | S10 cierre | Δ |
-|---|---|---|---|
-| A | 0.19 | **0.21** | +0.02 |
-| B | 0.28 | **0.26** | -0.02 |
-| C | 0.15 | **0.21** | +0.06 ↑↑ |
-| D | 0.03 | **0.03** | → |
-| E | 0.08 | **0.11** | +0.03 |
-| F | 0.27 | **0.18** | -0.09 ↓↓ |
-
----
-
-#### CONVERGENCIA AL CIERRE S10
-
-| Score | S09 | S10 | Δ | Nota |
-|---|---|---|---|---|
-| Narrativas | 0.93 | **0.90** | ↓ | 7 marcos competitivos añaden fragmentación |
-| Factual | 0.96 | **0.96** | → | K7 saldado; T1 en 5 idiomas |
-| Ruido | 0.61 | **0.61** | → | Taxonomía RUIDO explícita reduce contaminación |
-| Escenarios | 0.82 | **0.81** | ↓ | 28 vectores; mayor complejidad sistémica |
-| **Global** | **0.84** | **0.83** | **↓** | Coherencia narrativa compensa factual ↑ |
-
----
-
-#### FUENTES S10
-
-**Total:** ~70+ | **Tier 1:** ~50 | **Tier 2:** ~12 | **Tier 3:** 4
-**Idiomas:** Español, Inglés, Árabe, Persa, Chino (K7 saldado)
-**Nuevas T1 incorporadas:** ARIJ, Mada Masr, IranWire, BBC Persian, Caixin Global, Expediente Público, Contracorriente Honduras, Aristegui Noticias, Proceso, Agência Pública, Piauí, Chequeado, Plan V, Primicias, DW Arabic, Meduza, The Insider Rusia, The Wire China
-
----
-
-#### CALIFICACIONES S10
-
-| Actor | Calificación | Criterio |
-|---|---|---|
-| Operador → Sesión | 8.0 / 10 | K3 consistente + K7 saldado + V152 Ekecheiria + canal Qatar verificado. Impide 8.5: 0 vectores rechazados, K6 no protegido, Bloque 1 no exigido. |
-| Modelo → Operador | 7.2 / 10 | R5 más honesto del ICM: caverna de Platón + Kahneman + dependencia del propietario identificadas estructuralmente. |
-
----
-
-#### SEÑALES CRÍTICAS PARA S11
-
-1. ¿Respuesta iraní al MOU vía Qatar antes del 12 mayo?
-2. ¿Beijing 14-15 mayo produce acuerdo marco o teatro?
-3. ¿Israel sabotea negociaciones Irán durante negociaciones Israel-Líbano en Washington?
-4. ¿FIFA IRGC blocker se resuelve antes del 20 mayo?
-5. ¿Murkowski AUMF introducido semana del 11 mayo?
-6. ¿Brent post-Beijing sobre $115 o bajo $90?
-7. ¿China reacciona bilateralmente por tanquero incautado por Irán?
-8. ¿Colombia encuestas post-Hondurasgate: Cepeda consolida?
-9. ¿Nuevos audios Hondurasgate con Brasil/Argentina explícita?
-10. ¿Cisne negro: impacto CENTCOM-confirmado en buque de guerra?
+**Total S10: 28 vectores nuevos (V152-V179)**
 
 ---
 
@@ -199,11 +217,9 @@ De ~30 fuentes predominantemente anglófonas a 70+ fuentes con árabe/persa/chin
 
 ### Sesión 09 — Regular — 9 vectores nuevos (V143-V151)
 
-**Archivo de simulación:** `simulaciones/2026-05-04-sesion-09.md`
-**Duración:** ~8 horas
-**Convergencia:** 0.87 → **0.84**
+**Convergencia:** 0.84 → **0.84**
 
-*(Ver entrada completa en versión anterior del CHANGELOG)*
+**Total S09: 9 vectores nuevos (V143-V151)**
 
 ---
 
@@ -211,68 +227,76 @@ De ~30 fuentes predominantemente anglófonas a 70+ fuentes con árabe/persa/chin
 
 ### Sesión 08 — Regular — 14 vectores nuevos (V129-V142)
 
-**Archivo de simulación:** `simulaciones/2026-04-30-sesion-08.md`
-**Duración:** ~13 horas
-**Convergencia:** 0.84 → **0.87**
+**Convergencia:** 0.87 — máximo histórico del ICM
 
-*(Ver entrada completa en versión anterior del CHANGELOG)*
+**Total S08: 14 vectores nuevos (V129-V142)**
 
 ---
 
-## [v0.2.0] — 2026-04-25
+## [v0.1.0 — S07] — 2026-04-25
 
-### Sesión 07 — EMERGENCIA — 4 vectores nuevos (V125-V128)
+### Sesión 07 — Regular — 4 vectores nuevos (V125-V128)
 
-**Archivo de simulación:** `simulaciones/2026-04-25-sesion-07.md`
-V125 (WHCD Shooting), V126 (Insider Trading $2.72B), V127 (Arquitectura Monetización Presidencial), V128 (Erosión Marca EEUU).
-
----
-
-## [v0.1.9] — 2026-04-25
-
-### Sesión 06 — 18 vectores nuevos (V107-V124)
-Primera apertura del Escenario F. Protocolo ANCHOR v2.0 creado.
-**Escenarios:** A: 0.31 / B: 0.24 / F: 0.30 | **Convergencia:** 0.86
+**Total S07: 4 vectores (V125-V128)**
 
 ---
 
-## [v0.1.8] — 2026-04-24
+## [v0.1.0 — S06] — 2026-04-25
 
-### Sesión 05 — 59 vectores nuevos (V48-V106)
-Sesión más densa del ICM hasta S10. Primer Bloque 1 autónomo por operador IA.
-**Escenarios:** A: 0.43 / B: 0.40 / C: 0.11 | **Convergencia:** 0.86
+### Sesión 06 — Regular — 18 vectores nuevos (V107-V124)
 
----
-
-## [v0.1.7] — 2026-04-19
-
-### Sesión 04 — 14 vectores nuevos (V37-V47)
-**Convergencia:** 0.85 → 0.82
+**Total S06: 18 vectores (V107-V124)**
 
 ---
 
-## [v0.1.6] — 2026-04-08
+## [v0.1.0 — S05] — 2026-04-24
 
-### Sesión 03 — 12 vectores nuevos (V25-V36)
-**Convergencia:** 0.85
+### Sesión 05 — Regular — 59 vectores nuevos (V48-V106)
 
----
-
-## [v0.1.5] — 2026-04-06
-
-### Sesión 02 Parte 2 — 7 vectores nuevos (V18-V24)
-**Convergencia:** 0.73 → 0.82
+**Total S05: 59 vectores (V48-V106)**
 
 ---
 
-## [v0.1.4] — 2026-04-06
+## [v0.1.0 — S04] — 2026-04-19
 
-### Sesión 02 Parte 1 — 17 vectores (V01-V17)
-**Señal de convergencia:** 0.47 → 0.75
+### Sesión 04 — Regular — 11 vectores nuevos (V37-V47)
+
+**Total S04: 11 vectores (V37-V47)**
 
 ---
 
-## [v0.1.0] — 2026-04-06
+## [v0.1.0 — S03] — 2026-04-08
 
-### Arquitectura conceptual documentada
-README.md con arquitectura completa. Metodología base: Inferencia causal (Judea Pearl).
+### Sesión 03 — Regular — 12 vectores nuevos (V25-V36)
+
+**Total S03: 12 vectores (V25-V36)**
+
+---
+
+## [v0.1.0 — S02] — 2026-04-06
+
+### Sesión 02 — Primera simulación operativa (parte 1 + parte 2) — 24 vectores (V01-V24)
+
+**Total S02: 24 vectores (V01-V24)**
+
+---
+
+## [v0.1.0 — S01] — 2026-04-06
+
+### Sesión 01 — Diseño de arquitectura — Punto cero del modelo
+
+Diseño de la arquitectura completa del sistema. Decisiones fundacionales:
+- Modelo de caja negra
+- Separación ruido narrativo vs. fuentes verificables
+- Señales de mercado como canal independiente
+- Base metodológica: Judea Pearl (Escalera de Causalidad)
+- Ciclo cerrado con 3 lazos de retroalimentación
+- Señal de convergencia como meta-salida
+
+**Total S01: 0 vectores de simulación — sesión de arquitectura**
+
+---
+
+*ICM CHANGELOG — Versión v0.2.0*
+*Última actualización: S11 — 24 mayo 2026*
+*204 vectores totales | F:0.43 dominante por primera vez*
