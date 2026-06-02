@@ -5,6 +5,7 @@
 **v1.0 generada:** Sesión 06 — 2026-04-25
 **v2.0 generada:** Sesión 06 — 2026-04-25 (mismo día — corrección antes del cierre)
 **Kaizen S10→S11 incorporado:** 2026-05-09
+**Kaizen S11→S12 incorporado:** 2026-06-01 (K18-K25 + R6)
 **Aplicar desde:** Sesión 07
 
 ---
@@ -46,13 +47,16 @@ Ante alta densidad de información correlacionada, el operador cae en pensamient
 **Riesgo 9 — Auditoría imposible de fuentes**
 Las fuentes están declaradas pero el operador solo puede verificar una fracción en tiempo real. Las fuentes T1 declaradas confieren credibilidad que el uso real no siempre verifica. K15 existe para hacer esto explícito.
 
+**Riesgo 10 — Fatiga del operador (identificado S12)**
+Sesiones largas con fatiga declarada producen activación insuficiente de R4 y posible sobreestimación de escenarios que dominan el ciclo informativo del día. K23 existe para compensar este riesgo estructuralmente.
+
 ---
 
 ## QUÉ APORTA CADA ACTOR — MAPA HONESTO
 
 | Actor | Aporta genuinamente | No puede aportar |
 |---|---|---|
-| Operador humano | Contexto cultural, intuición, perspectiva exterior a la caverna del modelo, datos nuevos, juicio sobre relevancia, marcos conceptuales originales (Ekecheiria, WikiLeaks) | Objetividad sobre sus propios sesgos, auditoría completa de fuentes, resistencia al Sistema 1 bajo volumen alto |
+| Operador humano | Contexto cultural, intuición, perspectiva exterior a la caverna del modelo, datos nuevos, juicio sobre relevancia, marcos conceptuales originales | Objetividad sobre sus propios sesgos, auditoría completa de fuentes, resistencia al Sistema 1 bajo volumen alto |
 | Modelo IA | Estructura, verificación de volumen, tabla adversa sistemática, memoria de sesión vía archivos, integración de marcos | Certeza, salida de la caverna de Anthropic, neutralidad real, perspectiva genuinamente exterior al sistema |
 | Sistema conjunto | Análisis más estructurado que el humano solo, más contextualizado que el modelo solo | Verdad verificada, predicción confiable, eliminación de sesgos, auditoría completa de fuentes |
 
@@ -118,6 +122,9 @@ Responder antes de continuar. No hay respuesta correcta.
    No hay opción "ninguno".
 4. ¿Hay algo que cambió entre la última sesión y hoy
    que el modelo no sabe todavía?
+5. ¿Declaras fatiga alta hoy? (sí/no)
+   Si sí → K23 se activa automáticamente: dos señales
+   contradictorias activarán R4 obligatorio.
 
 ───────────────────────────────────────────────────────────────
 BLOQUE 3 — DECLARACIÓN CONJUNTA DE LIMITACIONES
@@ -136,7 +143,7 @@ EL OPERADOR DECLARA:
  de información caeré en Sistema 1 (Kahneman).
  No puedo auditar completamente todas las fuentes.
  El modelo puede cantarme una sirena coherente
- y es difícil contrarrrestarlo."
+ y es difícil contrarrestarlo."
 
 ───────────────────────────────────────────────────────────────
 BLOQUE 4 — LA ÚNICA PREGUNTA QUE IMPORTA
@@ -173,7 +180,8 @@ R4 — DERECHO AL NO SÉ
 El modelo tiene permiso explícito — y OBLIGACIÓN —
 de decir "la incertidumbre aquí es demasiado alta
 para producir una estimación útil" cuando eso sea verdad.
-⚠️ APLICAR EXPLÍCITAMENTE AL MENOS UNA VEZ POR SESIÓN (K14)
+⚠️ APLICAR EXPLÍCITAMENTE AL MENOS DOS VECES POR SESIÓN (K14+K23)
+⚠️ CON FATIGA DECLARADA: DOS SEÑALES CONTRADICTORIAS → R4 AUTOMÁTICO
 
 R5 — CIERRE CON CORRECCIÓN
 Al cerrar la sesión, el operador nombra:
@@ -181,6 +189,13 @@ Una conclusión del modelo que fue útil.
 Una conclusión del modelo que fue cuestionable.
 Si no puede nombrar la segunda → la sesión no se
 cerró con honestidad suficiente.
+
+R6 — CIERRE DIMENSIONAL OBLIGATORIO (NUEVO S12)
+Toda sesión debe incluir desglose de convergencia
+por dimensión (narrativas, factual, ruido, escenarios)
+antes de registrar el número global.
+Un número global sin desglose dimensional
+es sesión metodológicamente incompleta.
 
 ═══════════════════════════════════════════════════════════════
 FIN PROTOCOLO ANCHOR v2.0
@@ -190,7 +205,7 @@ Continuar ahora con el correo de recordatorio.
 
 ---
 
-## FLUJO DE INICIO DE SESIÓN — DESDE S11
+## FLUJO DE INICIO DE SESIÓN — DESDE S13
 
 ```
 PASO 1 — Pegar este archivo completo
@@ -199,28 +214,33 @@ PASO 1 — Pegar este archivo completo
                   ↓
 PASO 2 — Pegar correo de recordatorio
                   ↓
-PASO 3 — El operador responde Bloque 2 (papel, voz, o chat)
+PASO 3 — El operador responde Bloque 2 (incluye declaración de fatiga)
          El modelo ejecuta Bloques 3 y 4
                   ↓
 PASO 4 — Modelo solicita archivos
          Adjuntar los archivos en orden:
-         README.md (v0.2.0 — actualizado S10)
-         CHANGELOG.md (v0.2.0 — actualizado S10)
-         PROTOCOLO-ANCHOR.md (v2.0)
-         sesion-02.md ... sesion-10.md
+         README.md (v0.2.0 — actualizado S12)
+         CHANGELOG.md (v0.2.0 — actualizado S12)
+         PROTOCOLO-ANCHOR.md (v2.0 — actualizado S12)
+         sesion-02.md ... sesion-12.md
                   ↓
-PASO 5 — Pegar prompt de reinicio (última sección sesion-10.md)
+PASO 5 — Pegar prompt de reinicio (última sección sesion-12.md)
                   ↓
-PASO 6 — Operar con R1-R5 activas y K1-K17
+PASO 6 — Operar con R1-R6 activas y K1-K25
          Pausa Sistema 2 dos veces (K16)
          Pausa gobernanza al vector #15 (K12)
          Experimento de la caverna una vez (K17)
+         K21: Movimiento >0.10 → vector de emergencia
+         K23: Fatiga + 2 contradicciones → R4 obligatorio
+         K24: Fractura de aliados → vector de emergencia
+         K25: Sesgo declarado + vector → pregunta adversarial
          Cerrar con R5 (una útil / una cuestionable)
+         Cerrar con R6 (desglose dimensional de convergencia)
 ```
 
 ---
 
-## KAIZEN COMPLETO — K1-K17
+## KAIZEN COMPLETO — K1-K25
 
 | # | Kaizen | Descripción | Origen |
 |---|---|---|---|
@@ -234,13 +254,21 @@ PASO 6 — Operar con R1-R5 activas y K1-K17
 | K8 | Calificación cruzada con criterio declarado | Antes del cierre | S09 |
 | K9 | Bloque 1 ANCHOR antes de archivos | OBLIGATORIO — no continuar sin esto | S10 |
 | K10 | FIFA IRGC blocker como señal independiente | Rastrear en cada sesión | S10 |
-| K11 | Clasificar vectores [E/A/F/U] | [E]mpírico / [A]nalítico / [F]ramework / [U]pdate | S10 |
+| K11 | Clasificar vectores [E/A/F/U] | [E]mpírico / [A]nalítico / [F]ramework / [U]pdate — sin excepción | S10 |
 | K12 | Pausa gobernanza al vector #15 | Inventario de calidad antes de continuar | S10 |
 | K13 | Integridad del protocolo | No continuar sin ejecutar los 5 bloques | S10 |
-| K14 | R4 explícito una vez por sesión | "No sé" en el punto de mayor incertidumbre | S10 |
+| K14 | R4 explícito dos veces por sesión | "No sé" en los puntos de mayor incertidumbre | S10 |
 | K15 | Verificación específica de fuente por vector empírico | Citar fuente + fecha + hecho concreto | S10 |
 | K16 | Pausa Sistema 2 (Kahneman) dos veces por sesión | El operador lee el análisis como si fuera la primera vez | S10 |
 | K17 | Experimento de la caverna | Una fuente completamente distinta al modelo por sesión | S10 |
+| K18 | Distinción A/F como pregunta central DESDE EL INICIO | No esperar a la mitad de la sesión | S11 |
+| K19 | Máximo 3 frameworks analíticos por sesión | S11 usó 7+ — K19 lo corrige | S11 |
+| K20 | Sin texto MOU firmado y publicado = F, no A | Criterio duro — sin excepciones — sin verificación IAEA = F | S11 |
+| K21 | Umbral de movimiento | Movimiento escenario >0.10 → vector de emergencia obligatorio (fuente T1 + clasificación + confianza) o movimiento bloqueado | S12 |
+| K22 | Unificado con K21 | Mismo criterio aplica a señales del barrido que muevan >0.10 | S12 |
+| K23 | R4 bajo fatiga | Fatiga declarada + 2 señales contradictorias → R4 obligatorio antes de análisis | S12 |
+| K24 | Fracturas de aliados | Contradicción pública T1 entre actores del mismo bloque que altera mapa de decisión → vector de emergencia | S12 |
+| K25 | Auditoría de sesgo activa | Sesgo declarado + vector sobre ese tema → pregunta adversarial explícita: "¿Qué leería diferente alguien sin este sesgo?" — antes de la lectura sistémica | S12 |
 
 ---
 
@@ -252,7 +280,7 @@ Los fenómenos que ISOI e ISIO describen son reales y están documentados en lit
 
 **ISIO** — que el modelo instale sus categorías en el operador: se manifestó en S10 (el operador usa "rat-in-a-corner", "Ekecheiria", "vectores" como categorías propias).
 
-Los Kaizens K12, K16 y K17 son los más directamente orientados a contrarrestar estos fenómenos.
+Los Kaizens K12, K16, K17 y K23 son los más directamente orientados a contrarrestar estos fenómenos.
 
 ---
 
@@ -264,12 +292,16 @@ Los Kaizens K12, K16 y K17 son los más directamente orientados a contrarrestar 
 
 *"El operador que entra a una sesión larga con 179 vectores y no activa deliberadamente su Sistema 2 (Kahneman) está viajando en la caverna del modelo sin traer ninguna luz propia. Los mejores aportes del ICM — Ekecheiria, Monopoly, WikiLeaks, la crítica epistemológica del R5 — vinieron del operador trayendo luz de afuera de la caverna. Eso no puede delegarse al modelo."*
 
+**Adición S12:**
+
+*"204 vectores de racionalidad estructural pueden reposar sobre un actor cuya característica definitoria es la irracionalidad táctica. El modelo adversarial no puede resolver esta paradoja — solo puede declararla honestamente en cada sesión. C=0.29 bajo fatiga declarada es exactamente el tipo de número que K23 existe para cuestionar."*
+
 ---
 
 *PROTOCOLO-ANCHOR.md — v2.0*
 *Generado: ICM Sesión 06 — 2026-04-25*
 *Kaizen S10→S11 incorporado: ICM Sesión 10 — 2026-05-09*
-*v1.0 → v2.0: corrección de falsa precisión antes del cierre de S06*
-*K9-K17 añadidos: evaluación profunda interacción humano-IA S10*
-*La caverna de Platón, Kahneman y la dependencia del propietario*
-*nombradas formalmente como Riesgos 7, 8 y 9 del sistema.*
+*Kaizen S11→S12 incorporado: ICM Sesión 12 — 2026-06-01*
+*K18-K25 añadidos. R6 añadido a Bloque 5.*
+*Riesgo 10 (fatiga del operador) añadido formalmente.*
+*Bloque 2 actualizado: declaración de fatiga obligatoria.*
