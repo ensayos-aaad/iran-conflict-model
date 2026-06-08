@@ -2,7 +2,7 @@
 ## Modelo de Análisis de Inteligencia Estratégica — Dialéctica Humano-IA
 
 **Versión:** v0.2.0
-**Última actualización:** Sesión 12 — 1 junio 2026
+**Última actualización:** Sesión No Oficial D94 — 3 junio 2026
 **Operado por:** Docente colombiano — Medellín, Colombia
 **Metodología base:** Judea Pearl (Escalera de Causalidad) + Kahneman (Sistema 1/2) + Tetlock (Superforecasting)
 
@@ -11,17 +11,19 @@
 ## ESTADO ACTUAL
 
 ```
-Sesión: 12 (D92 del conflicto)
-Vectores acumulados: 216 (V01-V216)
-Convergencia global: 0.70
-Próxima sesión estimada: 11-12 junio 2026 (pitazo del Mundial / día siguiente)
+Sesión más reciente: No Oficial D94 — 3 junio 2026 — 23:47 COT
+Sesión formal previa: S12 — 1 junio 2026
+Vectores acumulados: 222 (V01-V222)
+Convergencia global: 0.68
+Próxima sesión: S13 — ADELANTADA por novedad importante — fecha TBD
+Nota: S13 será la sesión de cierre definitivo del modelo — v0.2.0 final
 
-PROBABILIDADES AL 1 JUNIO 2026:
-F — Desescalada narrativa sin acuerdo real:  0.43 ← DOMINANTE
-A — Acuerdo formal verificado:               0.10 ← MÍNIMO HISTÓRICO
-C — Escalada / sabotaje israelí:             0.29 ← MÁXIMO HISTÓRICO
+PROBABILIDADES AL 3 JUNIO 2026 — POST D94:
+F — Desescalada narrativa sin acuerdo real:  0.44 ← DOMINANTE
+C — Escalada / sabotaje israelí:             0.34 ← MÁXIMO HISTÓRICO ↑
+A — Acuerdo formal verificado:               0.08 ← MÍNIMO HISTÓRICO ↓
 B — Limbo prolongado:                        0.10
-E — Wildcard operacional:                    0.06
+E — Wildcard operacional:                    0.04 ↓
 D — Colapso del régimen iraní:               0.02
 ```
 
@@ -33,30 +35,28 @@ El ICM es un sistema de análisis geopolítico estructurado que modela el confli
 
 El modelo NO produce verdad verificada. Produce análisis estructurado con sesgos explícitamente declarados. Sus probabilidades son juicios cualitativos con forma decimal.
 
+**S13 será la sesión de cierre definitivo. El modelo se clausura con el cierre de v0.2.0.**
+
 ---
 
 ## ARQUITECTURA DEL SISTEMA
 
 ### Escenarios modelados
 
-| Escenario | Descripción | Probabilidad S12 |
-|---|---|---|
-| A | Acuerdo formal real — MOU firmado + texto público + IAEA | 0.10 |
-| B | Limbo prolongado — ceasefire frágil sin acuerdo | 0.10 |
-| C | Escalada / sabotaje — Netanyahu colapsa el acuerdo | 0.29 |
-| D | Colapso del régimen iraní | 0.02 |
-| E | Wildcard operacional — actor no modelado | 0.06 |
-| F | Desescalada narrativa sin acuerdo real — victoria de TAcos | 0.43 |
+| Escenario | Descripción | Probabilidad S12 | Probabilidad D94 |
+|---|---|---|---|
+| A | Acuerdo formal real — MOU firmado + texto público + IAEA | 0.10 | **0.08** ↓ |
+| B | Limbo prolongado — ceasefire frágil sin acuerdo | 0.10 | **0.10** = |
+| C | Escalada / sabotaje — Netanyahu colapsa el acuerdo | 0.29 | **0.34** ↑ |
+| D | Colapso del régimen iraní | 0.02 | **0.02** = |
+| E | Wildcard operacional — actor no modelado | 0.06 | **0.04** ↓ |
+| F | Desescalada narrativa sin acuerdo real | 0.43 | **0.44** ↑ |
 
 ### Señal de convergencia
 
-Mide la coherencia interna del modelo en 4 dimensiones:
-- **Narrativas** (0-1): consistencia de los marcos analíticos
-- **Factual** (0-1): verificabilidad de los vectores empíricos
-- **Ruido** (0-1): proporción de señal vs. ruido en los inputs
-- **Escenarios** (0-1): estabilidad de las probabilidades entre vectores
+**Convergencia D94: 0.68** (↓ desde 0.70 en S12 — mayor incertidumbre estructural)
 
-**Convergencia S12: 0.70** (↓ desde máximo histórico 0.87 en S08)
+**Nota composición F:** Ya no es "diplomacia avanzando lentamente." Es "ficción simétrica sostenida mientras ambos actores demuestran capacidad residual simultáneamente." Mismo rango, estructura más frágil.
 
 ---
 
@@ -64,19 +64,20 @@ Mide la coherencia interna del modelo en 4 dimensiones:
 
 | Sesión | F | A | C | B | E | D | Convergencia |
 |---|---|---|---|---|---|---|---|
-| S01-S04 | — | — | — | — | — | — | — |
 | S08 | — | — | — | — | — | — | 0.87 ← máx |
 | S10 | 0.18 | 0.21 | 0.21 | 0.26 | 0.11 | 0.03 | 0.83 |
 | S11 | 0.43 | 0.27 | 0.11 | 0.08 | 0.08 | 0.03 | 0.77 |
-| **S12** | **0.43** | **0.10** | **0.29** | **0.10** | **0.06** | **0.02** | **0.70** |
+| S12 | 0.43 | 0.10 | 0.29 | 0.10 | 0.06 | 0.02 | 0.70 |
+| **D94** | **0.44** | **0.08** | **0.34** | **0.10** | **0.04** | **0.02** | **0.68** |
 
 **Hitos históricos:**
 - S11: F toma el primer lugar por primera vez (0.43)
 - S12: A alcanza mínimo histórico (0.10) / C alcanza máximo histórico (0.29)
+- D94: A nuevo mínimo (0.08) / C nuevo máximo (0.34) / Convergencia mínima (0.68)
 
 ---
 
-## KAIZEN COMPLETO — K1-K25
+## KAIZEN COMPLETO — K1-K25 + NUEVOS D94
 
 | # | Principio | Descripción | Origen |
 |---|---|---|---|
@@ -100,10 +101,10 @@ Mide la coherencia interna del modelo en 4 dimensiones:
 | K18 | Distinción A/F desde el inicio | Pregunta central desde primer vector | S11 |
 | K19 | Máximo 3 frameworks analíticos por sesión | Previene sobrecarga cognitiva | S11 |
 | K20 | Sin texto MOU firmado = F | Criterio duro — sin excepciones | S11 |
-| K21 | Umbral de movimiento | Movimiento >0.10 → vector de emergencia obligatorio o bloqueado | S12 |
-| K22 | Unificado con K21 | Mismo criterio aplica a señales del barrido de medios | S12 |
+| K21 | Umbral de movimiento | Movimiento >0.10 → vector emergencia obligatorio | S12 |
+| K22 | Distinción F/C central | F por ficción simétrica vs. C por capacidad real. Separar mecanismos en cada vector | D94 🆕 |
 | K23 | R4 bajo fatiga | Fatiga declarada + 2 contradicciones → R4 obligatorio | S12 |
-| K24 | Fracturas de aliados | Fractura T1 que altera mapa de decisión → vector emergencia | S12 |
+| K24 | China variable activa independiente | No solo "eje." Señal China obligatoria cada sesión | D94 🆕 |
 | K25 | Auditoría de sesgo activa | Sesgo declarado + vector → pregunta adversarial explícita | S12 |
 
 ---
@@ -117,7 +118,7 @@ Mide la coherencia interna del modelo en 4 dimensiones:
 | R3 | Prohibición de amplificación circular |
 | R4 | Derecho y obligación al "no sé" |
 | R5 | Cierre con corrección honesta |
-| R6 NUEVO | Desglose dimensional de convergencia obligatorio al cierre |
+| R6 | Desglose dimensional de convergencia obligatorio al cierre |
 
 ---
 
@@ -126,58 +127,87 @@ Mide la coherencia interna del modelo en 4 dimensiones:
 | Umbral | Descripción | Estado |
 |---|---|---|
 | Umbral 1 | Buques americanos atacados no impactados | ✅ CRUZADO 7 mayo |
-| Umbral 2 | Impacto directo en buque americano con daños | 🔴 A UN INCIDENTE |
+| Umbral 2 | Impacto directo en buque americano con daños | 🔴 DENTRO DEL UMBRAL |
 | Umbral 3 | Bajas americanas confirmadas por CENTCOM | ⚠️ Latente |
 
-**Umbral 2 hoy:** CENTCOM vs. IRGC en Kuwait (1 junio). Sin impacto directo en buque de guerra americano. La cadena causal está activa.
+**Estado D94:** MSC Sariska (civil) impactado — confirmado. CGRI afirma ataque a Quinta Flota Baréin — no confirmado independientemente. Umbral 2 activo pero no detonado.
 
 ---
 
-## ARQUITECTURA DE CORRUPCIÓN SISTÉMICA — DOCUMENTADA S12
+## SEÑALES CRÍTICAS ACTIVAS — 3 JUNIO 2026
 
-| Capa | Mecanismo | Confianza |
-|---|---|---|
-| Financiera | WLFI-UAE $2B / insider trading 3,600 op Q1 / IRS Forever Barred | Alta ✅ |
-| Judicial | DOJ 40→2 fiscales / OPR removida / intervenciones Brad Bondi | Alta ✅ |
-| Electoral | Gerrymandering orquestado mid-década / 9 estados | Alta ✅ |
-| Informacional | Epstein retenido / FBI instrucción marcar Trump | Alta ✅ |
-| Mediática | RSF puesto 64 / subpoenas WSJ / Espionaje Act | Alta ✅ |
-| Supresión interna | NDA universal / persecución denunciantes | Alta ✅ |
-| Canibalización | Patrón Aprendiz/Enron — competencia 2028 activa | Media-Alta ⚠️ |
-| Garganta Profunda | Filtraciones activas sin figura pública | Plausible ⚠️ |
-
----
-
-## SEÑALES CRÍTICAS ACTIVAS — 1 JUNIO 2026
-
-- 🔴 Israel cruzó el Litani — Castillo de Beaufort tomado
-- 🔴 IRGC amenazó doble cierre Hormuz + Bab el-Mandeb
-- 🔴 Irán suspendió comunicaciones con EEUU
-- 🔴 War Powers: voto republicano esta semana en el Congreso
-- 🟡 Trump declaró ceasefire Israel-Hezbollah — Netanyahu lo contradijo
-- 🟡 MOU técnico acordado — Trump aún sin firmar
-- 🟡 Condición Abraham Accords: incumplible antes del 11 junio
-- 🟡 SPR en mínimos de 4 décadas — CEO Chevron: "julio es el punto de inflexión"
-- 🟡 Colombia segunda vuelta 21 junio — encuestas divididas
+- 🔴 CENTCOM atacó Qeshm ×2 en 72 horas — territorio soberano iraní
+- 🔴 MSC Sariska impactado con misil de crucero — confirmado por MSC Geneva
+- 🔴 Israel ocupa ~2.000 km² del Líbano — Beaufort + Litani cruzado
+- 🔴 Pezeshkian envió carta de renuncia — CGRI desplazó gobierno civil iraní
+- 🔴 Rubio: sanciones NO se retiran aunque Hormuz abra en Fase 1
+- 🔴 Fractura GOP real — fondo anti-weaponization revertido por presión senatorial
+- 🟡 MOU Fase 1 arquitectura verificada bajo juramento — Fase 2 requiere 30-90 días mínimo
+- 🟡 Resolución War Powers avanzó 50-47 — margen al límite
+- 🟡 FIFA canceló capacitación presencial Zócalo — CNTE paro indefinido activo
+- 🟡 Equipo iraní debe llegar a Tucson 10 junio — señal de verificación del canal
+- 🟡 Nobitex sancionado — Operación Furia Económica activa
+- 🟡 Colombia segunda vuelta 21 junio — Trump intervino con "respaldo total"
+- 🟡 Capacidad iraní real vs. narrativa Rubio — inteligencia filtrada a CNN contradice testimonio bajo juramento
 
 ---
 
 ## CRITERIO DE PARADA ICM v0.2.0
 
-| Criterio | Descripción | Estado |
+| Criterio | Descripción | Estado D94 |
 |---|---|---|
-| A | Escenario A verificado → S13 es sesión de cierre | No activado |
-| B | 11 junio — pitazo Mundial → S13 cierra v0.2.0 | **10 días** |
-| C | Cisne negro CENTCOM Umbral 2 → reinicio v0.3.0 | A un incidente |
+| A | Escenario A verificado → S13 es sesión de cierre | ❌ No activado |
+| B | 11 junio — pitazo Mundial → S13 cierra v0.2.0 | ⏱️ **ADELANTADO** — novedad importante |
+| C | Cisne negro CENTCOM Umbral 2 → reinicio v0.3.0 | ⚠️ Dentro del umbral — no detonado |
+
+**Fecha operativa real del ICM:** 10 de junio 23:59 COT
+**Señal de verificación:** Llegada equipo iraní a Tucson, Arizona
+
+**⚠️ NOTA CRÍTICA:** S13 ha sido adelantada por novedad importante. S13 = sesión de cierre definitivo del modelo. El ICM clausura v0.2.0 en S13.
+
+---
+
+## INSTRUCCIONES PARA S13 — SESIÓN DE CIERRE
+
+### Pre-carga obligatoria del modelo
+Archivos requeridos al inicio de S13:
+- Este README actualizado
+- CHANGELOG actualizado
+- Archivo simulación D94: `2026-06-03-sesion-no-oficial-D94.md`
+- Archivo simulación S12: `2026-06-01-sesion-12.md`
+
+### Verificaciones de apertura S13
+1. ¿Cuál es la novedad importante que adelantó la sesión?
+2. ¿Llegó el equipo iraní a Tucson el 10 de junio? (K20 geopolítico)
+3. ¿Hay texto MOU público firmado? (K20 diplomático)
+4. Declaración de sesgo del operador
+5. Estado del Criterio C — ¿se detonó Umbral 2?
+
+### Pregunta central K18 + K22 para S13
+¿La ficción simétrica (F en 0.44) puede sostenerse con C en 0.34 y capacidad iraní real demostrada? ¿O el evento que adelantó S13 activa el colapso de la ficción?
+
+### Marcos analíticos recomendados (K19 — máximo 3)
+1. Pearl — causalidad: ¿quién tiene la llave del MOU?
+2. Kahneman — System 2: brecha narrativa/realidad
+3. Historia comparada: momento del ciclo de retirada forzada
+
+### Fuente externa obligatoria (K17)
+Una fuente completamente fuera de Claude — medio árabe primario, análisis universitario colombiano, o fuente persa directa.
+
+---
+
+## MARCOS ANALÍTICOS ACUMULADOS EN EL ICM
+
+Sun Tzu · Thucydides Trap · Orwell/1984 · Monopoly geopolítico · Torre de Babel · Alegoría de la Caverna (Platón) · Edward O. Wilson — Consilience · Universe 25 / Calhoun — Behavioral Sink · Jiang — guerra perpetua · Pearl — causalidad · Kahneman — Sistema 1/2 · Tetlock — superforecasting · Historia comparada (Vietnam, Afganistán soviético, Irak)
 
 ---
 
 ## ESTRUCTURA DEL REPOSITORIO
 
 ```
-README.md                    ← Este archivo
-CHANGELOG.md                 ← Historial de sesiones
-PROTOCOLO-ANCHOR.md          ← Protocolo operacional v2.0 (con R6)
+README.md                         ← Este archivo (actualizado D94)
+CHANGELOG.md                      ← Historial de sesiones (actualizado D94)
+PROTOCOLO-ANCHOR.md               ← Protocolo operacional v2.0 (con R6)
 simulaciones/
   2026-04-06-sesion-02.md
   2026-04-06-sesion-02-parte2.md
@@ -190,35 +220,23 @@ simulaciones/
   2026-05-04-sesion-09.md
   2026-05-09-sesion-10.md
   2026-05-24-sesion-11.md
-  2026-06-01-sesion-12.md   ← NUEVO
+  2026-06-01-sesion-12.md
+  2026-06-03-sesion-no-oficial-D94.md  ← NUEVO
 ```
-
----
-
-## REFERENCIAS METODOLÓGICAS
-
-- **Judea Pearl** — The Book of Why (causalidad vs. correlación)
-- **Daniel Kahneman** — Thinking Fast and Slow (Sistema 1/2)
-- **Philip Tetlock** — Superforecasting (calibración de probabilidades)
-- **Eamonn Mollick** — Co-Intelligence (colaboración humano-IA)
-- **RAND Corporation** — metodologías de análisis de escenarios
-- **Edward O. Wilson** — Consilience (convergencia de disciplinas)
-- **Platón** — Alegoría de la Caverna (límites epistémicos del modelo)
 
 ---
 
 ## LIMITACIONES ESTRUCTURALES PERMANENTES
 
-Tres límites que ningún Kaizen puede eliminar:
-
-1. **Imposibilidad de auditar completamente las fuentes** — el modelo declara fuentes T1/T2 pero el operador solo puede verificar una fracción en tiempo real
-2. **Sistema 1 drift bajo alta densidad informativa** — la coherencia narrativa del modelo puede ser mayor que la realidad que describe
-3. **La Caverna de Anthropic** — el modelo opera dentro de los límites de su entrenamiento. Sus vectores son sombras de esa caverna específica. El operador humano es la única fuente de perspectiva genuinamente exterior
+1. **Imposibilidad de auditar completamente las fuentes**
+2. **System 1 drift bajo alta densidad informativa**
+3. **La Caverna de Anthropic** — el operador humano es la única fuente genuinamente exterior
 
 ---
 
 *ICM README — v0.2.0*
-*Última actualización: S12 — 1 junio 2026*
-*216 vectores | F:0.43 / C:0.29 / A:0.10 | Convergencia: 0.70*
+*Actualizado: Sesión No Oficial D94 — 3 junio 2026 — 23:47 COT*
+*222 vectores | F:0.44 / C:0.34 / A:0.08 | Convergencia: 0.68*
+*K22 + K24 nuevos | S13 adelantada — sesión de cierre definitivo*
 *Operado mediante dialéctica humano-IA*
 *Operador: docente colombiano — Medellín, Colombia*
