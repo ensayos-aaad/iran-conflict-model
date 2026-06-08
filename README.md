@@ -233,52 +233,7 @@ El operador aportó las inyecciones dialécticas más importantes del modelo: la
 
 ---
 
-### II. POSIBLES APLICACIONES — CONTEXTO COLOMBIANO
-
-#### A. Educación superior y formación docente
-
-El ICM es replicable como metodología de aula. Un docente colombiano lo construyó sin presupuesto institucional, sin equipo, y sin infraestructura tecnológica especializada. Las implicaciones son directas:
-
-| Aplicación | Descripción | Nivel |
-|---|---|---|
-| Curso de geopolítica aplicada | El ICM como caso de estudio metodológico — cómo se construye un modelo de análisis desde cero | Pregrado / posgrado |
-| Taller de pensamiento crítico | ANCHOR v2.0 como protocolo de debate estructurado — R1 a R6 aplicables a cualquier tema controversial | Bachillerato / universidad |
-| Seminario de inteligencia estratégica | K1-K25 como currículo de mejora continua del pensamiento analítico | Maestría / diplomado |
-| Metodología de investigación | Pearl + Kahneman + Tetlock como triángulo metodológico para trabajos de grado | Posgrado |
-
-#### B. Fuerzas Armadas y sector defensa colombiano
-
-El conflicto modelado tiene implicaciones directas para Colombia:
-
-- **Doctrina de análisis de inteligencia:** El protocolo ANCHOR v2.0 es aplicable a salas de crisis militares. La distinción R1 (contradicción antes de confirmación) y R4 (derecho al "no sé") son principios que mejoran la calidad de los análisis bajo presión.
-- **Modelado de conflictos internos:** La metodología ICM es adaptable al seguimiento de actores armados colombianos — FARC disidencias, ELN, grupos neoparamilitares — con escenarios, vectores y convergencia propios.
-- **Formación en superforecasting:** Tetlock aplicado a estimaciones de amenaza. La calibración de incertidumbre explícita (K4 — rangos en vez de decimales únicos) es directamente trasladable a inteligencia militar.
-
-#### C. Análisis político electoral
-
-La segunda vuelta presidencial colombiana del 21 de junio de 2026 es el primer evento del Grupo 2 del checklist. El ICM generó durante su operación un marco aplicable al análisis electoral:
-
-- Identificación de actores con información asimétrica (como se demostró con el espionaje israelí)
-- Modelado de sesgos del analista (K25 — sesgo declarado + pregunta adversarial)
-- Distinción entre narrativa dominante y realidad estructural (K18, K20, K22)
-
-Estos principios son directamente aplicables al análisis de campañas políticas colombianas, especialmente en contextos de intervención exterior documentada (Trump / De la Espriella).
-
-#### D. Periodismo de investigación y análisis independiente
-
-El ICM operó con ~40-60 fuentes por sesión, incluyendo medios latinoamericanos independientes, Global South, e investigación primaria. Esa disciplina de fuentes diversas es un modelo para redacciones colombianas que cubren conflictos internacionales con recursos limitados.
-
-#### E. Publicación académica
-
-El proyecto tiene estructura suficiente para una publicación en revista indexada de ciencias sociales o relaciones internacionales. Posibles títulos:
-
-- *"Dialéctica humano-IA como método de análisis geopolítico: el caso del Iran Conflict Model (2026)"*
-- *"Superforecasting y convergencia bayesiana aplicados al conflicto EEUU-Irán-Israel: 98 días de modelado estructurado"*
-- *"El protocolo ANCHOR: una propuesta metodológica para el análisis de inteligencia estratégica con apoyo de IA"*
-
----
-
-### III. PENDIENTES — LO QUE EL ICM NO TERMINÓ
+### II. PENDIENTES — LO QUE EL ICM NO TERMINÓ
 
 | # | Pendiente | Descripción | Prioridad |
 |---|---|---|---|
@@ -293,7 +248,7 @@ El proyecto tiene estructura suficiente para una publicación en revista indexad
 
 ---
 
-### IV. CRUCE PENDIENTES × LÍNEA DE TIEMPO
+### III. CRUCE PENDIENTES × LÍNEA DE TIEMPO
 
 Los pendientes P1–P8 no son independientes del checklist proyectado. Esta tabla los sincroniza explícitamente para que el trabajo futuro tenga anclaje temporal concreto.
 
@@ -322,7 +277,7 @@ Lo que puede esperar indefinidamente sin que el modelo pierda valor — P1, P7, 
 
 ---
 
-### V. NOTA FINAL DEL OPERADOR — REGISTRADA
+### IV. NOTA FINAL DEL OPERADOR — REGISTRADA
 
 *"El operador da por terminada la simulación debido a la fatiga y al cansancio propio de ver como está mutando la situación mundial, esto para descansar y esperar que pase lo que tenga que pasar."*
 
