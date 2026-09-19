@@ -14,10 +14,15 @@ Unlike the closed S01–S13 record, **README.md itself now accumulates one dated
 
 Génesis and full methodology are documented in [README.md](README.md) (architecture, final probabilities, Kaizen log K1–K25), [PROTOCOLO-ANCHOR.md](PROTOCOLO-ANCHOR.md) (the ANCHOR v2.0 operating protocol, R1–R6), [COCREACION.md](COCREACION.md) (human/AI division of labor and responsible-use declaration), and [CHANGELOG.md](CHANGELOG.md) (per-session version history). Read the relevant one before making claims about methodology or history instead of relying on memory of this summary.
 
+**Licensed under [CC BY-SA 4.0](LICENSE)** (added 2026-09-18) — reuse/adaptation (e.g. an ICM-Colombia per pendiente P3) is explicitly permitted with attribution and share-alike.
+
+**Known gap: the quantitative data layer was never actually operated.** `datos/salidas/convergencia.csv` and `datos/validacion/registro-validacion.csv` contain only the S01 inaugural row — none of the 226 vectors across 13 sessions were ever captured as CSV rows, so the Brier Score validation that `docs/diseno-experimental.md` names as the project's success metric was never computed. Don't assume the `datos/` pipeline was exercised just because it's thoroughly documented in `datos/README-datos.md` and `docs/guia-captura-datos.md` (which now carries an explicit caveat about this) — treat any claim of "validated" or "measured" convergence/forecast accuracy as narrative judgment (as in the S14 seguimiento), not as data-backed.
+
 ## Repository structure
 
 ```
 README.md                  Master document: architecture, final probabilities, Kaizen K1-K25, ethics audit
+LICENSE                     CC BY-SA 4.0
 CHANGELOG.md                Per-session changelog, S01 -> S13 cierre
 PROTOCOLO-ANCHOR.md         ANCHOR v2.0 protocol text (5 blocks, R1-R6 rules) pasted at the start of each session
 COCREACION.md                Human/AI co-creation and responsible-use declaration

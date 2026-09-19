@@ -4,6 +4,8 @@
 
 Después de cada sesión Claude genera los datos del día. Esta guía te explica exactamente cómo copiar esos datos a los archivos CSV del repositorio. No necesitas saber programar.
 
+> **Nota honesta para quien replique esto (añadida post-cierre, sept 2026):** en la práctica, el ICM original no sostuvo esta disciplina de captura más allá de la sesión inaugural — `datos/salidas/convergencia.csv` y `datos/validacion/registro-validacion.csv` solo tienen la fila de S01. Las 226 vectores y 13 sesiones del modelo quedaron documentados en `simulaciones/*.md`, no en los CSV. Eso significa que el Brier Score (la métrica de validación central del diseño experimental) nunca se calculó, y que este flujo de captura está descrito pero **no probado a lo largo de una serie completa**. Replicarlo con más disciplina que el original es exactamente el tipo de mejora que valdría la pena — pero no asumas que porque está bien documentado, fue bien ejecutado.
+
 ---
 
 ## Lo que necesitas

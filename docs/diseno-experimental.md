@@ -176,10 +176,12 @@ NO EVALUABLE → evento mayor invalida la predicción
 
 ### Documentos necesarios para replicar
 - Este documento (diseno-experimental.md)
+- **PROTOCOLO-ANCHOR.md** — protocolo operacional v2.0 (R1-R6, K1-K25); no existía cuando esta lista se escribió (v0.1.3, S01) pero es, junto con el prompt-plantilla, la pieza metodológica central del modelo. Sin él se replica la forma del ICM, no su disciplina de honestidad epistémica.
 - docs/prompt-plantilla.md
 - docs/guia-captura-datos.md
 - docs/guia-github.md
 - README.md
+- LICENSE — CC BY-SA 4.0: replicar y adaptar el ICM (incluida una versión para otro conflicto) está permitido citando la fuente y compartiendo bajo la misma licencia
 
 ### Instrucción para replicar
 1. Haz fork del repositorio en github.com

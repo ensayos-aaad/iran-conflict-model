@@ -5,6 +5,7 @@
 **Última actualización:** S13 — 7 junio 2026 — CIERRE FINAL
 **Operado por:** Docente colombiano — Medellín, Colombia
 **Metodología base:** Judea Pearl (Escalera de Causalidad) + Kahneman (Sistema 1/2) + Tetlock (Superforecasting)
+**Licencia:** [CC BY-SA 4.0](LICENSE) — libre de replicar y adaptar (incluso comercialmente) citando la fuente y compartiendo bajo la misma licencia
 
 ---
 
