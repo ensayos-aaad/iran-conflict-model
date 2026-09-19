@@ -486,3 +486,63 @@ flowchart TD
 
 *Diagrama generado al cierre de ICM v0.2.0 — 7 junio 2026*
 *226 vectores · 13 sesiones · 98 días · convergencia 0.51*
+
+---
+
+## SEGUIMIENTO POST-CIERRE — S14 (18 septiembre 2026)
+
+**¿Qué es esto?** El modelo formal sigue clausurado (v0.2.0, S13, 7 junio 2026, D98) — esta sección no lo reabre ni cambia sus probabilidades de cierre. Es el primer seguimiento extraoficial, ejecutando el pendiente P6 ("Retroalimentación del checklist"): tres meses después del cierre, se contrastó el checklist proyectado y la tabla de escenarios contra prensa y voces académicas para ver si el modelo seguía sosteniéndose.
+
+**Archivo completo:** `simulaciones/2026-09-18-sesion-14-seguimiento-extraoficial.md`
+
+![Dashboard del seguimiento S14 — checklist, tabla de escenarios, contraste K17 y los seis frentes de vectores revisados el 18 de septiembre de 2026](simulaciones/img/2026-09-18-sesion-14-dashboard.png)
+
+*Resumen visual de esta sección — ver también la imagen en [`simulaciones/img/2026-09-18-sesion-14-dashboard.png`](simulaciones/img/2026-09-18-sesion-14-dashboard.png).*
+
+### 1. ¿Se cumplió lo que el modelo proyectó al cerrar?
+
+| Grupo del checklist | Cumplidos | Parciales | No cumplidos | Tasa estricta |
+|---|---|---|---|---|
+| Grupo 1 — hasta 14 jun 2026 (7 ítems) | 6 | 1 | 0 | 85.7% |
+| Grupo 2 — hasta 7 jul 2026 (8 ítems) | 5 | 2 | 1 | 62.5% |
+| **Total (15 ítems)** | **11** | **3** | **1** | **73.3%** |
+
+Ningún criterio de falsabilidad del modelo (sección "Falsabilidad" más arriba) quedó invalidado a esta fecha.
+
+### 2. Tabla de escenarios — de cifra de cierre a rango actualizado
+
+A diferencia de la tabla de cierre (una probabilidad fija por escenario), este seguimiento entrega un **rango**, porque tres meses de eventos abrieron más incertidumbre de la que cerraron:
+
+| Escenario | S13 — cierre (7 jun) | S14 — rango actualizado (18 sept) | Lectura |
+|---|---|---|---|
+| C — Escalada / sabotaje | 0.52 | **0.50 – 0.62** | Sigue dominante — reforzado por la amenaza de Trump de "aniquilar" al régimen y el frente hutí |
+| F — Desescalada narrativa sin acuerdo | 0.22 | **0.14 – 0.20** | A la baja — las treguas duran cada vez menos (semanas → días) |
+| B — Limbo prolongado | 0.10 | **0.10 – 0.16** | Al alza — más procesos institucionales atascados en paralelo |
+| A — Acuerdo formal verificado | 0.06 | **0.03 – 0.07** | Sigue siendo el escenario menos probable — sin texto MOU verificado (K20) |
+| E — Wildcard operacional | 0.06 | **0.07 – 0.12** | Al alza — el incidente EEUU-China por un reporte de IA falso casi lo materializa |
+| D — Colapso del régimen iraní | 0.04 | **0.04 – 0.08** | Ligeramente al alza — crisis económica interna, sin fractura visible del aparato de seguridad |
+| **Convergencia global** | **0.51** (mínimo histórico) | **0.42 – 0.48** (estimado) | Más incertidumbre, no menos: cada capa nueva de información abrió una variable, no cerró una |
+
+### 3. ¿Qué nueva evidencia se revisó para llegar a esos rangos?
+
+Seis frentes distintos, documentados entre el 1 y el 18 de septiembre de 2026, todos leídos bajo el umbral de movimiento K21:
+
+| Frente | Ejemplo del hallazgo |
+|---|---|
+| Trump y la decisión militar | Trump a Axios: "¿Quiero entrar y aniquilarlos o no?" — se reúne con líderes del Golfo el 22 de septiembre antes de decidir |
+| Filtraciones de dominio público | Informe de la ONU documenta crímenes de guerra de ambos lados; documental "NAZA" con confesiones de militares israelíes |
+| Frente interno de EEUU | Aprobación de Trump en mínimos (38.2%); guerra comercial con Canadá escalando |
+| Instituciones y ciberseguridad | Intento de juicio político a Hegseth; un reporte de IA falso sobre un buque chino casi provoca un choque militar EEUU-China |
+| Macroeconomía y clima global | Súper Niño en formación, inflación global al alza, la Fed sube tasas pese a las quejas de Trump, países repatriando su oro de EEUU |
+| Burbuja y alarma de la industria de IA | Michael Burry apuesta contra Nvidia/Palantir; Geoffrey Hinton advierte al Congreso que quedan "quizás un año" para regular la IA |
+
+### 4. Contraste externo (K17) y hallazgo nuevo
+
+Se contrastó la tesis central del modelo contra ocho voces académicas y premios Nobel (Stiglitz, Krugman, Mearsheimer, Fukuyama, Hinton, entre otros): **~70% de alineación promedio.** El punto de mayor acuerdo es que no hay salida clara del conflicto (C dominante); el punto de mayor desacuerdo, no resuelto, es si Trump actúa como un actor racional que calcula costos (lectura de Mearsheimer, que el ICM había adoptado) o como un demagogo fuera de ese marco (lectura de Fukuyama).
+
+De ese contraste surge un **Kaizen candidato, K26** (aún no incorporado al protocolo formal): lo que mejor predice el comportamiento extremo de Trump y Netanyahu no sería un rasgo fijo de personalidad, sino qué tan cerca está cada uno de un evento de rendición de cuentas doméstica (elecciones, juicio político, proceso judicial).
+
+---
+
+*Seguimiento generado el 18 de septiembre de 2026 — continuación de P6 sobre el ICM v0.2.0 clausurado. No es una sesión formal ni reabre el modelo.*
+*"Ya se cumpla o no, quien dictará las cosas va a ser la historia."*
