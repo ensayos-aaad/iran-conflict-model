@@ -10,6 +10,22 @@ The Iran Conflict Model (ICM) is a completed research artifact, not a software p
 
 That said, **post-closure tracking is an active, ongoing pattern, not a violation of the closure.** Pendiente P6 ("Retroalimentación del checklist") is explicitly designed to be executed after close, against the Grupo 1/2/3 checklist in README.md. The first such follow-up landed 2026-09-18 as `simulaciones/2026-09-18-sesion-14-seguimiento-extraoficial.md` — a dated, clearly-labeled "seguimiento extraoficial" (unofficial follow-up) that verifies checklist items against fresh press/expert sources, updates scenario probability *ranges* (not the closed point estimates), and revises the falsifiability table. It is explicitly not a new formal session: it doesn't get an S-number in the closed sequence, doesn't touch the `datos/` CSV pipeline, and repeatedly declares itself provisional/open (R4 spirit: "no resuelve por diseño"). If asked to produce another one of these, follow that file's structure and rigor (multi-source cross-checks, explicit falsification checks, declared confidence ranges, K17 external/academic contrast) and name it consistently (`YYYY-MM-DD-sesion-NN-seguimiento-extraoficial.md`, continuing the loose numbering S14, S15, ...) — but do not fold its content back into the closed README/CHANGELOG narrative as if it were part of v0.2.0.
 
+The second follow-up, **S15 (2026-10-09, `simulaciones/2026-10-09-sesion-15-seguimiento-extraoficial.md`)**, established the current working pattern, which the operator expects to be repeated:
+
+1. **The operator brings a list of facts from their own press reading before the analysis starts**, often in a few batches and sometimes vague, misdated or with the wrong subject. They have said their access to international news is limited and that coverage of the Iran war is shrinking. Evaluate each fact for relevance against the checklist and scenarios first, ask for clarifications, and **do not write files until the operator says the list is complete and says to start.**
+2. **Agree on a source plan before searching**, spread across blocs to offset the English/Western bias the README's ethics audit declares: wire agencies, US, Europe, Gulf/Arab (K7), Iran (state *and* opposition, both treated as positions rather than proof), Israel, China (K24), Latin America in Spanish (P8), markets (E5) and expert voices of declared orientation (K17). Rule: "verified" needs ≥2 independent sources from different blocs; a single source is "plausible, no verificado"; "not found" never means "didn't happen".
+3. **Verify every operator fact in its own table** (✅/🟡/⚪ plus corrections). Several facts that reached the operator as "new" turned out to be weeks old or to predate the previous cut-off, so check dates explicitly.
+4. **Then proactively look for what the list missed** (threads from the previous follow-up that weren't revisited, plus anything new). S15 put these in a separate "Ampliación" section (§10) so the operator's facts and the model's own additions stay distinguishable.
+5. Include a self-critique section listing what the previous follow-up missed or got wrong (S15 found five pre-S14 facts that S14 never recorded, plus a modeling error on Netanyahu's caretaker status).
+
+**State left open by S15 — check these first in the next follow-up (S16):**
+
+- **The 3 Nov 2026 US midterms end Trump's declared pause on striking Iran.** S15 recorded a dated falsification criterion for "F era la sala de espera de C": if US/Israeli strikes on Iran resume after 3 Nov, the thesis is confirmed; if none by 31 Dec and negotiation moves toward a text, it is weakened.
+- **Two dated predictions of the K26 candidate** (refined in S15: proximity to an accountability event predicts *that* behavior changes; what each actor's electorate punishes predicts the *direction*): Netanyahu's behavior after the 27 Oct Israeli election, and Trump's toward Iran after 3 Nov.
+- **Other dates to watch:** the Pentagon's livestreamed firing-squad execution scheduled for 3 Dec (a test case for the "cortinas de humo" analysis: patterns, not proof); the 25 Oct Brazil runoff; the 28 Oct Fed meeting; the 29–30 Oct Canada–EU summit; Colombia's embassy in Jerusalem (15 Oct, closes checklist item 3.7).
+- **Declared gaps:** the current state of the AI bubble (Nvidia/Burry) wasn't verified; the date of the Oman-led mediation and Hormuz corridor proposal is unconfirmed; Colombia hasn't officially confirmed the MQ-9s; Iran protest figures come from opposition sources.
+- **S15 ranges to 31 Dec:** C 0.42–0.54, F 0.16–0.22, B 0.11–0.17, A 0.04–0.07, E 0.07–0.12, D 0.04–0.08; convergence 0.44–0.50. Recheck in the file rather than trusting this summary.
+
 Unlike the closed S01–S13 record, **README.md itself now accumulates one dated `## SEGUIMIENTO POST-CIERRE — SNN (...)` section per follow-up, appended at the end of the file** (after the "ARQUITECTURA DEL MODELO" diagram) — it is the one place in README.md that is meant to keep growing post-closure. Each such section carries its own summary dashboard PNG (see below) and is written to be read on its own (hero stats, a checklist table, a scenario-range table, a plain-language evidence table) rather than assuming the reader has the source `simulaciones/...md` open.
 
 Génesis and full methodology are documented in [README.md](README.md) (architecture, final probabilities, Kaizen log K1–K25), [PROTOCOLO-ANCHOR.md](PROTOCOLO-ANCHOR.md) (the ANCHOR v2.0 operating protocol, R1–R6), [COCREACION.md](COCREACION.md) (human/AI division of labor and responsible-use declaration), and [CHANGELOG.md](CHANGELOG.md) (per-session version history). Read the relevant one before making claims about methodology or history instead of relying on memory of this summary.
@@ -34,7 +50,7 @@ docs/
 prompts/README-prompts.md   Prompt documentation methodology (P[N]-titulo.md format)
 prompts/YYYY-MM-DD/         Archived prompts (evidencia experimental) grouped by date
 simulaciones/YYYY-MM-DD-sesion-NN.md   Full transcript/output of each closed formal session (S01-S13)
-simulaciones/YYYY-MM-DD-sesion-NN-seguimiento-extraoficial.md   Post-closure unofficial tracking updates (P6), e.g. S14 (2026-09-18)
+simulaciones/YYYY-MM-DD-sesion-NN-seguimiento-extraoficial.md   Post-closure unofficial tracking updates (P6): S14 (2026-09-18), S15 (2026-10-09)
 simulaciones/img/YYYY-MM-DD-sesion-NN-dashboard.png   Summary dashboard PNG for a seguimiento-extraoficial, linked from README.md's matching section
 datos/README-datos.md       Data dictionary for every CSV schema below
 datos/entradas/{E1,E2,E4,E5}/          Input CSVs per session (press, timeline, narrative noise, markets)
@@ -53,6 +69,8 @@ git commit -m "sesión [N] — [FECHA] — [TIPO]"
 git push
 ```
 
+Post-closure follow-ups use a different format: `feat(seguimiento): SNN extraoficial post-cierre — <summary>` (see S14 and S15 in `git log`). Commit only when the operator asks, and don't push without asking.
+
 If asked to touch the data layer, follow the conventions in [datos/README-datos.md](datos/README-datos.md) exactly — they are load-bearing for the whole project:
 - One CSV per session per input/output type, named `YYYY-MM-DD.csv`, copied from that folder's `schema.csv`.
 - Never delete or reorder rows, never change headers, never leave a field blank (write `NULL` instead).
@@ -62,6 +80,8 @@ If asked to touch the data layer, follow the conventions in [datos/README-datos.
 ## Generating a seguimiento-extraoficial dashboard PNG
 
 There is no in-repo script for this yet — each dashboard so far was generated ad hoc with a Python/matplotlib snippet (light-mode chart surface, `references/palette.md`'s validated categorical/status/sequential colors from the `dataviz` skill, one PNG per follow-up saved to `simulaciones/img/`). If asked to produce another one, load the `dataviz` skill first for the form/color rules, build the figure with matplotlib (already available in this environment), render at a large enough size to read as a "photo" (roughly 2300x1450px), and visually check the rendered PNG for label collisions before embedding it — matplotlib's default spacing does not guarantee that on its own.
+
+S15's dashboard is the most recent layout to reuse: four hero stats, scenario range bars (current range in blue, previous range in gray, S13 close as a black diamond), a stacked bar of the operator-fact verification results in status colors, a Grupo 3 dumbbell (previous vs. current midpoint, labeled with ranges rather than false-precision decimals), and a timeline of hinge dates. Its script lived in a temporary scratchpad and was not saved to the repo, so rebuild it from this description.
 
 ## Model architecture (for understanding, not for extending)
 
