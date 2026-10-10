@@ -547,3 +547,80 @@ De ese contraste surge un **Kaizen candidato, K26** (aún no incorporado al prot
 
 *Seguimiento generado el 18 de septiembre de 2026 — continuación de P6 sobre el ICM v0.2.0 clausurado. No es una sesión formal ni reabre el modelo.*
 *"Ya se cumpla o no, quien dictará las cosas va a ser la historia."*
+
+---
+
+## SEGUIMIENTO POST-CIERRE — S15 (9 octubre 2026)
+
+**¿Qué es esto?** El segundo seguimiento extraoficial del pendiente P6, tres semanas después de S14. El modelo formal sigue clausurado (v0.2.0, S13) y esta sección no cambia sus cifras de cierre. Esta vez el punto de partida fueron **18 hechos que el operador trajo de su propia lectura de prensa**. Se verificaron uno por uno con fuentes de nueve bloques distintos (agencias, EEUU, Europa, Golfo, Irán, Israel, China, América Latina y mercados) antes de usarlos en el análisis.
+
+**Archivo completo:** `simulaciones/2026-10-09-sesion-15-seguimiento-extraoficial.md`
+
+![Dashboard del seguimiento S15 — verificación de los hechos del operador, escenarios S15 frente a S14, Grupo 3 y calendario de bisagras hasta el 3 de noviembre](simulaciones/img/2026-10-09-sesion-15-dashboard.png)
+
+*Resumen visual de esta sección — ver también la imagen en [`simulaciones/img/2026-10-09-sesion-15-dashboard.png`](simulaciones/img/2026-10-09-sesion-15-dashboard.png).*
+
+### 1. El hecho central: la guerra entra en una pausa con fecha
+
+El 8 de octubre Trump anunció: *"No atacaremos Irán en ningún momento antes de las elecciones de medio término del 3 de noviembre"*. El bloqueo naval a Irán sigue en pie y los ataques iraníes a petroleros en Ormuz continúan. Es la primera vez que un actor central ata la acción militar, por escrito, a una fecha electoral. Es la prueba más directa que ha tenido la tesis central del ICM, *"F era la sala de espera de C"*: ahora la sala de espera tiene una fecha de salida anunciada.
+
+### 2. ¿Qué pasó con los hechos que trajo el operador?
+
+| Resultado | Cantidad | Ejemplos |
+|---|---|---|
+| Verificado | 14 | Pausa electoral de Trump; Netanyahu frente a una sala medio vacía en la ONU y el Starlink ofrecido al delegado iraní; Flydubai FZ1073 (un copiloto intentó estrellar contra Tel Aviv un avión lleno de israelíes) |
+| …de ellos, con corrección | 4 | El Nobel no fue para la CPI sino para Navi Pillay, exjueza de la CPI, y EEUU sancionó a la CPI horas después; la visita de Xi y la de Rubio a Colombia fueron en septiembre, no en octubre |
+| Parcial o desactualizado | 2 | Yemen: después del avance hutí vino una contraofensiva saudí, y EEUU se negó a darle apoyo aéreo directo |
+| No verificado / descartado | 2 | Incidentes del ICE (sin un caso nuevo de octubre confirmado); lanzamientos de cohetes (fuera del alcance del modelo) |
+
+Ningún hecho resultó falso. Dos eran **anteriores a S14 y S14 no los había visto**: el restablecimiento de relaciones Colombia-Israel (11 de agosto) y los Acuerdos de Barranquilla con EEUU (8 de septiembre).
+
+### 3. Tabla de escenarios — rango al 31 de diciembre
+
+| Escenario | S13 — cierre | S14 — 18 sept | **S15 — 9 oct** | Lectura |
+|---|---|---|---|---|
+| C — Escalada / sabotaje | 0.52 | 0.50 – 0.62 | **0.42 – 0.54** | Aplazado, no descartado: la pausa vence el 3 de noviembre |
+| F — Desescalada narrativa sin acuerdo | 0.22 | 0.14 – 0.20 | **0.16 – 0.22** | La pausa electoral es F de manual |
+| B — Limbo prolongado | 0.10 | 0.10 – 0.16 | **0.11 – 0.17** | Más procesos con fecha, ninguno resuelto |
+| A — Acuerdo formal verificado | 0.06 | 0.03 – 0.07 | **0.04 – 0.07** | EEUU suaviza su exigencia de enriquecimiento, pero no hay texto de MOU |
+| E — Wildcard operacional | 0.06 | 0.07 – 0.12 | **0.07 – 0.12** | Cambia de forma: Flydubai y los ataques hutíes a aeropuertos saudíes |
+| D — Colapso del régimen iraní | 0.04 | 0.04 – 0.08 | **0.04 – 0.08** | El rial bate mínimos, pero no hay fractura del aparato de seguridad |
+| **Convergencia** | 0.51 | 0.42 – 0.48 | **0.44 – 0.50** | Primera subida desde el cierre, solo en el corto plazo |
+
+Ningún punto medio se movió más de 0.10 (umbral K21). La convergencia sube porque el corto plazo quedó acotado por fechas conocidas (Israel vota el 27 de octubre y EEUU el 3 de noviembre). Lo que venga después del 3 de noviembre sigue igual de abierto.
+
+### 4. Lo nuevo en lenguaje llano
+
+| Frente | Lo que encontramos |
+|---|---|
+| EEUU como garante del Golfo | Los países del Golfo llegaron a la reunión con Trump (22 sept) temiendo dos cosas a la vez: más guerra y menos protección de EEUU. Dos semanas después, Arabia Saudita lanzó con sus propios medios su mayor ofensiva en Yemen, y EEUU le negó apoyo aéreo directo. Hipótesis abierta: ¿retirada de EEUU o solo un apoyo más discreto? |
+| China | En la visita de Xi a Washington, China firmó con EEUU que Irán no debe tener armas nucleares y que nadie puede cobrar peaje en Ormuz. Es mediadora con intereses propios, no aliada incondicional de Irán |
+| Israel | Elección del 27 de octubre con los bloques empatados; aislamiento en la ONU; el documental NAZA llega a las salas de EEUU |
+| EEUU por dentro | Aprobación de Trump en 30% (Pew); 65% desaprueba su manejo de la guerra; el bono a 10 años en su nivel más alto desde 2002; Kushner negocia con Irán mientras su fondo tiene una participación indirecta en Elbit |
+| Colombia | Relaciones con Israel restablecidas; embajada en Jerusalén el 15 de octubre; entrada al "Escudo de las Américas" con sede en Medellín; posibles drones MQ-9 de EEUU, que escasean justamente por las pérdidas en Irán |
+
+### 5. Autocrítica y Kaizen candidato
+
+S15 corrige tres puntos de S14. **Colombia:** S14 dijo que "poco ha cambiado" cuando ya había cambiado; fue un fallo de fuentes en español (P8), y la pista vino del operador. **Netanyahu:** S14 no consideró que, con un empate, seguiría como primer ministro interino. **Yemen:** S14 no anticipó la contraofensiva saudí. El Kaizen candidato **K26** (la cercanía a una elección o un juicio predice la conducta extrema) recibe su primer contraste externo (Trita Parsi) y se refina. La cercanía al evento predice que **cambia** la conducta; el **sentido** del cambio depende de qué castiga cada electorado. Trump se contiene porque sus votantes rechazan la guerra; Netanyahu endurece la retórica porque los suyos premian la firmeza.
+
+**Contraste K17:** ~70% de cercanía promedio con las voces externas, igual que en S14. Esta vez se incluyeron voces cercanas a la alianza EEUU-Israel (Washington Institute, FDD) para compensar el sesgo de selección de S14.
+
+### 6. Ampliación — lo que no venía en la lista
+
+Después de la primera redacción se revisaron hechos que el operador no había traído, y él aportó tres temas más. Ningún rango de la tabla cambió.
+
+| Frente | Lo que encontramos |
+|---|---|
+| La "pausa" es solo de bombardeos | Las sanciones del "Día D económico" (24 ago) buscan la "asfixia económica" de Irán; el bloqueo sigue y los ciberataques iraníes continúan. Los bombardeos de EEUU sobre Irán son lo único que se detuvo. |
+| Complots fuera de la zona de guerra | Un presunto complot vinculado a Irán contra RAF Fairford (Reino Unido) llevó a EEUU a sacar de allí todos sus bombarderos B-1B (4 oct), algo "sin precedentes". Junto con el Flydubai, es el nuevo rostro del escenario E. Irán niega estar detrás. |
+| Rusia | Putin le promete a Irán "hacer todo" (8 oct) mientras lanza uno de sus mayores ataques contra Ucrania (6-7 oct). La UE responde con su mayor tanda de sanciones desde 2022. Rusia está del lado de Irán y China tiene sus propios intereses: el eje no se rompe, pero sus socios tiran en direcciones distintas. |
+| Netanyahu y el 7 de octubre | EAU, Egipto y el exjefe del Shin Bet dicen haberle advertido del ataque de Hamás de 2023; él lo niega. Las revelaciones coinciden con su discurso más desafiante en la ONU: es la mejor evidencia hasta ahora para K26. |
+| Energía | El G7 y la AIE aceleran la liberación de reservas de emergencia (100M de barriles, con prioridad al diésel). No es petróleo nuevo, y la reserva de EEUU está en su nivel más bajo desde 1982. China no tocó la suya. |
+| ¿Cortinas de humo? | Hay un patrón de gestión de la atención antes de los midterms, documentado por AFP (por ejemplo, el fusilamiento transmitido en vivo, anunciado el mismo día que la pausa). Pero ningún caso concreto está probado como cortina de humo. Lo verificable es el efecto: la guerra pierde espacio en las noticias justo cuando su reactivación tiene fecha. |
+
+**Autocrítica ampliada:** son cinco los hechos anteriores al corte de S14 (18 sept) que S14 no recogió. La información llega tarde y fragmentada, también al modelo.
+
+---
+
+*Seguimiento generado el 9 de octubre de 2026 — segunda pasada de P6 sobre el ICM v0.2.0 clausurado. No es una sesión formal ni reabre el modelo.*
+*"Ya se cumpla o no, quien dictará las cosas va a ser la historia."*
