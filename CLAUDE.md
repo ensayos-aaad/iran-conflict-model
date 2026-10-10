@@ -52,12 +52,26 @@ prompts/YYYY-MM-DD/         Archived prompts (evidencia experimental) grouped by
 simulaciones/YYYY-MM-DD-sesion-NN.md   Full transcript/output of each closed formal session (S01-S13)
 simulaciones/YYYY-MM-DD-sesion-NN-seguimiento-extraoficial.md   Post-closure unofficial tracking updates (P6): S14 (2026-09-18), S15 (2026-10-09)
 simulaciones/img/YYYY-MM-DD-sesion-NN-dashboard.png   Summary dashboard PNG for a seguimiento-extraoficial, linked from README.md's matching section
+investigacion/              Post-closure research line on the METHOD (not the conflict), started 2026-10-10: state of the art, conceptual framework, candidate patterns, process-line model, CEM comparison case, preregistration
 datos/README-datos.md       Data dictionary for every CSV schema below
 datos/entradas/{E1,E2,E4,E5}/          Input CSVs per session (press, timeline, narrative noise, markets)
 datos/salidas/{S1,S2,S3,S4}/           Output CSVs per session (narratives, factual state, disinformation, scenarios)
 datos/salidas/convergencia.csv         Cumulative time series: one row per session, the model's primary signal
 datos/validacion/registro-validacion.csv   Forecast tracking: predicted scenario vs. actual outcome per horizon
 ```
+
+## Research line on the method (`investigacion/`)
+
+Started 2026-10-10 at the operator's request. It evaluates **the human-AI dialectic method itself**, aiming at an academic output: a case-study / Design Science framing, where the protocol is the artifact. The research question: does structured human-AI dialectic produce genuine consilience or false consilience (apophenia)? Start at [investigacion/README.md](investigacion/README.md). Rules that matter:
+
+- **It never edits the closed v0.2.0 record.** It cites it.
+- **The preregistration must be frozen before 2026-10-26**: commit, push and OSF. After that, `investigacion/protocolo-evaluacion-cierre-2026.md` is **never edited**; corrections go in a new dated document. One point probability per question, each with a written resolution rule.
+- **References cited from memory carry †** until verified online. Never present a † reference as verified.
+- **A second case exists:** the CEM (Colombia Electoral Model, [ensayos-aaad/modelo-electoral-colombia](https://github.com/ensayos-aaad/modelo-electoral-colombia)), an "ICM Lite" variant. It is **resolved and was wrong** (projected Cepeda, P = 0.52; De la Espriella won; Polymarket at 89% was right). Treat it as the comparison case, not as a success.
+- **Consilience is not a new idea for this project:** V24 (S02 part 2) and V33 (the "Chomsky factor" warning about integrating captured narratives, S03) introduced it in April 2026. Check the record before presenting an idea as new.
+- **The narrated "convergencia" in S14/S15 is a judgment, not a measure.** The Shannon entropy of the year-end scenario distribution rises S13 → S14 → S15 (1.976 → 2.033 → 2.143 bits), contradicting S15's claim that convergence rose. See investigacion/marco-conceptual.md §6.
+- **The operator's personal academic or professional situation** stays out of this public CC BY-SA repo unless they explicitly decide otherwise.
+- **Rule for excluded sources (operator decision, 2026-10-10): keep what was previously defined, change nothing.** The CEM's exclusions (Semana, El Colombiano, AtlasIntel, La Silla Vacía) stand; do not add La Silla Vacía to ICM follow-ups. The ICM never had an exclusion list. R-5 (justify and periodically contrast any exclusion) is only a proposed restriction for future variants. Declared, uncorrected inconsistency: S15 used Semana as the single source for the date of Colombia's Jerusalem embassy.
 
 ## Working with this repository
 
