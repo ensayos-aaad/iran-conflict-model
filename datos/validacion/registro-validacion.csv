@@ -1,2 +1,18 @@
 fecha_prediccion,sesion,escenario,probabilidad,horizonte_dias,fecha_evaluacion,resultado,notas
 2026-04-06,1,NULL,NULL,NULL,NULL,NULL,Sesión 01 — diseño de arquitectura — sin predicciones operativas
+2026-09-18,14,G3-3.1 Dems mayoria Camara (>=218),0.675,104,2026-12-31,NULL,S14 rango 65-70% -> punto medio; regla en investigacion/protocolo-evaluacion-cierre-2026.md 6.2
+2026-09-18,14,G3-3.2 Acuerdo nuclear EEUU-Iran con criterios K20,0.15,104,2026-12-31,NULL,S14 ~15%; requiere texto publico + OIEA + alivio de sanciones
+2026-09-18,14,G3-3.3 Iran posee arma nuclear operativa,0.10,104,2026-12-31,NULL,S14 ~10%; el 25% 'cerca' no es puntuable y no se registra
+2026-09-18,14,G3-3.4 Netanyahu PM al 31 dic (titular o interino),0.40,104,2026-12-31,NULL,S14 ~40%; no considero el escenario de PM interino (corregido en S15)
+2026-09-18,14,G3-3.5 Recesion EEUU (BEA 2 trimestres negativos o NBER),0.175,104,2026-12-31,NULL,S14 rango 15-20% -> punto medio
+2026-09-18,14,G3-3.6 Colapso del Estado libanes o anexion israeli,0.20,104,2026-12-31,NULL,S14 ~20%
+2026-09-18,14,G3-3.7 Colombia cambia politica exterior,0.30,104,2026-12-31,OCURRIO,"Resuelto en S15: relaciones con Israel restablecidas el 2026-08-11, antes de la S14; Brier 0.49"
+2026-10-09,15,G3-3.1 Dems mayoria Camara (>=218),0.685,83,2026-12-31,NULL,S15 rango 65-72% -> punto medio
+2026-10-09,15,G3-3.2 Acuerdo nuclear EEUU-Iran con criterios K20,0.165,83,2026-12-31,NULL,S15 rango 15-18% -> punto medio
+2026-10-09,15,G3-3.3 Iran posee arma nuclear operativa,0.10,83,2026-12-31,NULL,S15 ~10% sin cambio
+2026-10-09,15,G3-3.4 Netanyahu PM al 31 dic (titular o interino),0.525,83,2026-12-31,NULL,S15 rango 50-55% -> punto medio
+2026-10-09,15,G3-3.5 Recesion EEUU (BEA 2 trimestres negativos o NBER),0.205,83,2026-12-31,NULL,S15 rango 18-23% -> punto medio
+2026-10-09,15,G3-3.6 Colapso del Estado libanes o anexion israeli,0.20,83,2026-12-31,NULL,S15 ~20% sin cambio
+2026-10-10,NULL,P-1 Presion no bombardeo (sanciones/ataque atribuido/proxy) 10 oct-3 nov,0.85,24,2026-11-03,NULL,"Pronostico del prerregistro, no de una sesion; regla en protocolo 6.4"
+2026-10-10,NULL,P-2 EEUU apoyo aereo directo a ofensiva saudi en Yemen,0.30,82,2026-12-31,NULL,"Pronostico del prerregistro; Si = externalizacion, No = repliegue"
+2026-10-10,NULL,P-3 Ataque de Iran o aliados con bajas de EEUU 20 oct-3 nov,0.20,24,2026-11-03,NULL,Pronostico del prerregistro; hipotesis Parsi (S15 K17)

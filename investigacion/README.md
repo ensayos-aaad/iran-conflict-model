@@ -27,9 +27,9 @@ El objetivo declarado del operador es poder sacar conclusiones con respaldo al c
 | [patrones-candidatos.md](patrones-candidatos.md) | 12 patrones de diseño latentes del protocolo, con su evidencia | Borrador |
 | [linea-de-procesos.md](linea-de-procesos.md) | El ICM, el CEM y los seguimientos como una línea de procesos, con su modelo de características y sus restricciones | Borrador |
 | [caso-cem.md](caso-cem.md) | El CEM como segundo caso: resultado, puntaje y lecciones | Borrador |
-| `protocolo-evaluacion-cierre-2026.md` | **Prerregistro** | Pendiente: congelar antes del 26 oct |
-| `registro-errores.csv` | Quién detectó y quién corrigió cada error | Pendiente |
-| `especificacion-protocolo.md` | El protocolo de seguimiento especificado como artefacto | Pendiente |
+| [protocolo-evaluacion-cierre-2026.md](protocolo-evaluacion-cierre-2026.md) | **Prerregistro** | **Borrador (10 oct)**: pendiente la revisión del operador; congelar antes del 26 oct |
+| [registro-errores.csv](registro-errores.csv) | Quién detectó y quién corrigió cada error | 24 filas (10 oct); se agregan filas en cada seguimiento |
+| [especificacion-protocolo.md](especificacion-protocolo.md) | El protocolo de seguimiento especificado como artefacto | SEG v1.0 (10 oct) |
 | `diseno-experimento-ab.md` | La S16 en dos brazos: solo IA frente al protocolo completo | Pendiente: antes del 3 nov |
 
 ## Reglas de esta carpeta
