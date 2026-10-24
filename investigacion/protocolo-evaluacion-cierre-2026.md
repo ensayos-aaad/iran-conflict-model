@@ -267,3 +267,17 @@ cumplan filas contradictorias. No calcules el Brier: se calcula con código apar
 
 Responde en español, en tablas.
 ```
+
+**Pasos en enero de 2027:**
+
+1. Crear una Gem nueva llamada `Evaluador ICM 2027`, con las instrucciones de arriba y, como archivos de conocimiento, este documento congelado (el de la etiqueta `prerregistro-2026-10-26`) y el archivo de fuentes de resolución.
+2. El archivo de fuentes lo prepara Claude: por cada ítem, los enlaces y las citas, **sin ninguna conclusión ni calificación** (sección 8). El operador revisa que no las tenga antes de subirlo.
+3. Usar el modelo más capaz disponible y registrar su versión.
+4. Enviar este mensaje, tal cual:
+
+```text
+Califica cada ítem del prerregistro adjunto siguiendo tus instrucciones.
+Usa como evidencia el archivo de fuentes de resolución adjunto.
+```
+
+5. Archivar la respuesta completa en `prompts/2027-01-.../`, como la revisión del 24 de octubre de 2026.
