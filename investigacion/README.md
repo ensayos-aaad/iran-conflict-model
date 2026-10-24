@@ -27,10 +27,11 @@ El objetivo declarado del operador es poder sacar conclusiones con respaldo al c
 | [patrones-candidatos.md](patrones-candidatos.md) | 12 patrones de diseño latentes del protocolo, con su evidencia | Borrador |
 | [linea-de-procesos.md](linea-de-procesos.md) | El ICM, el CEM y los seguimientos como una línea de procesos, con su modelo de características y sus restricciones | Borrador |
 | [caso-cem.md](caso-cem.md) | El CEM como segundo caso: resultado, puntaje y lecciones | Borrador |
-| [protocolo-evaluacion-cierre-2026.md](protocolo-evaluacion-cierre-2026.md) | **Prerregistro** | **Borrador (10 oct)**: pendiente la revisión del operador; congelar antes del 26 oct |
-| [registro-errores.csv](registro-errores.csv) | Quién detectó y quién corrigió cada error | 24 filas (10 oct); se agregan filas en cada seguimiento |
+| [protocolo-evaluacion-cierre-2026.md](protocolo-evaluacion-cierre-2026.md) | **Prerregistro** | **Borrador revisado (24 oct)** por Gemini y por el operador; congelar el 26 oct |
+| `linea-base-k26n-2026-10.md` | Inventario de la conducta de Netanyahu del 6 al 26 oct, línea base de K26-N | Pendiente: 25 oct, se congela con el prerregistro |
+| [registro-errores.csv](registro-errores.csv) | Quién detectó y quién corrigió cada error | 36 filas (24 oct); se agregan filas en cada seguimiento |
 | [especificacion-protocolo.md](especificacion-protocolo.md) | El protocolo de seguimiento especificado como artefacto | SEG v1.0 (10 oct) |
-| `diseno-experimento-ab.md` | La S16 en dos brazos: solo IA frente al protocolo completo | Pendiente: antes del 3 nov |
+| `diseno-experimento-ab.md` | La S16 en dos brazos: Claude solo frente al protocolo completo. Gemini no puede ser un brazo, porque es el segundo evaluador | Pendiente: documento aparte, congelado antes de empezar la S16; el análisis puede esperar a 2027 |
 
 ## Reglas de esta carpeta
 
@@ -44,7 +45,9 @@ El objetivo declarado del operador es poder sacar conclusiones con respaldo al c
 
 | Fecha | Hito |
 |---|---|
-| 26 oct 2026 | Congelar el prerregistro (commit, push y registro en OSF) |
+| 24 oct 2026 | Revisión externa del borrador por Gemini y revisión del operador |
+| 25 oct 2026 | Línea base de K26-N |
+| 26 oct 2026 | Congelar el prerregistro (precios de mercado, commit con etiqueta, push, OSF y OpenTimestamps) |
 | 27 oct 2026 | Elección en Israel: primera predicción de K26 |
 | 3 nov 2026 | Midterms en EEUU: fin de la pausa declarada; "F sala de espera de C" y segunda predicción de K26 |
 | 31 dic 2026 | Corte de los pronósticos del Grupo 3 |
