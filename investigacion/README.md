@@ -48,8 +48,40 @@ El objetivo declarado del operador es poder sacar conclusiones con respaldo al c
 |---|---|
 | 24 oct 2026 | Revisión externa del borrador por Gemini y revisión del operador |
 | 25 oct 2026 | Línea base de K26-N, precios de mercado y congelamiento del prerregistro (commit con etiqueta, push, OSF y OpenTimestamps) |
-| 27 oct 2026 | Elección en Israel: primera predicción de K26 |
-| 3 nov 2026 | Midterms en EEUU: fin de la pausa declarada; "F sala de espera de C" y segunda predicción de K26 |
-| 31 dic 2026 | Corte de los pronósticos del Grupo 3 |
+| 27 oct 2026 | Elección en Israel. Empieza la ventana de K26-N (28 oct – 17 nov) |
+| 28 oct 2026 | Reunión de la Fed (contexto para la S16) |
+| 29–30 oct 2026 | Cumbre Canadá–UE (contexto para la S16) |
+| 3 nov 2026 | Midterms en EEUU: se resuelve 3.1; cierran las ventanas de P-1 (que ya parece Sí) y P-3 |
+| 4 nov 2026 | Fin de la pausa declarada por Trump. Abren las ventanas de T1 (hasta el 31 dic) y K26-T (hasta el 2 ene 2027) |
+| 17 nov 2026 | Fin de la ventana de K26-N: ya se puede comparar con la línea base |
+| 18–19 nov 2026 | APEC de Shenzhen, con una posible cumbre Trump-Putin-Xi (contexto para el ítem 3.8) |
+| 29 nov 2026 | Elecciones anticipadas en España (contexto para la S16) |
+| 3 dic 2026 | Fusilamiento transmitido en vivo por el Pentágono (caso de prueba de las "cortinas de humo") |
+| 31 dic 2026 | Corte del Grupo 3: se resuelven 3.2–3.6, P-2 y T1 |
+| 2 ene 2027 | Fin de la ventana de K26-T |
 | enero 2027 | Veredicto, con calificación independiente |
 | feb–mar 2027 | Archivo en Zenodo, artículo y kit de réplica |
+
+## Pendientes
+
+Se marcan aquí a medida que se cumplen, con su fecha.
+
+**Después del congelamiento**
+- [ ] Actualizar el sello de OpenTimestamps (`ots upgrade`) cuando se ancle en Bitcoin, y hacer commit de la prueba actualizada. Instrucciones en el [LEEME del sello](sello-prerregistro-2026-10-25/LEEME.md)
+- [ ] Comprobar que el registro de OSF (https://osf.io/xtrc8) quedó público; aprobarlo si OSF lo pide
+
+**Seguimientos**
+- [ ] Decidir si se hace el experimento A/B. Si se hace, `diseno-experimento-ab.md` debe congelarse **antes** de empezar la S16
+- [ ] S16, sugerida entre el 5 y el 10 de noviembre, después de las midterms. El operador junta su lista de prensa desde el 27 de octubre. Ya hay temas anotados para la S16 en la sección 5 de la línea base: Lula, las protestas en Europa y Starlink en Ucrania
+- [ ] S17, sugerida después del 17 de noviembre, para cerrar K26-N
+- [ ] Agregar filas a `registro-errores.csv` en cada seguimiento
+
+**Evaluación (enero de 2027)**
+- [ ] Claude prepara el archivo de fuentes de resolución: solo enlaces y citas, sin conclusiones ni calificaciones. El operador revisa que no las tenga
+- [ ] El operador crea una Gem nueva, "Evaluador ICM 2027", siguiendo el anexo A del prerregistro, y archiva su respuesta en `prompts/2027-01-.../`
+- [ ] El operador califica por separado, sin ver la calificación de Gemini
+- [ ] Construir el pipeline en Python: Brier por ítem con intervalos por *bootstrap*, entropía y métricas del registro de errores. Claude puede programarlo, pero no califica
+- [ ] Aplicar la tabla de la sección 7 del prerregistro tal cual y publicar el veredicto, sea "humo" o "valor"
+
+**Sin fecha**
+- [ ] Verificar las referencias marcadas con † en `estado-del-arte.md` antes de usarlas en un texto académico
