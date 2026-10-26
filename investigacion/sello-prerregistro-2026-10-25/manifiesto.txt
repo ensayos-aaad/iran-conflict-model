@@ -1,0 +1,13 @@
+Manifiesto del prerregistro congelado — ICM, evaluación del método
+Repositorio: https://github.com/ensayos-aaad/iran-conflict-model
+Etiqueta: prerregistro-2026-10-25
+Commit: a7e46d842da97d61f561760edb9f0e9bc8405d62
+Registro OSF: https://osf.io/xtrc8
+Fecha de congelamiento: 2026-10-25 (hora de Colombia, UTC-5)
+
+SHA-256 de cada archivo tal como está guardado en git en ese commit (git show a7e46d842da97d61f561760edb9f0e9bc8405d62:<ruta>):
+b229fc78a43570883f78d736a07096e272baa9984e41a399a38c260776f2ec33  investigacion/protocolo-evaluacion-cierre-2026.md
+c8dea888d0faf461af61935406678ae83db82a95cc26a687eb4de87992d23131  investigacion/linea-base-k26n-2026-10.md
+ebaa54f4115e88319f8774f7e29b93d23aa446f27355994aa8406b8adc3cc3c9  investigacion/precios-mercado-2026-10-25.md
+585e8c025a1e0dcfd7398dd273ebb06b38a9ee4729fa383d5a1f236b91bd8a84  investigacion/registro-errores.csv
+42408a5952d4bf2be75a3c5259cbce4d525740ddc551103bbcd25f6149f6e0ac  datos/validacion/registro-validacion.csv

@@ -1,7 +1,7 @@
 # Línea de investigación post-cierre — evaluación del método ICM
 
 **Iniciada:** 9–10 de octubre de 2026, durante y después del seguimiento extraoficial S15.
-**Estado:** en construcción. El prerregistro (`protocolo-evaluacion-cierre-2026.md`) debe congelarse antes del **26 de octubre de 2026**.
+**Estado:** en construcción. El prerregistro (`protocolo-evaluacion-cierre-2026.md`) se **congeló el 25 de octubre de 2026** ([OSF](https://osf.io/xtrc8), etiqueta `prerregistro-2026-10-25`).
 
 ## Qué es esto
 
@@ -27,7 +27,7 @@ El objetivo declarado del operador es poder sacar conclusiones con respaldo al c
 | [patrones-candidatos.md](patrones-candidatos.md) | 12 patrones de diseño latentes del protocolo, con su evidencia | Borrador |
 | [linea-de-procesos.md](linea-de-procesos.md) | El ICM, el CEM y los seguimientos como una línea de procesos, con su modelo de características y sus restricciones | Borrador |
 | [caso-cem.md](caso-cem.md) | El CEM como segundo caso: resultado, puntaje y lecciones | Borrador |
-| [protocolo-evaluacion-cierre-2026.md](protocolo-evaluacion-cierre-2026.md) | **Prerregistro** | **Borrador revisado (24 oct)** por Gemini y por el operador; se congela el 25 oct |
+| [protocolo-evaluacion-cierre-2026.md](protocolo-evaluacion-cierre-2026.md) | **Prerregistro** | **Congelado el 25 oct 2026**: etiqueta `prerregistro-2026-10-25`, [registro en OSF](https://osf.io/xtrc8) y [sello de OpenTimestamps](sello-prerregistro-2026-10-25/LEEME.md). No se edita más |
 | [linea-base-k26n-2026-10.md](linea-base-k26n-2026-10.md) | Inventario de la conducta de Netanyahu del 6 al 25 oct, línea base de K26-N, más el contexto de EEUU antes de las midterms | 25 oct; se congela con el prerregistro |
 | [precios-mercado-2026-10-25.md](precios-mercado-2026-10-25.md) | Precios de mercado de referencia (sección 6.5 del prerregistro) | 25 oct; se congela con el prerregistro |
 | [registro-errores.csv](registro-errores.csv) | Quién detectó y quién corrigió cada error | 36 filas (24 oct); se agregan filas en cada seguimiento |
