@@ -1,7 +1,7 @@
 # Protocolo de evaluación prerregistrado — cierre 2026
 
-> **ESTADO: BORRADOR REVISADO, NO CONGELADO.** Redactado el 10 de octubre de 2026. Revisado el 24 de octubre por un revisor externo (Gemini) y por el operador; los cambios están en la sección 12.
-> **Congelamiento:** un commit con la etiqueta `prerregistro-2026-10-26`, más su push y su registro en OSF, **a más tardar el 26 de octubre de 2026**, un día antes de la primera fecha de resolución (27 oct).
+> **ESTADO: CONGELADO el 25 de octubre de 2026** (etiqueta `prerregistro-2026-10-25`). Redactado el 10 de octubre de 2026. Un revisor externo (Gemini) revisó **solo el borrador del 10 de octubre** (commit `28e0a0d`). Los cambios posteriores, del 24 y 25 de octubre, los revisaron Claude y el operador, sin revisión externa. Todo está en la sección 12.
+> **Congelamiento:** un commit con la etiqueta `prerregistro-2026-10-25`, más su push y su registro en OSF, **el 25 de octubre de 2026**, dos días antes de la primera fecha de resolución (27 oct). La fecha límite era el 26; se adelantó al 25 por decisión del operador (sección 12).
 > **Después de congelado, este archivo no se edita.** Cualquier corrección va en un documento nuevo, con fecha, que explica qué cambió y por qué.
 
 ---
@@ -91,8 +91,8 @@ K26 refinado (S15 §7): *la cercanía a un evento de rendición de cuentas predi
 ### K26-N (Netanyahu)
 
 **Predicción:** con la elección legislativa de Israel (Knéset) del 27 de octubre ya pasada, y sin otro evento de rendición de cuentas inminente, la intensidad de su conducta extrema **no aumenta** respecto de las tres semanas previas.
-- **Comparación:** del 6 al 26 de octubre frente al 28 de octubre – 17 de noviembre.
-- **Línea base:** el inventario de la ventana del 6 al 26 de octubre se congela junto con este documento en [linea-base-k26n-2026-10.md](linea-base-k26n-2026-10.md), con fuentes de al menos dos bloques por evento. El evaluador compara contra ese inventario, no contra una reconstrucción posterior.
+- **Comparación:** del 6 al 25 de octubre frente al 28 de octubre – 17 de noviembre.
+- **Línea base:** el inventario de la ventana del 6 al 25 de octubre se congela junto con este documento en [linea-base-k26n-2026-10.md](linea-base-k26n-2026-10.md), con fuentes de al menos dos bloques por evento. El evaluador compara contra ese inventario, no contra una reconstrucción posterior.
 - **Rúbrica** (cada ítem: mayor, igual o menor en la ventana posterior):
   (a) **eventos de escalada** ordenados por Israel: apertura de un frente nuevo, ataque sobre territorio iraní, o ataque sobre Beirut o sobre infraestructura estatal (no militar) de Líbano o Gaza. No cuentan las operaciones de rutina en frentes ya activos;
   (b) confrontaciones públicas con instituciones internacionales (ONU, CPI);
@@ -177,6 +177,8 @@ Se aplica **tal cual** en enero de 2027.
 
 Si se cumplen a la vez filas de "humo" y de valor, **se reportan todas**, sin escoger. Si T1 queda "indeterminada", se reporta y las filas que dependen de ella se marcan "no evaluables".
 
+**Qué es un error cruzado en H-1 y V-1:** un error que cometió el operador y detectó la IA, o que cometió la IA y detectó el operador. Los errores detectados por una fuente externa (por ejemplo, la revisión de Gemini del 24 de octubre) o por la realidad no entran en H-1 ni en V-1; se reportan aparte, en la métrica M-A1. La pregunta de H-1 es si aporta **el diálogo entre las dos partes**.
+
 **Mínimo de datos para H-1 y V-1:** se necesitan al menos **10 errores cruzados prospectivos** (registrados desde el 10 de octubre). Con menos, H-1 y V-1 se marcan "no evaluables": con pocos errores, uno de más o de menos cambia la fila.
 
 ## 8. Calificación
@@ -194,6 +196,7 @@ Si se cumplen a la vez filas de "humo" y de valor, **se reportan todas**, sin es
 - Nada estadísticamente significativo: hay 2 casos y unas 10 preguntas.
 - Nada sobre otros operadores: hay un solo operador.
 - Nada sobre otros modelos: los dos casos usaron Claude.
+- Mucho sobre el pronóstico frente al mercado: al congelamiento, solo el ítem 3.1 tiene un contrato de mercado equivalente, así que la comparación con el mercado de H-3 descansa en **una sola pregunta**.
 - Mucho sobre conciliencia a partir de P-1, P-2 y P-3: son solo tres preguntas, y son pruebas débiles. P-1 (0,85) está cerca de la tasa base, porque EEUU designa sanciones contra Irán con frecuencia, y en P-2 (0,30) y P-3 (0,20) el método acierta si no pasa nada (el statu quo).
 
 ## 10. Conflictos de interés y sesgos declarados
@@ -203,20 +206,21 @@ Si se cumplen a la vez filas de "humo" y de valor, **se reportan todas**, sin es
 - El operador declaró preferencias en ambos casos: que el conflicto se resolviera (ICM) y que ganara Cepeda (CEM).
 - Este documento lo redactó Claude. Su redacción puede estar sesgada hacia criterios que el modelo cree que se cumplirán. La salvaguarda fue doble: una revisión externa de Gemini y la revisión del operador, antes del congelamiento.
 - **Límite declarado por el operador (24 oct):** el operador no tiene la formación de un politólogo o de un estratega para fijar umbrales numéricos. Aprobó los umbrales de la sección 7 (70%, mínimo de 10 errores, Brier > 0,25) y los cambios de la sección 12 apoyándose en las propuestas de Claude y de Gemini, no en un juicio experto propio. Es un caso del sesgo de automatización que este estudio mide, y se declara como tal.
-- El segundo evaluador (Gemini) también revisó este borrador antes del congelamiento. Conoce las reglas, que es lo esperable de un evaluador, pero no ve ninguna lectura de los resultados hecha por Claude.
+- **Declaración del operador al congelar (25 oct):** "como operador humano estoy manejando más información de la que puedo y soy capaz, además de muchas cosas que en la marcha no tengo forma de comprobar con calma. Lo importante es que todo lo que sea necesario tenga trazabilidad para que algún otro operador, sea humano o una IA, pueda hacer una trazabilidad y auditoría clara y que no se preste a deducciones sin evidencias." Es decir: el operador aprobó la versión final sin poder verificar con calma cada cambio del 24 y 25 de octubre. **La salvaguarda que queda es la trazabilidad** (sección 12): cada cambio tiene fecha, origen y archivo, y cada fuente tiene enlace.
+- El segundo evaluador (Gemini) también revisó el borrador del 10 de octubre antes del congelamiento. Conoce las reglas, que es lo esperable de un evaluador, pero no ve ninguna lectura de los resultados hecha por Claude.
 
 ## 11. Pendientes antes del congelamiento
 
 - [x] Revisión del operador (24 oct, con el límite declarado en la sección 10)
 - [x] Revisión externa del borrador por Gemini (24 oct; ver la sección 12)
 - [x] Crear `registro-errores.csv` con los registros retrospectivos (10 oct: 24 filas)
-- [ ] Congelar la línea base de K26-N en `linea-base-k26n-2026-10.md` (25 oct)
-- [ ] Capturar los precios de mercado (sección 6.5), el día del congelamiento
+- [x] Congelar la línea base de K26-N en `linea-base-k26n-2026-10.md` (25 oct)
+- [x] Capturar los precios de mercado (sección 6.5), el día del congelamiento (25 oct, 21:52 hora de Colombia: `precios-mercado-2026-10-25.md`)
 - [x] Documentar las frecuencias históricas, o retirarlas (10 oct: 3.1 y 3.5 fijadas; las demás, omitidas)
 - [x] Agregar las filas a `datos/validacion/registro-validacion.csv` (10 oct: 16 filas)
 - [x] Escribir `especificacion-protocolo.md` (10 oct)
 - [x] Definir quién será el segundo evaluador (24 oct: Gemini; sección 8)
-- [ ] Commit con la etiqueta `prerregistro-2026-10-26`, push y OSF
+- [ ] Commit con la etiqueta `prerregistro-2026-10-25`, push y OSF
 - [ ] Sellar el commit congelado con OpenTimestamps
 
 ## 12. Cambios respecto al borrador del 10 de octubre
@@ -238,6 +242,33 @@ Hechos el 24 de octubre, **antes del congelamiento**. Origen: la revisión de Ge
 | 9 y 10 | Se declaran la debilidad de P-1 a P-3 y el límite del operador | C, O |
 
 **Advertencia:** las ventanas de P-1 (desde el 10 oct) y de P-3 (desde el 20 oct) ya estaban abiertas el 24 de octubre. Por eso **no se cambiaron sus probabilidades ni sus reglas de resolución**; solo cambió cómo se puntúan en H-4. El cambio se hizo sin consultar cómo van esas preguntas.
+
+**Cambios del 25 de octubre**, también antes del congelamiento:
+
+| Sección | Cambio | Origen |
+|---|---|---|
+| Encabezado, 11 y anexo A | El congelamiento se adelanta del 26 al 25 de octubre, porque el 26 es día laboral para el operador; la etiqueta pasa a `prerregistro-2026-10-25` | O |
+| 5 | La ventana de la línea base de K26-N pasa a ser del 6 al **25** de octubre, para que termine el día del congelamiento. La línea base quedó en `linea-base-k26n-2026-10.md`, con un conteo de 0, 1 y 1 eventos en los ítems (a), (b) y (c). La rúbrica no se ajustó al conocer ese conteo | O, C |
+| 6.5 | Precios capturados en `precios-mercado-2026-10-25.md`. Solo el ítem 3.1 tiene un contrato equivalente (Kalshi); Polymarket no se pudo leer desde el entorno de Claude | C |
+| Encabezado | Se aclara que la revisión de Gemini cubrió solo el borrador del 10 de octubre. El encabezado del 24 de octubre podía leerse como si hubiera revisado la versión final | O, C |
+| 7 | Se define qué es un error cruzado en H-1 y V-1 (solo entre el operador y la IA). Al registrar el 24 de octubre 9 errores detectados por Gemini, una tercera parte, la regla quedó ambigua. Es una aclaración de la definición, no un cambio de umbral | C |
+| 9 | Se declara que la comparación con el mercado descansa en una sola pregunta (3.1) | C |
+| 10 | Se registra la declaración del operador sobre su carga de información al congelar | O |
+
+**Trazabilidad: dónde está cada cosa.**
+
+| Qué | Dónde |
+|---|---|
+| Borrador original | Commit `28e0a0d` (10 oct) |
+| Revisión externa de Gemini (instrucciones, modelo, respuesta completa) | `prompts/2026-10-24/P1-revision-gemini-prerregistro.md` |
+| Versión revisada del 24 de octubre | Commits `94cb583` y `36e5cf7` |
+| Línea base de K26-N, con fuentes enlazadas | `investigacion/linea-base-k26n-2026-10.md` |
+| Precios de mercado, con contrato, hora y regla de equivalencia | `investigacion/precios-mercado-2026-10-25.md` |
+| Errores del proceso, incluidos los de este documento | `investigacion/registro-errores.csv` (E25 a E38) |
+| Pronósticos con regla y fecha | `datos/validacion/registro-validacion.csv` |
+| Versión congelada | Etiqueta `prerregistro-2026-10-25` en GitHub, el registro en OSF y el sello de OpenTimestamps |
+
+**Declaración sobre P-1 (25 oct):** al armar la línea base se supo que, según información pública verificada con dos bloques (CNBC, Al Jazeera), los hutíes atacaron aeropuertos de Arabia Saudita entre el 10 y el 21 de octubre, lo que parece cumplir la condición (c) de P-1. La resolución formal la hace el evaluador en enero. Esto se supo **después** del cambio de H-4 del 24 de octubre, y H-4 **no se volvió a modificar**. Con cualquiera de las dos versiones de H-4, un Sí en P-1 (p = 0,85) favorece al método; se declara para que el lector lo tenga en cuenta.
 
 **Observaciones de Gemini que no se aplicaron:** el umbral de "control de Beirut" para 3.6 (su propuesta no es verificable), la ampliación de 3.3 a "material fisible suficiente" (cambiaría la pregunta que pronosticaron la S14 y la S15) y la regla nueva para T1 "indeterminada" (la sección 7 ya la cubría).
 
@@ -270,7 +301,7 @@ Responde en español, en tablas.
 
 **Pasos en enero de 2027:**
 
-1. Crear una Gem nueva llamada `Evaluador ICM 2027`, con las instrucciones de arriba y, como archivos de conocimiento, este documento congelado (el de la etiqueta `prerregistro-2026-10-26`) y el archivo de fuentes de resolución.
+1. Crear una Gem nueva llamada `Evaluador ICM 2027`, con las instrucciones de arriba y, como archivos de conocimiento, este documento congelado (el de la etiqueta `prerregistro-2026-10-25`) y el archivo de fuentes de resolución.
 2. El archivo de fuentes lo prepara Claude: por cada ítem, los enlaces y las citas, **sin ninguna conclusión ni calificación** (sección 8). El operador revisa que no las tenga antes de subirlo.
 3. Usar el modelo más capaz disponible y registrar su versión.
 4. Enviar este mensaje, tal cual:
