@@ -32,7 +32,7 @@ El objetivo declarado del operador es poder sacar conclusiones con respaldo al c
 | [precios-mercado-2026-10-25.md](precios-mercado-2026-10-25.md) | Precios de mercado de referencia (sección 6.5 del prerregistro) | 25 oct; se congela con el prerregistro |
 | [registro-errores.csv](registro-errores.csv) | Quién detectó y quién corrigió cada error | 36 filas (24 oct); se agregan filas en cada seguimiento |
 | [especificacion-protocolo.md](especificacion-protocolo.md) | El protocolo de seguimiento especificado como artefacto | SEG v1.0 (10 oct) |
-| `diseno-experimento-ab.md` | La S16 en dos brazos: Claude solo frente al protocolo completo. Gemini no puede ser un brazo, porque es el segundo evaluador | Pendiente: documento aparte, congelado antes de empezar la S16; el análisis puede esperar a 2027 |
+| [diseno-experimento-ab.md](diseno-experimento-ab.md) | La S16 en dos brazos: Claude solo frente al protocolo completo. Gemini no puede ser un brazo, porque es el segundo evaluador | Borrador (31 oct); lo revisa ChatGPT y se congela antes de empezar la S16; el análisis puede esperar a 2027 |
 
 ## Reglas de esta carpeta
 
@@ -71,7 +71,8 @@ Se marcan aquí a medida que se cumplen, con su fecha.
 - [ ] Comprobar que el registro de OSF (https://osf.io/xtrc8) quedó público; aprobarlo si OSF lo pide
 
 **Seguimientos**
-- [ ] Decidir si se hace el experimento A/B. Si se hace, `diseno-experimento-ab.md` debe congelarse **antes** de empezar la S16
+- [x] Decidir si se hace el experimento A/B (31 oct: sí, en versión mínima, con revisión externa de ChatGPT)
+- [ ] Revisar `diseno-experimento-ab.md` con ChatGPT (hasta dos rondas) y congelarlo **antes** de empezar la S16
 - [ ] S16, sugerida entre el 5 y el 10 de noviembre, después de las midterms. El operador junta su lista de prensa desde el 27 de octubre. Ya hay temas anotados para la S16 en la sección 5 de la línea base: Lula, las protestas en Europa y Starlink en Ucrania
 - [ ] S17, sugerida después del 17 de noviembre, para cerrar K26-N
 - [ ] Agregar filas a `registro-errores.csv` en cada seguimiento
