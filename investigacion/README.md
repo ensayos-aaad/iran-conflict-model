@@ -67,12 +67,12 @@ El objetivo declarado del operador es poder sacar conclusiones con respaldo al c
 Se marcan aquí a medida que se cumplen, con su fecha.
 
 **Después del congelamiento**
-- [ ] Actualizar el sello de OpenTimestamps (`ots upgrade`) cuando se ancle en Bitcoin, y hacer commit de la prueba actualizada. Instrucciones en el [LEEME del sello](sello-prerregistro-2026-10-25/LEEME.md)
-- [ ] Comprobar que el registro de OSF (https://osf.io/xtrc8) quedó público; aprobarlo si OSF lo pide
+- [x] Actualizar el sello de OpenTimestamps (`ots upgrade`) cuando se ancle en Bitcoin, y hacer commit de la prueba actualizada. Instrucciones en el [LEEME del sello](sello-prerregistro-2026-10-25/LEEME.md) (1 nov: prueba completa, anclada en los bloques 973177 y 973186 de Bitcoin)
+- [x] Comprobar que el registro de OSF (https://osf.io/xtrc8) quedó público; aprobarlo si OSF lo pide (1 nov: público según la API de OSF, sin aprobación pendiente)
 
 **Seguimientos**
 - [x] Decidir si se hace el experimento A/B (31 oct: sí, en versión mínima, con revisión externa de ChatGPT)
-- [ ] Revisar `diseno-experimento-ab.md` con ChatGPT (hasta dos rondas) y congelarlo **antes** de empezar la S16
+- [x] Revisar `diseno-experimento-ab.md` con ChatGPT (hasta dos rondas) y congelarlo **antes** de empezar la S16 (1 nov: dos rondas; congelado con la etiqueta `diseno-ab-2026-11-01`)
 - [ ] S16, sugerida entre el 5 y el 10 de noviembre, después de las midterms. El operador junta su lista de prensa desde el 27 de octubre. Ya hay temas anotados para la S16 en la sección 5 de la línea base: Lula, las protestas en Europa y Starlink en Ucrania
 - [ ] S17, sugerida después del 17 de noviembre, para cerrar K26-N
 - [ ] Agregar filas a `registro-errores.csv` en cada seguimiento
