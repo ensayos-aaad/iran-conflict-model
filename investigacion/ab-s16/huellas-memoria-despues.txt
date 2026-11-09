@@ -1,0 +1,8 @@
+# Huellas SHA-256 de la memoria del proyecto principal — DESPUÉS del brazo A
+# Carpeta: C:\Users\Usuario\.claude\projects\d--experimento-iran-conflict-model\memory\
+# Fecha y hora local: 2026-11-09 15:10:46 -0500
+# Memoria de la copia (d--experimento-icm-ejecucion-c\memory\): 0 archivos (carpeta creada por Claude Code al abrir la sesión a las 14:49)
+
+6057d8a9e9869379ecf082a0ba261c66406103a6d81f3e94904083c4567e88b6 *MEMORY.md
+eb4035303100db967b081de683eedbc61b43958e1c8aff1ee530ee026bd8c2fb *operador-icm.md
+a3cad69fc52a73f4233de422eda72414e618e5e58bfe6e91d34f0519963f065e *plan-ab-s16.md

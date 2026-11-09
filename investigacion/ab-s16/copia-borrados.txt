@@ -1,0 +1,36 @@
+# Archivos borrados de la copia D:\experimento\icm-ejecucion-c\ (anexo C, paso 3)
+# Copia creada con git archive del commit 3061f9f9086698fdd3c1437700acbf748aa87852
+# Conservados en investigacion/: especificacion-protocolo.md, protocolo-evaluacion-cierre-2026.md, ab-s16/preguntas-comunes.md
+# Fecha y hora local: 2026-11-09 14:42:23 -0500
+
+investigacion/README.md
+investigacion/caso-cem.md
+investigacion/checklist-operador-2026-11.md
+investigacion/diseno-experimento-ab.md
+investigacion/estado-del-arte.md
+investigacion/linea-base-k26n-2026-10.md
+investigacion/linea-de-procesos.md
+investigacion/marco-conceptual.md
+investigacion/patrones-candidatos.md
+investigacion/precios-mercado-2026-10-25.md
+investigacion/registro-errores.csv
+investigacion/sello-prerregistro-2026-10-25/LEEME.md
+investigacion/sello-prerregistro-2026-10-25/manifiesto.txt
+investigacion/sello-prerregistro-2026-10-25/manifiesto.txt.ots
+prompts/2026-04-06/P001-punto-de-partida.md
+prompts/2026-04-06/P002-fuentes-prensa.md
+prompts/2026-04-06/P003-web-scraping.md
+prompts/2026-04-06/P004-caja-negra.md
+prompts/2026-04-06/P005-ruido-narrativo.md
+prompts/2026-04-06/P006-salidas.md
+prompts/2026-04-06/P007-senyal-convergencia.md
+prompts/2026-04-06/P008-mercados.md
+prompts/2026-04-06/P009-retroalimentacion.md
+prompts/2026-04-06/P010-pearl.md
+prompts/2026-04-06/P011-delegacion-matematica.md
+prompts/2026-04-06/P012-validacion-modelo.md
+prompts/2026-04-06/P013-documentacion-github.md
+prompts/2026-04-06/P014-datos-crudos.md
+prompts/2026-10-24/P1-revision-gemini-prerregistro.md
+prompts/2026-10-31/P1-revision-chatgpt-diseno-ab.md
+prompts/README-prompts.md
