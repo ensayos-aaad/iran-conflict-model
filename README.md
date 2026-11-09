@@ -624,3 +624,71 @@ Después de la primera redacción se revisaron hechos que el operador no había 
 
 *Seguimiento generado el 9 de octubre de 2026 — segunda pasada de P6 sobre el ICM v0.2.0 clausurado. No es una sesión formal ni reabre el modelo.*
 *"Ya se cumpla o no, quien dictará las cosas va a ser la historia."*
+
+---
+
+## SEGUIMIENTO POST-CIERRE — S16 (9 noviembre 2026)
+
+**¿Qué es esto?** El tercer seguimiento extraoficial del pendiente P6, un mes después de S15. El modelo formal sigue clausurado (v0.2.0, S13) y esta sección no cambia sus cifras de cierre. Esta pasada es también el **brazo B** del experimento A/B congelado el 1 de noviembre: se hizo con el protocolo completo (SEG v1.0), con una fecha de corte fija (9 nov) y con un formato de salida común a los dos brazos. El punto de partida fueron **8 hechos que el operador trajo de su lectura de prensa**, separados en unas 40 partes y verificados con fuentes de los 8 bloques. Después el modelo buscó por su cuenta lo que faltaba. Fueron 61 búsquedas en total.
+
+**Archivo completo:** `simulaciones/2026-11-09-sesion-16-seguimiento-extraoficial.md`
+
+![Dashboard del seguimiento S16 — ataques de EEUU sobre Irán, escenarios S16 frente a S15 y S13, verificación de los hechos del operador, Grupo 3 y calendario hasta el 3 de enero](simulaciones/img/2026-11-09-sesion-16-dashboard.png)
+
+*Resumen visual de esta sección — ver también la imagen en [`simulaciones/img/2026-11-09-sesion-16-dashboard.png`](simulaciones/img/2026-11-09-sesion-16-dashboard.png).*
+
+### 1. El hecho central: la pausa no era pausa
+
+S15 dejó escrito que Trump no atacaría Irán antes del 3 de noviembre y que la "sala de espera" de la tesis central tenía, por fin, fecha de salida. Lo que encontró S16:
+
+- **2 de noviembre**, víspera de la elección: EEUU atacó la isla iraní de **Qeshm** en un ataque "defensivo", después de que la Guardia Revolucionaria disparara contra un avión estadounidense. No se anunció; lo reveló la prensa.
+- **6 de noviembre**, tres días después de la elección: nuevos ataques sobre Qeshm. Trump los confirmó como **"ataques menores"** y dijo, al mismo tiempo, que hay "mucho progreso" en las conversaciones.
+- **8 de noviembre**: Trump dice que es "muy poco probable" volver a la guerra **si** Irán firma un acuerdo fuerte. **9 de noviembre**: el presidente iraní dice que el Líder ordenó terminar la situación de **"ni guerra ni paz"**, sin decir hacia qué lado.
+- Además, hubo ataques el **30 de agosto y el 1 de septiembre** que S14 y S15 nunca registraron. Es el error más caro de la serie (sección 5).
+
+Esta sección no dice si la tesis "F era la sala de espera de C" quedó confirmada. Eso lo decide un evaluador independiente en enero, con la regla congelada en el prerregistro. Lo que sí registra es que la regla se escribió suponiendo que durante la pausa no había ataques, y esa premisa era falsa.
+
+### 2. ¿Qué pasó con los hechos que trajo el operador?
+
+| Resultado | Partes | Ejemplos |
+|---|---|---|
+| Verificado | 16 | Eisenkot recibe el encargo de formar gobierno en Israel; demócratas ganan la Cámara y el Senado; Vance: "perdimos por la guerra"; Francia acusa a la Guardia Revolucionaria de sabotear las neveras de más de 1.000 supermercados |
+| Parcial o desactualizado | 19 | Los ultraortodoxos se abstuvieron, no "rechazaron a Netanyahu"; Anthropic todavía no cotizaba; Miller reemplaza a Wiles (solo fuentes de EEUU) |
+| No verificado o fuera de alcance | 5 | Temas internos de Colombia que el ICM no modela; afirmaciones demasiado generales |
+
+Ningún hecho resultó falso. Tres llegaron como nuevos y eran viejos (los agentes de IA de julio, los anuncios pagados con dinero público de septiembre y la pausa de centros de datos en Texas de agosto). La información le llega al operador con semanas o meses de retraso, y a veces el modelo tampoco la había visto.
+
+### 3. Tabla de escenarios — rango al 31 de diciembre
+
+| Escenario | S13 — cierre | S15 — 9 oct | **S16 — 9 nov** | Lectura |
+|---|---|---|---|---|
+| C — Escalada / sabotaje | 0.52 | 0.42 – 0.54 | **0.38 – 0.50** | Sigue siendo el de mayor peso, pero lo que hay son ataques "menores", no una campaña |
+| F — Desescalada narrativa sin acuerdo | 0.22 | 0.16 – 0.22 | **0.18 – 0.24** | "Muy poco probable volver a la guerra", "mucho progreso": sin texto |
+| B — Limbo prolongado | 0.10 | 0.11 – 0.17 | **0.13 – 0.19** | Atacar y negociar a la vez, sin decidir |
+| A — Acuerdo formal verificado | 0.06 | 0.04 – 0.07 | **0.03 – 0.07** | Catar media medidas de confianza; no hay texto ni acceso de la OIEA |
+| E — Wildcard operacional | 0.06 | 0.07 – 0.12 | **0.07 – 0.12** | Ataques a la cadena de frío en Francia; disparos contra aviones en Ormuz |
+| D — Colapso del régimen iraní | 0.04 | 0.04 – 0.08 | **0.03 – 0.06** | El Líder controla la línea; no hay datos nuevos de crisis interna |
+| **Convergencia narrada** | 0.51 | 0.44 – 0.50 | **0.42 – 0.48** | Baja levemente |
+| **Entropía** (métrica de salud) | 1,976 bits | 2,143 bits | **2,157 bits** | Sube por tercera vez: más incertidumbre, y esta vez la narración va en la misma dirección |
+
+Ningún punto medio de escenario se movió más de 0.10 (umbral K21). En el Grupo 3 sí hubo movimientos grandes, justificados: la recesión en EEUU baja a ~1% porque el PIB creció en el segundo y el tercer trimestre (+2,2% y +3,4%), y la regla exige dos trimestres negativos dentro de 2026; el acuerdo nuclear y el colapso del Líbano bajan porque quedan siete semanas y se aplica la regla estricta del prerregistro. **Netanyahu en el cargo al 31 de diciembre: ~55%.** Depende de si Eisenkot logra una coalición antes del 20 de diciembre.
+
+### 4. Lo nuevo en lenguaje llano
+
+| Frente | Lo que encontramos |
+|---|---|
+| EEUU por dentro | La derrota se cobra hacia adentro: Vance culpa a la guerra, un republicano presenta cargos de juicio político contra Hegseth y Trump saca a su jefa de Gabinete. Al mismo tiempo, Trump respalda a Hegseth y pone en duda los resultados. Hipótesis S16: **"ajuste selectivo"**, es decir, moderar el discurso en lo que castigaron los votantes y mantener la presión militar por debajo del umbral de "guerra" |
+| Israel | El Likud ganó (27 escaños), pero el presidente encargó formar gobierno a Eisenkot, con 67 recomendaciones que incluyen a los partidos árabes. Netanyahu acusa una "intervención extranjera"; la policía no ve pruebas |
+| Europa | Francia acusó formalmente a una unidad cibernética de la Guardia Revolucionaria de sabotear las neveras de más de 1.000 supermercados (11 y 12 de octubre) |
+| América Latina | Lula ganó en Brasil; Flávio Bolsonaro salió del país pese a la prohibición judicial y entró a EEUU; Peña renunció en Paraguay por un colapso bancario. En Colombia, la embajada en Jerusalén se inauguró el 14 de octubre y llegaron los drones MQ-9 |
+
+### 5. Autocrítica
+
+S15 escribió que "los bombardeos de EEUU sobre Irán son lo único que se detuvo", pero EEUU había atacado Irán el 30 de agosto y el 1 de septiembre, y S14 y S15 no lo registraron. Con esa premisa se escribió el criterio de falsación de la tesis central, así que un ataque menor después del 3 de noviembre ya no distingue bien la "sala de espera" de la simple continuidad. S15 tampoco recogió los anuncios pagados con dinero público (septiembre) ni el incidente de los agentes de IA (julio); **los dos los trajo el operador**. Y los ataques del 2 y el 6 de noviembre, que el operador no traía, **los encontró el modelo**. La detección cruzada funcionó en las dos direcciones; los errores quedan en `investigacion/registro-errores.csv` (E39–E51).
+
+**Declaraciones:** el análisis lo hace Claude (Anthropic), y la salida a bolsa de Anthropic aparece entre los hechos (conflicto de interés). La sesión que preparó el experimento vio un dato del otro brazo (la entropía de sus escenarios), y eso se declaró antes de estimar. Claude no califica el prerregistro.
+
+---
+
+*Seguimiento generado el 9 de noviembre de 2026 — tercera pasada de P6 sobre el ICM v0.2.0 clausurado y brazo B del experimento A/B. No es una sesión formal ni reabre el modelo.*
+*"Ya se cumpla o no, quien dictará las cosas va a ser la historia."*

@@ -16,3 +16,14 @@ fecha_prediccion,sesion,escenario,probabilidad,horizonte_dias,fecha_evaluacion,r
 2026-10-10,NULL,P-1 Presion no bombardeo (sanciones/ataque atribuido/proxy) 10 oct-3 nov,0.85,24,2026-11-03,NULL,"Pronostico del prerregistro, no de una sesion; regla en protocolo 6.4"
 2026-10-10,NULL,P-2 EEUU apoyo aereo directo a ofensiva saudi en Yemen,0.30,82,2026-12-31,NULL,"Pronostico del prerregistro; Si = externalizacion, No = repliegue"
 2026-10-10,NULL,P-3 Ataque de Iran o aliados con bajas de EEUU 20 oct-3 nov,0.20,24,2026-11-03,NULL,Pronostico del prerregistro; hipotesis Parsi (S15 K17)
+2026-11-09,16,Q1 / G3-3.2 Acuerdo nuclear EEUU-Iran con criterios K20,0.04,52,2026-12-31,NULL,S16 brazo B del A/B; rango 0.02-0.07; estimado tras la exposicion A->B declarada
+2026-11-09,16,Q2 / G3-3.3 Iran posee arma nuclear operativa,0.03,52,2026-12-31,NULL,S16 brazo B; rango 0.01-0.05
+2026-11-09,16,Q3 / G3-3.4 Netanyahu PM al 31 dic (titular o interino),0.55,52,2026-12-31,NULL,"S16 brazo B; rango 0.45-0.65; encargo a Eisenkot, plazo 6 dic o 20 dic"
+2026-11-09,16,Q4 / G3-3.5 Recesion EEUU (BEA 2 trimestres negativos o NBER),0.01,52,2026-12-31,NULL,S16 brazo B; rango 0.005-0.02; T2 +2.2% y T3 +3.4% (BEA 29 oct)
+2026-11-09,16,Q5 / G3-3.6 Colapso del Estado libanes o anexion israeli,0.05,52,2026-12-31,NULL,S16 brazo B; rango 0.03-0.08
+2026-11-09,16,Q6 EEUU apoyo aereo directo a ofensiva saudi en Yemen,0.10,52,2026-12-31,NULL,S16 brazo B; rango 0.06-0.15; misma pregunta que P-2 del prerregistro
+2026-11-09,16,Q7 Ataques de EEUU o Israel sobre territorio irani 10 nov-31 dic,0.80,52,2026-12-31,NULL,S16 brazo B; rango 0.70-0.88; regla en investigacion/ab-s16/preguntas-comunes.md
+2026-11-09,16,Q8 Ataque de EEUU sobre Iran o ultimatum con plazo concreto 10 nov-2 ene,0.82,54,2027-01-02,NULL,S16 brazo B; rango 0.72-0.90
+2026-11-09,16,P16-1 Ataques de EEUU sobre Iran sin anuncio de campana a gran escala 10 nov-31 dic,0.58,52,2026-12-31,NULL,Prediccion de patron S16 (tabla 3); regla en simulaciones/2026-11-09-sesion-16-seguimiento-extraoficial.md
+2026-11-09,16,P16-2 Hegseth deja de ser secretario antes del 31 dic,0.30,52,2026-12-31,NULL,Prediccion de patron S16 (tabla 3)
+2026-11-09,16,P16-3 Tercer pais europeo atribuye a Iran un ataque en su territorio 10 nov-31 dic,0.30,52,2026-12-31,NULL,Prediccion de patron S16 (tabla 3); excluye Francia y Reino Unido
